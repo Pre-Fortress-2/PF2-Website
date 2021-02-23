@@ -20,10 +20,12 @@
 @import 'layout/grid';
 @import 'layout/header';
 @import 'layout/navigation';
-@import 'layout/responsive';
 
 // Pages
 @import 'pages/about';
 @import 'pages/credits';
 @import 'pages/installation';
 @import 'pages/updates';
+
+// Responsive
+@import 'layout/responsive';

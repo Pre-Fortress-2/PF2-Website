@@ -38,18 +38,3 @@
 	height: 0.3rem;
 	background: #83756c;
 }
-
-// Less padding on the bottom of the content box (Aesthetic)
-@media (max-width: 1000px) {
-	.box-content {
-		padding-bottom: 0.5rem;
-	}
-}
-
-// Makes the Installation title smaller and with less padding to be able to take place in mobile units
-@media (max-width: 500px) {
-	.box__heading--special {
-		font-size: 4rem;
-		padding: 2.5rem 0 1rem 1rem;
-	}
-}

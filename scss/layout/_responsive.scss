@@ -1,1 +1,51 @@
+@media (max-width: 1000px) {
+	// Centers the navbar so no overflow
+	.nav__wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
 
+	#logo {
+		margin-right: 0;
+
+		& img {
+			margin-right: 0;
+		}
+	}
+
+	// Less padding on the bottom of the content box (Aesthetic)
+	.box-content {
+		padding-bottom: 0.5rem;
+	}
+}
+
+@media (max-width: 500px) {
+	// This area affect the navbar to be responsive in mobile phone by stacking the nav__items in top of eachother
+	.nav {
+		padding-bottom: 1rem;
+
+		&__list {
+			flex-direction: column;
+			align-items: center;
+			padding-top: 1rem;
+		}
+
+		&__items {
+			padding: 1rem;
+		}
+
+		&__img {
+			height: 3rem;
+		}
+	}
+	// Makes the Installation title smaller and with less padding to be able to take place in mobile units
+	.box__heading--special {
+		font-size: 4rem;
+		padding: 2.5rem 0 1rem 1rem;
+	}
+
+	// Makes the video smaller in mobile screens
+	.about__video {
+		height: 20rem;
+	}
+}
