@@ -1,3 +1,4 @@
+// This area affects the tile box
 .box {
 	max-width: 90rem;
 	margin: 3rem auto 0;
@@ -20,6 +21,7 @@
 	}
 }
 
+// This area affects the content box
 .box-content {
 	color: #d4d4d4;
 	max-width: 90rem;
@@ -37,12 +39,14 @@
 	background: #83756c;
 }
 
+// Less padding on the bottom of the content box (Aesthetic)
 @media (max-width: 1000px) {
 	.box-content {
 		padding-bottom: 0.5rem;
 	}
 }
 
+// Makes the Installation title smaller and with less padding to be able to take place in mobile units
 @media (max-width: 500px) {
 	.box__heading--special {
 		font-size: 4rem;

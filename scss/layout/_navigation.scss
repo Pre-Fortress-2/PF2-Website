@@ -1,3 +1,4 @@
+// This area Affects the navigation bar
 .nav {
 	background: #2b2726;
 	padding: 20px 30px;
@@ -8,7 +9,6 @@
 	&__wrapper {
 		display: flex;
 	}
-
 	&__list {
 		display: flex;
 		padding-top: 4rem;
@@ -27,7 +27,7 @@
 		}
 	}
 }
-
+// Logo Properties
 #logo {
 	display: inline-block;
 	vertical-align: middle;
@@ -41,6 +41,7 @@
 	margin-right: 10px;
 }
 
+// Centers the navbar so no overflow
 @media (max-width: 1000px) {
 	.nav__wrapper {
 		flex-direction: column;
@@ -56,6 +57,7 @@
 	}
 }
 
+// This area affect the navbar to be responsive in mobile phone by stacking the nav__items in top of eachother
 @media (max-width: 500px) {
 	.nav {
 		padding-bottom: 1rem;

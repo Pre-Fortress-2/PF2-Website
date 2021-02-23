@@ -3,22 +3,26 @@
 	list-style-type: disc;
 }
 
+// This affect the title of the installation
 .expandable {
 	display: inline-block;
 	padding-right: 1rem;
 	padding-bottom: 1rem;
 }
 
+// This affect the color and display to none to the instruction area
 .showarea {
 	display: none;
 	padding: 2rem 1rem;
 	background: #555;
 }
 
+// Responsive image (Very small in mobil phones)
 .install-img {
 	max-width: 100%;
 }
 
+// This affect the buttons in the expandable area
 .btn {
 	padding: 0.5rem 2rem;
 	background: $color-gradient-2;

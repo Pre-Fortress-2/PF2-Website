@@ -2,20 +2,24 @@
 	display: flex;
 }
 
+// Left area Size
 .left-area {
 	width: 70%;
 	padding-right: 1rem;
 }
 
+// Right Area Size
 .right-area {
 	width: 25%;
 	position: relative;
 }
 
+// Join Image
 .join-container {
 	width: 140%;
 }
 
+// This Area affects the different buttons in the about page
 .join-container__btn {
 	position: absolute;
 	top: 1.3rem;
@@ -26,6 +30,7 @@
 	justify-content: space-around;
 }
 
+// This affect the buttons
 .join-img {
 	padding: 0;
 	border-radius: 0.5rem;
@@ -48,27 +53,33 @@
 	background: $youtube;
 }
 
+// Makes the buttons stack on top of eachother in smaller screens
 @media (max-width: 1000px) {
 	.about-content {
 		flex-direction: column;
 	}
 
+	// Left area takes the full width
 	.left-area {
 		width: 100%;
 		padding-right: 0;
 	}
 
+	// Right area takes the full width
 	.right-area {
 		width: 100%;
 	}
 
+	// Makes the video height a bit bigger
 	.about__video {
 		height: 50rem;
 	}
 
+	// Remove the join buttons background
 	.join-container {
 		display: none;
 
+		// Makes the buttons in a row
 		&__btn {
 			margin-top: 2rem;
 			flex-direction: row;
@@ -83,6 +94,7 @@
 	}
 }
 
+// Makes the video smaller in mobile screens
 @media (max-width: 500px) {
 	.about__video {
 		height: 20rem;
