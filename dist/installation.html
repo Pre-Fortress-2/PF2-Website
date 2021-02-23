@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download - Pre-Fortress 2</title>
+    <meta name="description" content="Proof of concept PF2 website">
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <!-- Page Navigation -->
+    <nav class="nav">
+        <div class="wrapper nav__wrapper">
+
+            <div id="logo">
+                <picture>
+                    <source type="image/webp" srcset="img/logo.webp">
+                    <img src="img/logo.png">
+                </picture>
+            </div>
+
+            <ul class="nav__list">
+                <li class="nav__items"><a href="index.html" class="nav__link"><img src="img/header_about.png" class="nav__img"></img></a></li>
+                <li class="nav__items"><a href="installation.html" class="nav__link"><img src="img/header_download.png" class="nav__img"></img></a></li>
+                <li class="nav__items"><a href="updates_page01.html" class="nav__link"><img src="img/header_update.png" class="nav__img"></img></a></li>
+                <li class="nav__items"><a href="credits.html" class="nav__link"><img src="img/header_credits.png" class="nav__img"></img></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Main Section -->
+    <main class="main">
+        <header class="header">
+            <div class="wrapper">
+                <div class="box">
+                    <div class="box__title">
+                        <h1 class="box__heading box__heading--special">Installation</h1>
+                    </div>
+                </div>
+                <div class="box-content">
+                    <div class="installation-content">
+                        <!-- Requirements -->
+                        <h2>Requirements</h2>
+                        <hr>
+                        <p>To download Pre-Fortress 2, you must have:</p>
+                        <ul class="list">
+                            <li><strong><a href="steam://install/243750">Source SDK Base 2013 Multiplayer</a></strong></li>
+                            <li><strong>A git program</strong></li>
+                        </ul>
+                        <br>
+                        <!-- Installation and Update -->
+                        <h2>Installation and Updating</h2>
+                        <hr>
+                        <!-- TortoiseGit -->
+                        <h2 class="expandable">TortoiseGit</h2>
+                        <button onclick="show('tortoiseGit')" class="btn">Hide/Show</button>
+                        <div class="showarea" id="tortoiseGit">
+                            <ul class="list">
+                                <li>Get and install <a href="https://tortoisegit.org/">TortoiseGit</a></li>
+                                </li>
+                                <li>Go to your <strong>sourcemods</strong> folder (folder location: <strong>C:\Program Files (x86)\Steam\steamapps</strong>)</li>
+                                <li>Right click and select <strong>Git Clone...</strong></li>
+                                <li>Set the URL to <strong>https://gitlab.com/CryptoGibus/pf2.git</strong> and make sure the directory is <strong>pf2</strong></li>
+                                <img src="./img/tortoiseclone.png" alt="git clone" class="install-img">
+                                <li>Click <strong>OK</strong> and wait until it finishes downloading</li>
+                                <li>You're done! Now close and re-open Steam again to see the game inside your library</li>
+                            </ul>
+                        </div>
+                        <br>
+                        <!-- Github Desktop -->
+                        <h2 class="expandable">Github Desktop</h2>
+                        <button onclick="show('githubdesktop')" class="btn">Hide/Show</button>
+                        <div class="showarea" id="githubdesktop">
+                            <ul class="list">
+                                <li>Get and install <a href="https://tortoisegit.org/">TortoiseGit</a></li>
+                                </li>
+                                <li>Go to your <strong>sourcemods</strong> folder (folder location: <strong>C:\Program Files (x86)\Steam\steamapps</strong>)</li>
+                                <li>Right click and select <strong>Git Clone...</strong></li>
+                                <li>Set the URL to <strong>https://gitlab.com/CryptoGibus/pf2.git</strong> and make sure the directory is <strong>pf2</strong></li>
+                                <img src="./img/tortoiseclone.png" alt="git clone" class="install-img">
+                                <li>Click <strong>OK</strong> and wait until it finishes downloading</li>
+                                <li>You're done! Now close and re-open Steam again to see the game inside your library</li>
+                            </ul>
+                        </div>
+                        <br>
+                        <!-- Git Kraken -->
+                        <h2 class="expandable">Github Kraken</h2>
+                        <button onclick="show('gitkraken')" class="btn">Hide/Show</button>
+                        <div class="showarea" id="gitkraken">
+                            <ul class="list">
+                                <li>Get and install <a href="https://tortoisegit.org/">TortoiseGit</a></li>
+                                </li>
+                                <li>Go to your <strong>sourcemods</strong> folder (folder location: <strong>C:\Program Files (x86)\Steam\steamapps</strong>)</li>
+                                <li>Right click and select <strong>Git Clone...</strong></li>
+                                <li>Set the URL to <strong>https://gitlab.com/CryptoGibus/pf2.git</strong> and make sure the directory is <strong>pf2</strong></li>
+                                <img src="./img/tortoiseclone.png" alt="git clone" class="install-img">
+                                <li>Click <strong>OK</strong> and wait until it finishes downloading</li>
+                                <li>You're done! Now close and re-open Steam again to see the game inside your library</li>
+                            </ul>
+                        </div>
+                        <br>
+                        <!-- Git Bash -->
+                        <h2 class="expandable">Github Bash</h2>
+                        <button onclick="show('gitbash')" class="btn">Hide/Show</button>
+                        <div class="showarea" id="gitbash">
+                            <ul class="list">
+                                <li>Get and install <a href="https://tortoisegit.org/">TortoiseGit</a></li>
+                                </li>
+                                <li>Go to your <strong>sourcemods</strong> folder (folder location: <strong>C:\Program Files (x86)\Steam\steamapps</strong>)</li>
+                                <li>Right click and select <strong>Git Clone...</strong></li>
+                                <li>Set the URL to <strong>https://gitlab.com/CryptoGibus/pf2.git</strong> and make sure the directory is <strong>pf2</strong></li>
+                                <img src="./img/tortoiseclone.png" alt="git clone" class="install-img">
+                                <li>Click <strong>OK</strong> and wait until it finishes downloading</li>
+                                <li>You're done! Now close and re-open Steam again to see the game inside your library</li>
+                            </ul>
+                        </div>
+                        <br>
+                        <!-- Uninstall -->
+                        <h2>Uninstallation</h2>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+            </div>
+        </header>
+    </main>
+    <footer class="footer footer--about">
+        <p class="footer-text">Copyright &copy; Concussion Studios</p>
+        <p class="footer-text">Design and Concept by Suspect</p>
+        <p class="footer-text">Site made by Danny Castillo</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

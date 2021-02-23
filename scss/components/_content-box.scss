@@ -1,0 +1,51 @@
+.box {
+	max-width: 90rem;
+	margin: 3rem auto 0;
+	filter: drop-shadow(0.5rem 0.3rem 0.2rem rgba(0, 0, 0, 0.7));
+	&__title {
+		padding: 2rem 0 0.8rem;
+		background-color: $color-title;
+		clip-path: polygon(5% 0, 100% 30%, 100% 100%, 0 100%, 0 20%);
+		z-index: 2;
+	}
+
+	&__heading {
+		font-family: 'TF2 Build';
+		font-size: 5.5rem;
+		letter-spacing: 0.2rem;
+		font-weight: 100;
+		color: $color-title-text;
+		padding: 1rem 0 1rem 4rem;
+		border-bottom: $color-title-text dotted 0.6rem;
+	}
+}
+
+.box-content {
+	color: #d4d4d4;
+	max-width: 90rem;
+	margin: -7.6rem auto;
+	padding: 10rem 2rem 3rem;
+	min-height: 10rem;
+	background-color: $color-box;
+	box-shadow: 0.5rem 0.3rem 0.2rem rgba(0, 0, 0, 0.7);
+}
+
+.line {
+	margin: 10rem auto;
+	max-width: 90rem;
+	height: 0.3rem;
+	background: #83756c;
+}
+
+@media (max-width: 1000px) {
+	.box-content {
+		padding-bottom: 0.5rem;
+	}
+}
+
+@media (max-width: 500px) {
+	.box__heading--special {
+		font-size: 4rem;
+		padding: 2.5rem 0 1rem 1rem;
+	}
+}

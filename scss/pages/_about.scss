@@ -1,0 +1,90 @@
+.about-content {
+	display: flex;
+}
+
+.left-area {
+	width: 70%;
+	padding-right: 1rem;
+}
+
+.right-area {
+	width: 25%;
+	position: relative;
+}
+
+.join-container {
+	width: 140%;
+}
+
+.join-container__btn {
+	position: absolute;
+	top: 1.3rem;
+	left: 2rem;
+	display: flex;
+	height: 18rem;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.join-img {
+	padding: 0;
+	border-radius: 0.5rem;
+	width: 25rem;
+
+	&:hover {
+		background: lightgrey;
+	}
+}
+
+.discord-img {
+	background: $discord;
+}
+
+.twitter-img {
+	background: $twitter;
+}
+
+.youtube-img {
+	background: $youtube;
+}
+
+@media (max-width: 1000px) {
+	.about-content {
+		flex-direction: column;
+	}
+
+	.left-area {
+		width: 100%;
+		padding-right: 0;
+	}
+
+	.right-area {
+		width: 100%;
+	}
+
+	.about__video {
+		height: 50rem;
+	}
+
+	.join-container {
+		display: none;
+
+		&__btn {
+			margin-top: 2rem;
+			flex-direction: row;
+			flex-wrap: wrap;
+			height: auto;
+			position: static;
+		}
+	}
+
+	.join-img {
+		margin-bottom: 1rem;
+	}
+}
+
+@media (max-width: 500px) {
+	.about__video {
+		height: 20rem;
+	}
+}

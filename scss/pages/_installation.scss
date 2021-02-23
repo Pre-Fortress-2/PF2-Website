@@ -1,0 +1,29 @@
+.list {
+	padding: 0 2rem;
+	list-style-type: disc;
+}
+
+.expandable {
+	display: inline-block;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
+}
+
+.showarea {
+	display: none;
+	padding: 2rem 1rem;
+	background: #555;
+}
+
+.install-img {
+	max-width: 100%;
+}
+
+.btn {
+	padding: 0.5rem 2rem;
+	background: $color-gradient-2;
+	border: none;
+	border-radius: 0.3rem;
+	font-size: 1.6rem;
+	font-weight: 900;
+}
