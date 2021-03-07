@@ -40,39 +40,3 @@
 	vertical-align: middle;
 	margin-right: 10px;
 }
-
-@media (max-width: 1000px) {
-	.nav__wrapper {
-		flex-direction: column;
-		align-items: center;
-	}
-
-	#logo {
-		margin-right: 0;
-
-		& img {
-			margin-right: 0;
-		}
-	}
-}
-
-// This area affect the navbar to be responsive in mobile phone by stacking the nav__items in top of eachother
-@media (max-width: 500px) {
-	.nav {
-		padding-bottom: 1rem;
-
-		&__list {
-			flex-direction: column;
-			align-items: center;
-			padding-top: 1rem;
-		}
-
-		&__items {
-			padding: 1rem;
-		}
-
-		&__img {
-			height: 3rem;
-		}
-	}
-}
