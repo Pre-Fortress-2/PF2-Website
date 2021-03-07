@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updates - Pre-Fortress 2</title>
+    <meta name="description" content="Updates for Pre-Fortress 2">
+    <meta content="https://cdn.discordapp.com/attachments/695399221116796988/751644468398129293/pf2_circle.png" property="og:image">
+    <meta name="theme-color" content="#b73739">
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <!-- Page Navigation -->
+    <nav class="nav">
+        <div class="wrapper nav__wrapper">
+            <!-- Logo -->
+            <div id="logo">
+                <picture>
+                    <source type="image/webp" srcset="img/logo.webp">
+                    <img src="img/logo.png">
+                </picture>
+            </div>
+            <!-- Navigation Bar -->
+            <ul class="nav__list">
+                <li class="nav__items"><a href="index.html" class="nav__link"><img src="img/header_about.png" class="nav__img"></img></a></li>
+                <li class="nav__items"><a href="installation.html" class="nav__link"><img src="img/header_download.png" class="nav__img"></img></a></li>
+                <li class="nav__items"><a href="updates_page01.html" class="nav__link"><img src="img/header_update.png" class="nav__img"></img></a></li>
+                <li class="nav__items"><a href="credits.html" class="nav__link"><img src="img/header_credits.png" class="nav__img"></img></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Main Section -->
+    <main class="main">
+        <header class="header">
+            <div class="wrapper">
+                <!-- Box title -->
+                <div class="box">
+                    <div class="box__title">
+                        <h1 class="box__heading">Updates</h1>
+                    </div>
+                </div>
+                <!-- Box Content -->
+                <div class="box-content">
+                    <!-- Updates Here! -->
+                    <div class="update-content">
+						<h2 class="credit-title">PF2 0.6 patch notes</h2>
+						<hr><br>
+						<h2>Key changes</h2>
+						 <ul class="list">
+                            <li>Added player armor</li>
+                            <li>Added VOX as the announcer (Originally by Marphy Black)</li>
+                            <li>Beta player models and textures</li>
+                            <li>Removed the loadout system</li>
+                            <li>Removed the TF2C menu system</li>
+                            <li>Removed the silenced pistol</li>
+                        </ul>
+						
+						<h2>General changes</h2>
+						<ul class="list">
+                            <li>Added new advanced options menu and credits menu</li>
+                            <li>Flag HUD now shows up on AD maps when the flag is enabled</li>
+                            <li>Added armor packs</li>
+                            <li>Stats that were hardcoded are now modifiable in weapon scripts</li>
+                            <li>Added cut freeze cam photo frame screen</li>
+                            <li>Added new achievements</li>
+                            <li>Added achievement hud notifications</li>
+                            <li>Beta style revolver texture</li>
+                            <li>Improved Ukrainian and Russian localization</li>
+                            <li>Added a HUD element that displays what negative conditions you’re currently afflicted by</li>
+                            <li>Heal numbers, ammo repair numbers and armor damage numbers</li>
+                            <li>Added building hit sounds and damage numbers</li>
+                            <li>TargetID now functions correctly</li>
+                            <li>Armor is displayed on targetID</li>
+                            <li>Added hybrid CTF-CP support</li>
+                            <li>Probably more stable</li>
+
+                        </ul>
+
+
+						<h2>Gameplay</h2>
+						<ul class="list">
+							<li>Re-enabled infection, now behaves more like it did in TFC, dealing 8 damage every 2 seconds, but only lasts for 14 seconds</li>
+							<li>Hitting friendly players with the wrench restores armor. Consumes, at most, 10 metal per hit which will repair 50 armor points.</li>
+							<li>Spy now regains cloak upon picking up ammo</li>
+							<li>Healing an active teleporter will now heal both</li>
+							<li>A sapper placed on an active teleporter will be placed on both</li>
+							<li>Detonating teleporters now deals explosive damage</li>
+							<li>Reverted increased sentry spread</li>
+							<li>Limited the number of times you can duck while in-air</li>
+							<li>Reduced AD flag speed penalty to 75% from 66%</li>
+							<li>Dispensers repair armor at a rate of 5 armor points per second</li>
+							<li>Added some of the informative medic callouts from Live TF2, such as the flaming callout bubble</li>
+                        </ul>
+						
+						<h2>Weapons</h2>
+						<ul class="list">
+							<li>Medic's primary is now the SMG</li>
+							<li>Incendiary rockets arc</li>
+							<li>Incendiary rockets ignore armor on direct hits</li>
+							<li>The tranquilizer now reloads passively</li>
+							<li>The sniper rifle will cripple players when shot at the leg, but will only deal half the damage</li>
+							<li>Restored grenade launcher damage back to 100 when armor is disabled</li>
+							<li>Pipe bombs will no longer explode on impact if they've touched the ground, but will if they've only hit a wall</li>
+							<li>Successfully healing a player with the syringe plays the sound in the world rather than just to the healed player</li>
+							<li>The fish wacker now has a proper texture</li>
+							<li>Added “hold to zoom” option for the sniper rifle</li>
+							<li>New fish wacker sounds</li>
+							<li>View models updated to match beta models</li>
+                        </ul>
+						
+						<h2>Grenades</h2>
+						<ul class="list">
+							<li>Exploding a grenade in hand now launches you upwards instead of into the ground</li>
+							<li>All grenades now have a radius of 132, the same as the pipebomb</li>
+							<li>Heal grenades now do 30 damage and will infect enemies</li>
+							<li>Heavy takes less push back force from his own grenades</li>
+							<li>Caltrops do self-damage</li>
+							<li>Sentry grenade resistance is now 15% at all levels, compared to the previous 25%, 45% and 65%</li>
+							<li>Reduced grenade next throw time from 1.5 seconds to 0.67 seconds</li>
+							<li>Reduced caltrop slowdown duration from 15 seconds to 8 seconds</li>
+							<li>Added "press to throw" option</li>
+							<li>Beeping is now structured the same as the beta, based on what can be heard in trailer 2</li>
+							<li>Reduced detonation time from 4 seconds to 3.8 seconds</li>
+							<li>Removed forced cooldown between grenade throws when weapon holstering is disabled</li>
+							<li>Added 0.8-second delay between when the grenade key is pressed and when you can throw</li>
+							<li>Dropped ammo stuck by an EMP blast now explodes</li>
+							<li>EMP's now deal a set amount of damage while halving the hit player's ammo</li>
+                        </ul>
+
+
+						<h2>Maps</h2>
+						<ul class="list">
+							<li>Updated all AD maps to support the flag hud</li>
+							<li>Update all maps with armor pack locations</li>
+							<li>ctf_2fort
+								<ul class="list">
+									<li>Fixed lighting issues</li>
+								</ul>
+							</li>
+							<li>ad_dustbowl
+								<ul class="list">
+									<li>Cosmetic changes and fixed some visual bugs</li>
+									<li>Added extra doorways outside blue spawn on stage 3</li>
+								</ul>
+							</li>
+							<li>Cosmetic changes to tc_hydro</li>
+						</ul>
+						
+						<h2>Misc.</h2>
+						<ul class="list">
+							<li>Ported over the func_respawnflag brush entity</li>
+							<li>Improved support for invade CTF</li>
+							<li>Improved DirectX 8 support</li>
+							<li>Removed april fools content</li>
+							<li>pf_picmip no longer requires restarting the game on Windows and Linux</li>
+						</ul>
+						
+						<h2>Bug fixes</h2>
+						<ul class="list">
+							<li>Fixed the blue dispenser screen being invisible</li>
+							<li>Nails fired before switching team are now removed</li>
+							<li>Fixed primed grenades being dropped on team switch</li>
+							<li>Hitboxes update when taunting</li>
+							<li>Spy’s can now see enemy target ID’s</li>
+							<li>Fixed sometimes being unable to attack for an extended time after throwing a grenade</li>
+							<li>Fixed grenades and pipebombs not doing full damage on a direct hit</li>
+							<li>Sentries no longer make hurt sounds on every hit</li>
+							<li>Fixed a freeze panel crash</li>
+							<li>The pipebomb detonation beep will play its full duration before playing again</li>
+							<li>pf_grenade_holstering now works correctly</li>
+							<li>cl_first_person_uses_world_model is now locked behind sv_cheats</li>
+							<li>Fixed players constantly emitting pain sounds</li>
+							<li>Grenades exploded in hand will now deal damage to enemies</li>
+							<li>Napalm and gas grenades no longer have to be at a complete standstill to explode</li>
+							<li>The EMP can no longer deal damage through props</li>
+							<li>Fixed engineer not flinching</li>
+							<li>Fixed the grenade beeping sound getting cut off when thrown mid beep</li>
+							<li>Fixed napalm afterburn kills showing up as flamethrower kills</li>
+							<li>Fixed nails not colliding with some solids</li>
+							<li>Nails now create impact decals on all solids</li>
+							<li>Fixed cases where the explosion effect being invisible on some walls</li>
+							<li>Fixed grenades resetting on resupply</li>
+							<li>Fixed being able to pick the intel while cloaked</li>
+							<li>Fixed heavy not using the correct animation when spun up and ducking</li>
+							<li>Fixed the minigun muzzle flash particle not disappearing on death</li>
+							<li>Fixed playing hurt sounds when ubered</li>
+							<li>Fixed blood coming out of the gas grenade</li>
+							<li>Added a 1 second cooldown on class changes to prevent spamming</li>
+						</ul>
+						
+						<h2>ConVars</h2>
+						<ul class="list">
+							<li>pf_armor_enabled</li>
+							<li>tf_damageforcescale_self_heavy - changes explosive push force for heavy</li>
+							<li>pf_armor_enabled</li>
+							<li>tf_sniper_rifle_charge_damage_multiplier, pf_sniper_rifle_tfc_style, pf_sniper_rifle_tfc_noair, pf_sniper_rifle_tfc_nofire </li>
+							<li>pf_grenade_press_throw</li>
+							<li>pf_napalm_bomb</li>
+							<li>tf_flamethrower_speed_penalty_enabled, tf_flamethrower_speed_penalty</li>
+							<li>pf_achievement_notifications</li>
+							<li>pf_duckjump, pf_autohop, pf_disable_bunnyhop_cap</li>
+							<li>tf_dingalingaling_lastarmorhit, tf_dingaling_lastarmor_volume, hud_combattext_armor_*</li>
+							<li>hide_server</li>
+							<li>pf_grenades_no_self_damage</li>
+						</ul>
+                    </div>
+
+                </div>
+
+                <div class="line"></div>
+            </div>
+        </header>
+    </main>
+    <!-- Footer -->
+    <footer class="footer footer--about">
+        <p class="footer-text">Copyright &copy; Concussion Studios</p>
+        <p class="footer-text">Design and Concept by Suspect</p>
+        <p class="footer-text">Site made by Danny Castillo</p>
+    </footer>
+</body>
+
+</html>
