@@ -2,5 +2,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: inherit;
-	overflow-wrap: break-word;
+	overflow-wrap: break-word !important;
+	word-break: break-all !important;
 }
