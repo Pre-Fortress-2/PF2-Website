@@ -34,6 +34,9 @@ p {
 a {
 	color: $color-text;
 	transition: all 1s;
+	display: inline;
+	// overflow-wrap: break-word !important;
+	// word-wrap: break-word !important;
 
 	&:hover {
 		color: lightblue;

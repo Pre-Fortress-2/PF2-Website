@@ -22,3 +22,13 @@
 	width: 12rem;
 	height: 12rem;
 }
+
+.grid-2 {
+	display: flex;
+	flex-wrap: wrap;
+	//min-height: 20rem;
+}
+
+.grid__item2 {
+	margin-right: 5rem;
+}
