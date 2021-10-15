@@ -1,0 +1,50 @@
+// This are creates the grid
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+	grid-auto-rows: 18rem;
+}
+
+// This affect the grid items content
+.grid__item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid $color-text;
+}
+
+.credit-title {
+	font-size: 2.5rem;
+}
+
+// Credit images size
+.credit-img {
+	width: 12rem;
+	height: 12rem;
+}
+
+.grid-2 {
+	display: flex;
+	flex-wrap: wrap;
+	//min-height: 20rem;
+}
+
+.grid__item2 {
+	margin-right: 5rem;
+}
+
+.credits-container {
+	width: 95%;
+	margin: 0 auto; 
+	padding: 0 15px 15px 15px; 
+	border-radius: 0.5rem; 
+	background: #272422;
+}
+
+.credits-container ul{
+	padding: 0 0 0 0;
+}
+
+.credits-container li{
+	list-style: none;
+}

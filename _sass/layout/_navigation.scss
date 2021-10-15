@@ -1,0 +1,43 @@
+// This area Affects the navigation bar
+.nav {
+	background: #2b2726;
+	padding: 20px 30px;
+	border-bottom-style: solid;
+	border-bottom-color: #83756c;
+	border-width: 3px;
+
+	&__wrapper {
+		display: flex;
+	}
+	&__list {
+		display: flex;
+		list-style: none;
+		padding: 4rem 0 0 0;
+	}
+
+	&__items {
+		padding: 0 1.6rem;
+	}
+
+	&__img {
+		height: 2.6rem;
+		transition: all 0.1s ease-in-out;
+
+		&:hover {
+			transform: scale(1.2);
+		}
+	}
+}
+// Logo Properties
+#logo {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 30px;
+	margin-right: 75px;
+	color: #fff;
+}
+#logo img {
+	width: 308px;
+	vertical-align: middle;
+	margin-right: 10px;
+}

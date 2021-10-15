@@ -1,0 +1,348 @@
+{
+   "developers": [
+      {
+         "name": "Kristofer",
+         "lead": true
+      },
+      {
+         "name": "Cyanide",
+         "code": true,
+         "mapper": true
+      },
+      {
+         "name": "Technochips",
+         "code": true,
+         "models": true,
+         "mapper": true,
+         "particles": true,
+         "localization" :
+         [
+            "French"
+         ]
+      },
+      {
+         "name": "AlexEpisode",
+         "code": true,
+         "localization" :
+         [
+            "Russian"
+         ]
+      },
+      {
+         "name": "AnthonyPython",
+         "code": true
+      },
+      {
+         "name": "Chrits",
+         "code": true
+      },
+      {
+         "name": "Nbc66",
+         "code": true,
+         "other":
+         {
+            "English": "Discord RPC implementation"
+         }
+      },
+      {
+         "name": "Wolfcl0ck",
+         "models": true
+      },
+      {
+         "name": "Stachekip",
+         "textures": true,
+         "sounds": true,
+         "other":
+			{
+				"English": "Flexes"
+			}
+      },
+      {
+         "name": "Xeller",
+         "textures": true
+      },
+      {
+         "name": "Sandvich Thief",
+			"models": true,
+			"textures": true
+      },
+      {
+         "name": "Redfire",
+         "mapper": true
+      },
+      {
+         "name": "fi(v)e",
+         "textures": true
+      },
+      {
+         "name": "Scarlett Ruby",
+         "code": true
+      },
+      {
+         "name": "Farlander",
+         "animation": true
+      },
+      {
+         "name": "Jeevestew",
+         "textures": true
+      },
+      {
+         "name": "Coolchou Zhao",
+         "animation": true
+      },
+      {
+         "name": "dead_thing",
+         "code": true
+      },
+      {
+         "name": "gamingcam2008",
+         "mapper": true
+      },
+      {
+         "name": "Wendie",
+			"mapper": true,
+			"other":
+			{
+				"English": "SFM Arist"
+			}
+      },
+      {
+         "name": "xamps",
+         "models": true
+      }
+   ],
+   "contributors": [
+      {
+         "name": "Jasper",
+         "tester": true,
+         "textures": true
+      },
+      {
+         "name": "Mechadexic",
+         "tester": true,
+         "code": true
+      },
+      {
+         "name": "Alaxe",
+         "models": true
+      },
+      {
+         "name": "Lurondor",
+         "models": true,
+			"textures": true
+      },
+      {
+         "name": "DrSeal",
+         "models": true,
+			"animation": true,
+			"tester": true,
+			"code": true
+      },
+      {
+         "name": "KaydemonLP",
+         "code": true
+      },
+      {
+         "name": "Swox",
+         "animation": true
+      },
+      {
+         "name": "FusionR",
+         "tester": true,
+         "localization":
+			[
+				"Serbo-Croatian"
+         ]
+      },
+      {
+         "name": "Boba",
+         "tester": true,
+			"particles": true,
+			"other":
+			{
+				"English": "Graphic Design"
+			}
+      },
+      {
+         "name": "Cadillac",
+         "tester": true,
+			"animation": true
+      },
+      {
+         "name": "DrPyspy",
+         "tester": true,
+         "models": true
+      },
+      {
+         "name": "Drudlyclean the Skeledude",
+         "tester": true,
+         "concepts": true
+      },
+      {
+         "name": "EnergyPixel",
+         "tester": true,
+         "models": true
+      },
+      {
+         "name": "Ficool2",
+         "models": true
+      },
+      {
+         "name": "G-Gnome505",
+         "models": true,
+         "animation": true
+      },
+      {
+         "name": "Ghetto Gamer",
+         "concepts": true
+      },
+      {
+         "name": "HDMine Face",
+         "tester": true,
+         "mapper": true
+      },
+      {
+         "name": "Horiuchi",
+         "tester": true,
+         "mapper": true,
+         "other":
+         {
+            "English": "Server hosting"
+         }
+      },
+      {
+         "name": "Dream (not that dream)",
+         "mapper": true
+      },
+      {
+         "name": "Kit Carson",
+         "tester": true,
+			"mapper": true,
+			"other":
+			{
+				"English": "Beta Badlands remake"
+			}
+      },
+      {
+         "name": "Krowing",
+         "tester": true,
+			"concepts": true
+      },
+      {
+         "name": "Retro",
+         "tester": true,
+			"concepts": true
+      },
+      {
+         "name": "Tyler McVicker",
+         "tester": true,
+			"other":
+			{
+				"English": "Promotion"
+			}
+      },
+      {
+         "name": "Sage J. Fox",
+         "other":
+			{
+				"English": "Det-Pack model"
+			}
+      },
+      {
+         "name": "Train",
+         "code": true
+      },
+      {
+         "name": "Кей",
+         "tester": true,
+         "localization":
+			[
+				"Russian"
+         ]
+      },
+      {
+         "name": "Frispy",
+         "tester": true,
+         "localization":
+			[
+				"Ukrainian"
+         ]
+      },
+      {
+         "name": "HypnOS 1999",
+         "tester": true,
+         "other":
+         {
+            "English": "Icons"
+         }
+      },
+		{
+         "name": "Skyrym",
+			"other":
+			{
+				"English": "LOD for player models"
+			}
+		},
+      {
+         "name": "NeoExperiences",
+         "tester": true,
+         "mapper": true
+      }
+   ],
+   "playtesters":
+   [
+      {
+         "name": "Big Man Man"
+      },
+      {
+         "name": "Bumpmap"
+      },
+      {
+         "name": "Cyruktez"
+      },
+      {
+         "name": "EverMatt"
+      },
+      {
+         "name": "GermanPeter"
+      },
+      {
+         "name": "MacD11"
+      },
+      {
+         "name": "Marioiscool246"
+      },
+      {
+         "name": "Sapphire Sky"
+      },
+      {
+         "name": "Colby"
+      },
+      {
+         "name": "KingSluggies"
+      }
+
+   ],
+   "special":
+   [
+		{
+         "name": "Nicknine",
+			"other":
+			{
+				"English": "For originally porting 2008 TF2 to the 2013 SDK"
+			}
+		}
+   ],
+   "software":
+   [
+      {
+         "name": "Momentum Mod"
+      },
+      {
+         "name": "Open Fortress"
+      },
+      {
+         "name": "Team Fortress 2 Classic"
+      }
+   ]
+}  

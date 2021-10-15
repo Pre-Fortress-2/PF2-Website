@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{%- if site.posts.size > 0 -%}
+  <h2 class="post-list-heading">{{ page.list_title | escape }}</h2>
+  <ul class="post-list">
+  {% for category in site.categories %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    {% if category_name == "updates" %}
+      {% for post in site.categories[category_name] %}
+        <li>
+          {%- assign date_format = "%b %-d, %Y" -%}
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.subject | escape }}
+            </a>
+          </h3>
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+        </li>
+      {%endfor%}
+    {% endif %}
+  {%endfor%}
+  </ul>
+{%- endif -%}
