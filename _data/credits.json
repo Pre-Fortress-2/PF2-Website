@@ -287,6 +287,11 @@
          "name": "NeoExperiences",
          "tester": true,
          "mapper": true
+      },
+      {
+         "name": "Jan",
+         "tester": true,
+         "sounds": true
       }
    ],
    "playtesters":
@@ -320,6 +325,21 @@
       },
       {
          "name": "KingSluggies"
+      },
+      {
+         "name": "floppyschoice"
+      },
+      {
+         "name": "Mhiyako"
+      },
+      {
+         "name": "The Socialable"
+      },
+      {
+         "name": "EskiM0JOJ0"
+      },
+      {
+         "name": "Mugg"
       }
 
    ],

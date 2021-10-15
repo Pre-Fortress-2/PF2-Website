@@ -58,6 +58,17 @@ permalink: "/credits/"
                     {% assign rolecount = rolecount | plus:1 %}
                 {% endif %}
 
+                {% if entry.sounds == true %}
+                    {% if rolecount > 0 %}
+                    {% assign credit = credit | append: ", " %}
+                    {% else %}
+                    {% assign credit = credit | append: " - " %}
+                    {% endif %}
+
+                    {% assign credit = credit | append: "Sounds" %}
+                    {% assign rolecount = rolecount | plus:1 %}
+                {% endif %}
+
                 {% if entry.textures == true %}
                     {% if rolecount > 0 %}
                     {% assign credit = credit | append: ", " %}
