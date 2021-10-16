@@ -292,6 +292,10 @@
          "name": "Jan",
          "tester": true,
          "sounds": true
+      },
+      {
+         "name": "wwwaffles321",
+         "textures": true
       }
    ],
    "playtesters":
