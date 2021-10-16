@@ -61,6 +61,11 @@
 	.grid__item2 {
 		margin-right: 10rem;
 	}
+
+	.blog video
+	{
+		width: 100%;
+	}
 }
 
 
@@ -74,10 +79,5 @@
 	// Makes the video smaller in mobile screens
 	.about__video {
 		height: 20rem;
-	}
-
-	.blog video
-	{
-		width: 100%;
 	}
 }
