@@ -7,11 +7,11 @@ categories: blog
 permalink: /:categories/the-truth-about-the-smoke-bomb/ 
 author: Cyanide
 ---
-The smoke bomb is a very misunderstood grenade, its functionality is quite clearly explained in the code, but it has been lost due to misconceptions and needless speculation, so let’s start from the very beginning.
+The smoke bomb is a very misunderstood grenade, its functionality is clearly explained in the code, but it has been lost due to misconceptions and needless speculation, so let’s start from the very beginning.
 
 To quickly bring everyone up to speed on how we have the code for the grenades; in 2012 the source code for the 2008 version of Source was publicly leaked, within the leak was the source code to TF2 (as well as other unused source files, such as the grenades). And specifically relevant here, it contained the code for the smoke bomb.
 
-The smoke bomb didn't function as a conventional grenade in the sense that it didn't produce a projectile when activated. There is also no proof that a projectile model existed had there been one, and a quick look at grenade's source code explains why. To simplify, when a grenade is thrown it needs a projectile to be created, to do this every grenade has its own version of a function called `EmitGrenade` that creates it.
+The smoke bomb didn't function as a conventional grenade, in the sense that it didn't produce a projectile when activated. There is no proof that a projectile model existed had there been one, and a quick look at grenade's source code explains why. To simplify, when a grenade is thrown it needs a projectile to be created, to do this every grenade has its own version of a function called `EmitGrenade` that creates it.
 
 However the smoke bomb does not actually produce a projectile here, insteads it executes the code below:
 
@@ -25,11 +25,11 @@ if ( pTFPlayer->CanGoInvisible() )
 }
 ```
 
-Even with little or no ability to read code, the comments and variable naming make it clear as to what it's doing. And again, no projectile is created nor does a projectile model even exist, it simply applied an invisibility condition to the player. The console command referenced, `tf_smoke_bomb_time`, is not found anywhere in the codebase, so the duration of the condition is not known.
+Even with little to no ability to read code, the comments and variable naming make it clear as to what it's doing. And again, no projectile is created nor does a projectile model even exist, it simply applied an invisibility condition to the player. The console command referenced, `tf_smoke_bomb_time`, is not found anywhere in the codebase, so the duration of the condition is not known.
 
-If you were to look at the smoke bomb's `EmitGrenade` function, you would notice that the code add the condition is encapsulated with an `#if` statement which is "defining out" the code, this means it's not compiled and would not be present in-game. Some basic speculation on this is that it's likely the grenade's functionality was moved elsewhere in the code base, this was possibly done as it was transitioned from a grenade into the invis watch.
+If you were to look at the smoke bomb's entire `EmitGrenade` function, you would notice that the code adding the condition is encapsulated with an `#if` statement which is "defining out" the code, meaning it's not compiled and would not be present in-game. Some basic speculation on why this is, is that it's likely the grenade's functionality was moved elsewhere in the code base, possibly done as it was transitioned from a grenade into the invis watch.
 
-Also within the code is an unused HUD, `HudSmokeBomb`, that would appear while invisible. It would display a progress bar indicating the time you had left, and would display the icon `cond_smoke_bomb` along with it.
+Also within the source code is an unused HUD, `HudSmokeBomb`, that would appear while invisible. It would display a progress bar indicating the time you had left, and would display the icon `cond_smoke_bomb` along with it.
 
 Asset-wise only a particle file, `smoke_disappear.pcf`, has been discovered. It was found within the TF2 build that leaked with the Postal 3 beta. This file contained a particle that presumably would have been emitted from the player when the grenade was activated. 
 
