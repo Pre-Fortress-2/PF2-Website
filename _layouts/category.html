@@ -6,7 +6,7 @@ layout: default
   <ul class="post-list">
   {% for category in site.categories %}
     {% capture category_name %}{{ category | first }}{% endcapture %}
-    {% if category_name == "updates" %}
+    {% if category_name == page.category %}
       {% for post in site.categories[category_name] %}
         <li>
           {%- assign date_format = "%b %-d, %Y" -%}
@@ -15,7 +15,7 @@ layout: default
               {{ post.subject | escape }}
             </a>
           </h3>
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <span class="post-meta">{{ post.author | default: "PF2 Team" }} - {{ post.date | date: date_format }}</span>
         </li>
       {%endfor%}
     {% endif %}

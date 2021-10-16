@@ -2,6 +2,7 @@
 layout: default
 title: "Download"
 permalink: "/download/"
+subject: "Download Pre-Fortress 2"
 ---
 <div class="installation-content">
      <h1 style="font-family: TF2 Build; text-align: center; text-rendering: optimizeLegibility;">We have disabled downloads Temporarily.</h1>

@@ -33,8 +33,8 @@ Also within the source code is an unused HUD, `HudSmokeBomb`, that would appear 
 
 Asset-wise only a particle file, `smoke_disappear.pcf`, has been discovered. It was found within the TF2 build that leaked with the Postal 3 beta. This file contained a particle that presumably would have been emitted from the player when the grenade was activated. 
 
-{% include video.html video="https://cdn.discordapp.com/attachments/889697444798017619/898788790271885353/smokebomb.mp4" text="The smoke bomb particle"%}
+{% include video.html video="https://cdn.discordapp.com/attachments/889697444798017619/898885361575559178/smokebomb.webm" text="The smoke bomb particle"%}
 
 And that's pretty much it, not really all that special. It's an interesting glimpse at an earlier iteration of a now iconic mechanic, but not much beyond that. We don't have any plans on bringing the grenade back in PF2, but I'll leave you with a clip of it in-action from last year.
 
-{% include video.html video="https://cdn.discordapp.com/attachments/889697444798017619/898788157800185908/smokebomb-cloak.mp4" %}
+{% include video.html video="https://cdn.discordapp.com/attachments/889697444798017619/898885369662152704/smokebomb-cloak.webm" %}

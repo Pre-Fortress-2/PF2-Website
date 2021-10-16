@@ -19,7 +19,15 @@
 	}
 }
 
-@media (max-width: 500px) {
+// Making sure the grid always stay consistent
+@media (max-width: 700px) {
+	.blog video
+	{
+		width: 70%;
+	}
+}
+
+@media (max-width: 640px) {
 	// This area affect the navbar to be responsive in mobile phone by stacking the nav__items in top of eachother
 	.nav {
 		padding-bottom: 1rem;
@@ -38,22 +46,9 @@
 			height: 3rem;
 		}
 	}
-	// Makes the Installation title smaller and with less padding to be able to take place in mobile units
-	.box__heading--special {
-		font-size: 4rem;
-		padding: 2.5rem 0 1rem 1rem;
-	}
-
-	// Makes the video smaller in mobile screens
-	.about__video {
-		height: 20rem;
-	}
-
-	.blog video
-	{
-		width: 90%;
-	}
 }
+
+
 
 // Making sure the grid always stay consistent
 @media (max-width: 565px) {
@@ -68,10 +63,21 @@
 	}
 }
 
-// Making sure the grid always stay consistent
-@media (max-width: 700px) {
+
+@media (max-width: 500px) {
+	// Makes the Installation title smaller and with less padding to be able to take place in mobile units
+	.box__heading--special {
+		font-size: 4rem;
+		padding: 2.5rem 0 1rem 1rem;
+	}
+
+	// Makes the video smaller in mobile screens
+	.about__video {
+		height: 20rem;
+	}
+
 	.blog video
 	{
-		width: 70%;
+		width: 100%;
 	}
 }
