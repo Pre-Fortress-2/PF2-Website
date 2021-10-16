@@ -11,7 +11,11 @@ The smoke bomb is a very misunderstood grenade, its functionality is quite clear
 
 To quickly bring anyone up to speed on how we have the code for the grenades: in 2012 source code for the 2008 version of the Source engine was leaked online. TF2’s game code was present along with the cut grenades, specifically relevant to this were the files for the smoke bomb.
 
-The smoke bomb was not a conventional grenade, as it did not produce a grenade projectile. No projectile model has ever been discovered nor proof of the existence of one. A quick i
+The smoke bomb was not a conventional grenade, as it did not produce a grenade projectile. No projectile model has ever been discovered nor proof of the existence of one. A quick look at the grenade's file tells us why. To greatly simplify, when a grenade is to be thrown it needs to create a projectile, to do this every grenade has its own version of a function named `EmitGrenade` which creates it. For the smoke bomb this function is:
+
+```cpp
+CTFWeaponBaseGrenadeProj *CTFGrenadeSmokeBomb::EmitGrenade(...)
+```
 
 However the smoke bomb does not actually produce a projectile here, insteads it executes the code below:
 
