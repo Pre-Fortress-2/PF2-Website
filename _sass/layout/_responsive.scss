@@ -48,6 +48,11 @@
 	.about__video {
 		height: 20rem;
 	}
+
+	.blog video
+	{
+		width: 90%;
+	}
 }
 
 // Making sure the grid always stay consistent
@@ -60,5 +65,13 @@
 
 	.grid__item2 {
 		margin-right: 10rem;
+	}
+}
+
+// Making sure the grid always stay consistent
+@media (max-width: 700px) {
+	.blog video
+	{
+		width: 70%;
 	}
 }

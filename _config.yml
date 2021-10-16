@@ -9,5 +9,6 @@ url: "https://prefortress.ml" # the base hostname & protocol for your site, e.g.
 
 
 # Build settings
+highlighter: rouge
 plugins:
   - jekyll-feed

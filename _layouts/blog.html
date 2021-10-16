@@ -1,0 +1,7 @@
+---
+layout: default
+---
+<h2 class="credit-title">{{ page.subject | escape }}</h2>
+<h3>{{page.author | default:"The PF2 Team"}} - {{ page.date | date: "%b %-d, %Y" }}</h3>
+<hr>
+<div class="blog">{{ content }}</div>

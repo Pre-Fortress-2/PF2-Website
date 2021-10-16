@@ -32,6 +32,23 @@
 	box-shadow: 0.5rem 0.3rem 0.2rem rgba(0, 0, 0, 0.7);
 }
 
+.blog {
+	ul {
+		padding: 0 2rem;
+		list-style-type: disc;
+	}
+	p {
+		margin-bottom: 2rem;
+	}
+	span {
+		font-size: 1.2rem;
+	}
+	video
+	{
+		width: 50%;
+	}
+}
+
 .line {
 	margin: 10rem auto;
 	max-width: 90rem;
