@@ -1,8 +1,8 @@
 ---
 layout: blog
 title: "Blog"
-subject:  "The truth about the smoke bomb"
-date:   2021-10-16 00:00:00 +1100
+subject:  "The truth about the Smoke Bomb"
+date:   2021-10-17 00:12:00 +1100
 categories: blog
 permalink: /:categories/the-truth-about-the-smoke-bomb/ 
 author: Cyanide
@@ -13,7 +13,7 @@ To quickly bring everyone up to speed on how we have the code for the grenades; 
 
 The smoke bomb didn't function as a conventional grenade, in the sense that it didn't produce a projectile when activated. There is no proof that a projectile model existed had there been one, and a quick look at grenade's source code explains why. To simplify, when a grenade is thrown it needs a projectile to be created, to do this every grenade has its own version of a function called `EmitGrenade` that creates it.
 
-However the smoke bomb does not actually produce a projectile here, insteads it executes the code below:
+However the smoke bomb does not actually produce a projectile here, instead it executes the code below:
 
 ```cpp
 // give them the smoke bomb condition
