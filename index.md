@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "About"
-subject: "About Pre-Fortress 2"
+subject: "Pre-Fortress 2"
 ---
 <!-- Left Area in PC screens -->
 <div class="about-content">

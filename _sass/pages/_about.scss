@@ -38,6 +38,10 @@
 
 	&:hover {
 		background: lightgrey;
+		transition: 0.7s;
+	}
+	&:not(:hover){
+		transition: 0.7s
 	}
 }
 
