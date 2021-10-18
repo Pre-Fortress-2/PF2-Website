@@ -12,8 +12,19 @@ layout: default
           {%- assign date_format = "%b %-d, %Y" -%}
           <h3>
             <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.subject | escape }}
-            </a>
+            {%- if post.image -%}
+              <div class="container-image">
+                <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image">
+              </div>
+            {%- else -%}
+            {%- assign postImage = "/assets/images/Default-image.jpg" -%}
+            <div class="container-image">
+              <img src="{{- postImage | relative_url -}}" alt="" class="blog-roll-image">
+            </div>            
+            {%- endif -%}
+
+                {{ post.subject | escape }}
+              </a>
           </h3>
           <span class="post-meta">{{ post.author | default: "PF2 Team" }} - {{ post.date | date: date_format }}</span>
         </li>
