@@ -163,10 +163,10 @@
 				"English": "Graphic Design"
 			}
       },
-      {may predate when my
+      {
          "name": "Cadillac",
          "tester": true,
-			"animation": true
+		 "animation": true
       },
       {
          "name": "DrPyspy",
