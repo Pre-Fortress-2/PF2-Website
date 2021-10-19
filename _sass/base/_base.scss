@@ -104,9 +104,18 @@ picture {
 		}
 }
 
+.feature-image-no-effect{
+	width: 100%; /* width of container */
+    //height: 300px; /* height of container */
+    object-fit: cover;
+	object-position: 20% 35%;
+	border-radius: 10px;
+	border: solid gray 3px;
+}
+
 .feature-image{
 	width: 100%; /* width of container */
-    //height: 200px; /* height of container */
+    height: 300px; /* height of container */
     object-fit: cover;
 	object-position: 20% 35%;
 	border-radius: 10px;

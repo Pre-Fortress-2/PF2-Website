@@ -2,8 +2,10 @@
 layout: default
 ---
 
-{%- if page.image -%}
+{%- if page.NoImageEffect == 0 -%}
 <img class="feature-image" src="{{- page.image | relative_url -}}" alt="">
+{%- elsif page.NoImageEffect == 1 or page.image -%}
+<img class="feature-image-no-effect" src="{{- page.image | relative_url -}}" alt="">
 {%- else -%}
 {%- assign postImage = "/assets/images/Default-image.jpg" -%}
 <img class="feature-image-default" src="{{- postImage | relative_url -}}" alt="">

@@ -7,6 +7,7 @@ categories: blog
 permalink: /:categories/the-truth-about-the-smoke-bomb/ 
 author: Cyanide
 image: /assets/blog/images/sb-spy.jpg
+NoImageEffect: 0
 ---
 The smoke bomb is a very misunderstood grenade, its functionality is clearly explained in the code, but it has been lost due to misconceptions and needless speculation, so let’s start from the very beginning.
 
