@@ -120,6 +120,9 @@ picture {
 	object-position: 20% 35%;
 	border-radius: 10px;
 	border: solid gray 3px;
+	@media screen and (max-width: 767px){
+		height: 100%;
+	}
 }
 
 .feature-image-default{
