@@ -6,7 +6,7 @@ layout: default
 <img class="feature-image" src="{{- page.image | relative_url -}}" alt="">
 {%- else -%}
 {%- assign postImage = "/assets/images/Default-image.jpg" -%}
-<img class="feature-image" src="{{- postImage | relative_url -}}" alt="">
+<img class="feature-image-default" src="{{- postImage | relative_url -}}" alt="">
 {%- endif -%}
 <h2 class="credit-title">{{ page.subject | escape }}</h2>
 <h3 class="author">{{page.author | default:"PF2 Team" }} - {{ page.date | date: "%b %-d, %Y" }}</h3>

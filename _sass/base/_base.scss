@@ -112,3 +112,16 @@ picture {
 	border-radius: 10px;
     //border: 5px solid black;
 }
+
+.feature-image-default{
+	width: 100%; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+	object-position: center;
+	border-radius: 10px;
+	@media screen and (max-width: 767px){
+		height: 100%;
+	}
+
+    //border: 5px solid black;
+}
