@@ -103,3 +103,12 @@ picture {
 			transition: 1s;
 		}
 }
+
+.feature-image{
+	width: 100%; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+	object-position: 20% 35%;
+	border-radius: 10px;
+    //border: 5px solid black;
+}
