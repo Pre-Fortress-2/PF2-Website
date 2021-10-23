@@ -4,7 +4,7 @@ title: "Blog"
 subject:  "The Philosophy behind Grenade balancing"
 date:   2021-10-23 00:12:00 +1100
 categories: blog
-permalink: /:categories/the-truth-about-the-smoke-bomb/ 
+permalink: /:categories/The-Philosophy-behind-Grenade-balancing/
 author: Nbc66 and Sandvich Thief
 image: https://wiki.teamfortress.com/w/images/c/cc/Tf2_trailer19.png
 NoImageEffect: 0
