@@ -296,6 +296,13 @@
       {
          "name": "wwwaffles321",
          "textures": true
+      },
+      {
+         "name": "Sour Dani",
+         "other":
+         {
+         	"English": "Website domain owner"
+         }
       }
    ],
    "playtesters":
