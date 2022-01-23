@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Download"
-permalink: "/download_new/"
+permalink: "/download/"
 subject: "Download Pre-Fortress 2"
 ---
 ## Requirements
