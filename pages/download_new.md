@@ -17,7 +17,7 @@ To play Pre-Fortress 2 you **must** have [Source SDK Base 2013 Multiplayer](stea
 - [Yandex.ru](https://disk.yandex.ru/d/yegcFzbO1h9Duw){:target="_blank"}
 
 If you're on Windows you can use this helper installer in addition to one of the archives above:
-- [Helper Installer](https://cdn.discordapp.com/attachments/843318766245904434/934288428772777984/pf2-0.6-full-installer.exe)
+- [Helper Installer](https://cdn.discordapp.com/attachments/843318766245904434/934678039265177690/pf2-0.6-full-installer.exe)
 
 ## Installation
 If you're using the helper installer, just run it in the same folder as the archive, and it'll handle everything for you.
