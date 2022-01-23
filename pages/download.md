@@ -1,62 +1,42 @@
 ---
 layout: default
 title: "Download"
-permalink: "/download/"
+permalink: "/download_new/"
 subject: "Download Pre-Fortress 2"
 ---
-<script>window.twttr = (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0],
-    t = window.twttr || {};
-  if (d.getElementById(id)) return t;
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "https://platform.twitter.com/widgets.js";
-  fjs.parentNode.insertBefore(js, fjs);
+## Requirements
+To play Pre-Fortress 2 you **must** have [Source SDK Base 2013 Multiplayer](steam://install/243750) installed.
 
-  t._e = [];
-  t.ready = function(f) {
-    t._e.push(f);
-  };
+## Optional Requirements
+- [7-Zip](https://www.7-zip.org/download.html) or another program capable of opening .7z files. Preferably not WinRAR.
+- [Team Fortress 2](steam://install/440)
 
-  return t;
-}(document, "script", "twitter-wjs"));
+## Downloads
+- [Google Drive](https://drive.google.com/file/d/1FUUfHo5NbxvCNsKDUiZVxU4x8q8NkaKk/view){:target="_blank"}
+- [Mega.nz](https://mega.nz/file/9CxTXKyT#rqFGOpbJykJqFsBsxUeWaimJF82ygj-BbulEn2Yf8vI){:target="_blank"}
+- [Yandex.ru](https://disk.yandex.ru/d/yegcFzbO1h9Duw){:target="_blank"}
 
-var x = document.getElementsByClassName("installation-content").addEventListener("DOMContentLoaded", showtwt());
+If you're on Windows you can use this helper installer in addition to one of the archives above:
+- [Helper Installer](https://cdn.discordapp.com/attachments/843318766245904434/934678039265177690/pf2-0.6-full-installer.exe)
 
-function showtwt() {
-  if (x.style.visibility === "hidden") {
-    x.style.visibility = "visible";
-  }
-}
+## Installation
+If you're using the helper installer, just run it in the same folder as the archive, and it'll handle everything for you.
 
-</script>
-<div  class="installation-content">
-	  <div class="installation-content">
-    <!-- Requirements -->
-    <h2>Requirements</h2>
-    <hr>
-    <p>To install Pre-Fortress 2, you must have:</p>
-    <ul class="list">
-        <li><strong><a href="steam://install/243750">Source SDK Base 2013 Multiplayer</a></strong></li>
-        <li><strong><a href="https://www.7-zip.org/download.html">7-Zip</a></strong></li>
-    </ul>
-	 <br>
-    <!-- Installation and Update -->
-    <h2>Downloads</h2>
-    <hr>
-	<p><strong>Mega: </strong><a href="https://mega.nz/file/9CxTXKyT#rqFGOpbJykJqFsBsxUeWaimJF82ygj-BbulEn2Yf8vI">https://mega.nz/file/9CxTXKyT#rqFGOpbJykJqFsBsxUeWaimJF82ygj-BbulEn2Yf8vI</a></p>
-	<p><strong>Yandex: </strong><a href="https://disk.yandex.ru/d/yegcFzbO1h9Duw">https://disk.yandex.ru/d/yegcFzbO1h9Duw</a></p>
-    <br>
-    <!-- Installation and Update -->
-    <h2>Installation</h2>
-    <hr>
-	<p>After downloading the archive from one of the links above, navigate to the <u>sourcemods</u> folder and extract the <u>pf2</u> folder inside the 7z archive there.
-	<br>The <u>sourcemods</u> folder can usually be found in these locations:</p>
-	<ul class="list">
-		<li>Windows - <b>C:/Program Files (x86)/Steam/steamapps/sourcemods/</b></li>
-		<li>Linux - <b>~/.steam/steam/sourcemods/</b></li>
-		<li>Mac - <b>/Users/USERNAME/Library/Application Support/Steam/steamapps/sourcemods/</b></li>
-	</ul>
-    <br>
- </div>
-</div>
+<br>
+
+If you're not using the installer, open the archive in 7-Zip, navigate to the `sourcemods` folder and extract the `pf2` folder there.
+The `sourcemods` folder can usually be found in these locations:
+- Windows - **C:/Program Files (x86)/Steam/steamapps/sourcemods/**
+- Linux - **~/.steam/steam/sourcemods/**
+- Mac - **/Users/USERNAME/Library/Application Support/Steam/steamapps/sourcemods/**
+
+A correct install should look something like this:
+![](/assets/images/explorer_biG8aCMZFd.png)
+
+## Post-Installation
+You will need to restart Steam in order for the mod to appear in your library. To do that, open up Steam, press the `Steam` button at the top-left of the window then press `Exit`. Wait a moment for Steam to fully shutdown, then reopen Steam. 
+
+If all went well you should see `Pre-Fortress 2: Open Beta` in your library
+
+## Troubleshooting
+If you need any help past this you can ask in the #help channel in our [Discord]({{site.discord-invite}}){:target="_blank"}
