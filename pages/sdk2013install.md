@@ -1,6 +1,10 @@
 ---
+title:  "SDK2013 INSTALL"
 permalink: /sdk2013/
+subject: "Install SDK2013"
 ---
+
+You are on your way to install SDK2013 Multiplayer base!
 
 <html>
   <head>
