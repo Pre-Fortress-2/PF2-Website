@@ -6,7 +6,7 @@ subject: "Install SDK2013"
 
 You are on your way to install SDK2013 Multiplayer base!
 
-if you cant see a popup to start up steam use this link instead.
+if you can't see a popup to start up steam use this link instead.
 [steam://install/243750](steam://install/243750)
 
 <html>
