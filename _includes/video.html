@@ -1,6 +1,10 @@
 <div align=center>
     {% if include.video %}
+        {% if include.loop %}
+        <video controls src="{{ include.video | relative_url }}" loop >
+        {% else %}
         <video controls src="{{ include.video | relative_url }}">
+        {% endif %}
         </video>
         {% if include.text %}
             <p>{{ include.text | escape }}</p>
