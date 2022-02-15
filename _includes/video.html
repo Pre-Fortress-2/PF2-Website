@@ -3,7 +3,7 @@
         {% if include.loop %}
         <video controls src="{{ include.video | relative_url }}" loop >
         {% else %}
-        <video controls src="{{ include.video | relative_url }}" type="video/mp4" controls="true" playsinline >
+        <video controls src="{{ include.video | relative_url }}" controls="true" playsinline >
         {% endif %}
         </video>
         {% if include.text %}
