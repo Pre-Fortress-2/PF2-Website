@@ -1,7 +1,7 @@
 <div align=center>
     {% if include.video %}
         {% if include.loop %}
-        <video controls loop >
+        <video controls="true" playsinline preload='auto' loop >
         {% else %}
         <video controls="true" playsinline preload='auto' >
         {% endif %}
