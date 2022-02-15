@@ -16,6 +16,8 @@ It's been a while since the last post, my apologies. Despite certain *plumbing r
 
 # Grenades
 
+Over the last year we've worked on getting the grenades to feel more complete and consistent to use. Their core functionalities have remained mostly intact, but some of their more random and unpredictable behaviors have been removed and altered.
+
 ## Viewmodels
 
 Every grenade at this point has a prime, hold and throw view model animation, took us a few years but we did get there in the end. 
@@ -28,15 +30,23 @@ None of the animations are final.
 
 ## Projectiles
 
-If you've played the mod you know grenades are a *little* inconsistent in how they bounce off the world. In the early days of the mod things were even worse as the grenade's lacked proper custom physics properties which made them slide and roll around a lot. This was especially noticeable when attempting to set up a conc jump as the grenade would roll away.
+If you've played the mod you know grenades can be *little* unpredictable in how they bounce off the world. In the early days of the mod things were even worse as the grenade's lacked customized physics properties which made them slide and roll around a lot. This was especially noticeable when attempting to set up a conc jump as the grenade would roll away.
 
-In contrast, in TFC and QWTF the grenade's interactions with the world are not subject to a complex physics engine, when a grenade bounces off a surface you know how it's going to react. So around 5 months ago now the the decision was made to change the grenade to act in a similar manner to what came before.
+In TFC and QWTF grenade's interactions with the world are not subject to the calculations of a complex physics engine, instead they would bounce off surfaces simply but predictably. So it was decided to change the grenades to interact and bounce off the world as they would prior to the Source engine.
 
-{% include video.html video="https://cdn.discordapp.com/attachments/889697444798017619/942970892621864970/throw-comparison-compressed.mp4" text="Left is with the old physics. Right is with the new physics" loop=1 %}
+{% include video.html video="assets/blog/development-update-1/videos/throw-comparison-compressed.mp4" text="Left is with the old physics. Right is with the new physics" loop=1 %}
 
-There was of course some initial resistance and push back to the idea, however the change was well received in play testing so that's the direction we're going with.
+There was of course some initial resistance and push back to the idea, however the change was very well received in play testing.
 
-<blockquote>Talk about hud timer</blockquote>
+## Grenade Timer HUD
+
+As you probably saw in the video above, as by default there's now a circular HUD that displays around your crosshair when you prime a grenade. Inspired by Fortress Forever's timer, the intent is to concisely show how much time is left before the grenade detonates and how many grenades you have active. We've tried to keep it both minimal, visually clear and front and center so you're not looking at a bar away from the center of your screen.
+
+![timer]( /assets/blog/development-update-1/images/gren-timer.png){: style="max-height: 180px;max-width: 180px;"}
+
+## Defusing
+
+One of the play testers brought forward the idea of defusing grenades, the justification for this was to help reduce spam. Of course this was problem we wanted to reduce, and at that time there wasn't anyway to punish lazy or poorly timed grenade throws. The initial idea was to defuse by shooting, this was never actually tested as shooting a grenade proved surprisingly difficult and it was quickly agreed that shooting to defuse would be done unintentionally and at random. Then the idea had was to have them only be defused with the use of melee weapons, similar to TF2Classic's mirv being defusable with the wrench. This worked pretty well as defusing a grenade was simple, could only be done deliberately and didn't require the precision that shooting it did.
 
 # Balancing
 
@@ -54,18 +64,18 @@ For a quite a while now we've more or less had all the stock maps as close to th
 
 ## Push
 
-Our remake of reverse CTF Push is the furthest along, worked on by NeoExperiences. If you're not aware, reverse CTF is where you have a central neutral flag and your goal is to capture it in the opposing team's base.
+Our remake of the Invade CTF map Push, which is the furthest along and being worked on by NeoExperiences. If you're not aware, Invade CTF is where there is a central neutral flag and the goal is to capture it in the opposing team's base.
 
-![ctf_push]( /assets/blog/images/development-update-1/push.png)
+![ctf_push]( /assets/blog/development-update-1/images/push.png ){: class="zoom"}
 
 ## Crossover
 
 Our remake of Crossover2 worked on by gamingcam2008. Initially it was CTF but it ended up just feeling like a more claustrophobic version of 2fort, sewers and all. So cam made the decision to reimagine it as a KOTH map. 
 
-![koth_crossover]( /assets/blog/images/development-update-1/crossover.png)
+![koth_crossover]( /assets/blog/development-update-1/images/crossover.png){: class="zoom"}
 
 ## Nightfall
 
-![nightfall]( /assets/blog/images/development-update-1/nightfall.png)
+![nightfall]( /assets/blog/development-update-1/images/nightfall.png){: class="zoom"}
 
 
