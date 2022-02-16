@@ -6,9 +6,9 @@
         <video controls="true" playsinline preload='auto' preload="metadata" muted >
         {% endif %}
             {% if include.blog %}
-            <source src="/assets/blog/{{ page.slug }}/{{ include.video }}" type="video/mp4" />
+            <source src="/assets/blog/{{ page.slug }}/{{ include.video }}#t=0.001" type="video/mp4" />
             {% else %}
-            <source src="{{ include.video }}#t=0.1" type="video/mp4" />
+            <source src="{{ include.video }}#t=0.001" type="video/mp4" />
             {% endif %}
         </video>
         {% if include.text %}
