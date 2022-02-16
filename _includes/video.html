@@ -1,11 +1,15 @@
 <div align=center>
     {% if include.video %}
         {% if include.loop %}
-        <video controls="true" playsinline preload='auto' loop >
+        <video controls="true" playsinline preload='auto' muted loop >
         {% else %}
-        <video controls="true" playsinline preload='auto' >
+        <video controls="true" playsinline preload='auto' muted >
         {% endif %}
-            <source src="{{ include.video | relative_url }}" type="video/mp4">
+            {% if include.blog %}
+            <source src="/assets/blog/{{ page.slug }}/{{ include.video }}" type="video/mp4" />
+            {% else %}
+            <source src="{{ include.video }}" type="video/mp4" />
+            {% endif %}
         </video>
         {% if include.text %}
             <p>{{ include.text | escape }}</p>
