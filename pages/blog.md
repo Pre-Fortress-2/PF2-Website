@@ -3,5 +3,5 @@ layout: category
 title:  "Blog"
 permalink: /blog/
 category: blog
-subject: "Blog"
+subject: "Blog for Pre-Fortress 2"
 ---

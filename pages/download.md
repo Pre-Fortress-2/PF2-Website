@@ -2,7 +2,7 @@
 layout: default
 title: "Download"
 permalink: "/download/"
-subject: "Download"
+subject: "Download Pre-Fortress 2"
 ---
 
 ## Requirements
