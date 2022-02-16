@@ -2,7 +2,7 @@
 layout: default
 title: "Credits"
 permalink: "/credits/"
-subject: "Credits for Pre-Fortress 2"
+subject: "Credits"
 ---
 {% assign member = site.data.credits %}
 {% assign i = 0 %}
