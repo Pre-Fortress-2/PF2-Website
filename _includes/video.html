@@ -1,9 +1,9 @@
 <div align=center>
     {% if include.video %}
         {% if include.loop %}
-        <video controls="true" playsinline preload='auto' muted loop >
+        <video controls="true" playsinline preload='auto' preload="metadata" muted loop >
         {% else %}
-        <video controls="true" playsinline preload='auto' muted >
+        <video controls="true" playsinline preload='auto' preload="metadata" muted >
         {% endif %}
             {% if include.blog %}
             <source src="/assets/blog/{{ page.slug }}/{{ include.video }}" type="video/mp4" />
