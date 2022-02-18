@@ -168,3 +168,20 @@ blockquote::before {
 	margin: 0 0 0 -3.6em;
 	vertical-align:middle;
 }
+
+kbd {
+    display: inline-block;
+    padding: 3px 5px;
+    font-size: 1.0875rem;
+    line-height: 10px;
+    color: var(--gray-700, #525252);
+    vertical-align: middle;
+    background-color: var(--gray-10, #fafafa);
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--gray-100, #dbdbdb) var(--gray-100, #dbdbdb) var(--gray-200, #bfbfbf);
+    border-image: none;
+    border-radius: 3px;
+    box-shadow: 0 -1px 0 var(--gray-200, #bfbfbf) inset;
+}
+
