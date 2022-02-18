@@ -8,26 +8,28 @@ layout: default
     {% capture category_name %}{{ category | first }}{% endcapture %}
     {% if category_name == page.category %}
       {% for post in site.categories[category_name] %}
-        <li>
-          {%- assign date_format = "%b %-d, %Y" -%}
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-            {%- if post.image -%}
+        {% if post.hidden != true %}
+          <li>
+            {%- assign date_format = "%b %-d, %Y" -%}
+            <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+              {%- if post.image -%}
+                <div class="container-image">
+                  <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image">
+                </div>
+              {%- else -%}
+              {%- assign postImage = "/assets/images/Default-image.jpg" -%}
               <div class="container-image">
-                <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image">
-              </div>
-            {%- else -%}
-            {%- assign postImage = "/assets/images/Default-image.jpg" -%}
-            <div class="container-image">
-              <img src="{{- postImage | relative_url -}}" alt="" class="blog-roll-image">
-            </div>            
-            {%- endif -%}
+                <img src="{{- postImage | relative_url -}}" alt="" class="blog-roll-image">
+              </div>            
+              {%- endif -%}
 
-                {{ post.subject | escape }}
-              </a>
-          </h3>
-          <span class="post-meta">{{ post.author | default: "PF2 Team" }} - {{ post.date | date: date_format }}</span>
-        </li>
+                  {{ post.subject | escape }}
+                </a>
+            </h3>
+            <span class="post-meta">{{ post.author | default: "PF2 Team" }} - {{ post.date | date: date_format }}</span>
+          </li>
+        {% endif %}
       {%endfor%}
     {% endif %}
   {%endfor%}
