@@ -171,12 +171,12 @@ blockquote::before {
 
 kbd {
     display: inline-block;
-    padding: 3px 5px;
-    font-size: 1.0875rem;
+    padding: 8px 9px;
+    font-size: 1.2875rem;
     line-height: 10px;
     color: var(--gray-700, #d4d4d4);
     vertical-align: middle;
-    background-color: var(--gray-10, #fafafa);
+    background-color: var(--gray-10, #8b8b8b59);
     border-width: 1px;
     border-style: solid;
     border-color: var(--gray-100, #dbdbdb) var(--gray-100, #dbdbdb) var(--gray-200, #bfbfbf);
