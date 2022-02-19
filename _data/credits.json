@@ -10,6 +10,11 @@
          "mapper": true
       },
       {
+         "name": "Seal",
+         "models": true,
+         "animation": true
+      },
+      {
          "name": "Technochips",
          "code": true,
          "models": true,
@@ -87,7 +92,7 @@
          "textures": true
       },
       {
-         "name": "Coolchou Zhao",
+         "name": "Coldchou Zhao",
          "animation": true
       },
       {
@@ -107,16 +112,34 @@
 			}
       },
       {
-         "name": "xamps",
+         "name": "Justyn",
+			"particles": true
+      },
+      {
+         "name": "Justyn",
+			"particles": true
+      },
+      {
+         "name": "Sour Dani",
+         "other":
+         {
+         	"English": "Website domain owner, Discord bot host, dev server host"
+         }
+      },
+      {
+         "name": "NeoExperiences",
+         "mapper": true
+      },
+      {
+         "name": "Jasper",
+         "textures": true
+      },
+      {
+         "name": "Unhelpful Git",
          "models": true
       }
    ],
    "contributors": [
-      {
-         "name": "Jasper",
-         "tester": true,
-         "textures": true
-      },
       {
          "name": "Mechadexic",
          "tester": true,
@@ -130,13 +153,6 @@
          "name": "Lurondor",
          "models": true,
 			"textures": true
-      },
-      {
-         "name": "DrSeal",
-         "models": true,
-			"animation": true,
-			"tester": true,
-			"code": true
       },
       {
          "name": "KaydemonLP",
@@ -284,11 +300,6 @@
 			}
 		},
       {
-         "name": "NeoExperiences",
-         "tester": true,
-         "mapper": true
-      },
-      {
          "name": "Jan",
          "tester": true,
          "sounds": true
@@ -298,11 +309,8 @@
          "textures": true
       },
       {
-         "name": "Sour Dani",
-         "other":
-         {
-         	"English": "Website domain owner, Discord bot host, dev server host"
-         }
+         "name": "xamps",
+         "models": true
       }
    ],
    "playtesters":
