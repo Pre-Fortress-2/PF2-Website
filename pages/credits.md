@@ -10,19 +10,19 @@ subject: "Credits for Pre-Fortress 2"
 <div class="credits-container">
     {% for i in (0..4) %}
         {% if i == 0 %}
-            <h2>Developers</h2>
+            <h1>Developers</h1>
             {% assign group = member.developers %}
         {% elsif i == 1 %}
-            <h2>Contributors</h2>
+            <h1>Contributors</h1>
             {% assign group = member.contributors %}
         {% elsif i == 2 %}
-            <h2>Playtesters</h2>
+            <h1>Playtesters</h1>
             {% assign group = member.playtesters %}
         {% elsif i == 3 %}
-            <h2>Special Thanks</h2>
+            <h1>Special Thanks</h1>
             {% assign group = member.special %}
         {% elsif i == 4 %}
-            <h2>Software</h2>
+            <h1>Software</h1>
             {% assign group = member.software %}
         {% endif %}
         <hr>
