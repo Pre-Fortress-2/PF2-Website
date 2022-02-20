@@ -116,10 +116,6 @@
 			"particles": true
       },
       {
-         "name": "Justyn",
-			"particles": true
-      },
-      {
          "name": "Sour Dani",
          "other":
          {
@@ -316,52 +312,68 @@
    "playtesters":
    [
       {
-         "name": "Big Man Man"
+         "name": "Big Man Man",
+         "tester": true
       },
       {
-         "name": "Bumpmap"
+         "name": "Bumpmap",
+         "tester": true
       },
       {
-         "name": "Cyruktez"
+         "name": "Cyruktez",
+         "tester": true
       },
       {
-         "name": "EverMatt"
+         "name": "EverMatt",
+         "tester": true
       },
       {
-         "name": "GermanPeter"
+         "name": "GermanPeter",
+         "tester": true
       },
       {
-         "name": "MacD11"
+         "name": "MacD11",
+         "tester": true
       },
       {
-         "name": "Marioiscool246"
+         "name": "Marioiscool246",
+         "tester": true
       },
       {
-         "name": "Sapphire Sky"
+         "name": "Sapphire Sky",
+         "tester": true
       },
       {
-         "name": "Colby"
+         "name": "Colby",
+         "tester": true
       },
       {
-         "name": "KingSluggies"
+         "name": "KingSluggies",
+         "tester": true
       },
       {
-         "name": "floppyschoice"
+         "name": "floppyschoice",
+         "tester": true
       },
       {
-         "name": "Mhiyako"
+         "name": "Mhiyako",
+         "tester": true
       },
       {
-         "name": "The Socialable"
+         "name": "The Socialable",
+         "tester": true
       },
       {
-         "name": "EskiM0JOJ0"
+         "name": "EskiM0JOJ0",
+         "tester": true
       },
       {
-         "name": "Mugg"
+         "name": "Mugg",
+         "tester": true
       },
       {
-         "name": "MTD"
+         "name": "MTD",
+         "tester": true
       }
 
    ],
