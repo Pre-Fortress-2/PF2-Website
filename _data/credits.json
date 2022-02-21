@@ -119,7 +119,8 @@
          "name": "Sour Dani",
          "other":
          {
-         	"English": "Website domain owner, Discord bot host, dev server host"
+         	"English": "Domain owner, Discord bot host, Server host, Menu Designer",
+		"code": true
          }
       },
       {
