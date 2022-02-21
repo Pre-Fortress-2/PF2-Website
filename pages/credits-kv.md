@@ -35,43 +35,43 @@ permalink: "/credits.txt"
 		{
 		{%- if entry.lead -%}
 			<br>
-			"lead"  "{{- entry.lead -}}"
+			"lead"  "1"
 		{%- endif -%}
 		{%- if entry.code -%}
 			<br>
-			"code"  "{{- entry.code -}}"
+			"code"  "1"
 		{%- endif -%}
 		{%- if entry.models == true -%}
 			<br>
-			"models"  "{{- entry.models -}}"
+			"models"  "1"
 		{%- endif -%}
 		{%- if entry.sounds -%}
 			<br>
-			"sounds"  "{{- entry.sounds -}}"
+			"sounds"  "1"
 		{%- endif -%}
 		{%- if entry.textures -%}
 			<br>
-			"textures"  "{{- entry.textures -}}"
+			"textures"  "1}"
 		{%- endif -%}
 		{%- if entry.animation -%}
 			<br>
-			"animation" "{{- entry.animation -}}"
+			"animation" "1"
 		{%- endif -%}
 		{%- if entry.particles -%}
 			<br>
-			"particles" "{{- entry.particles -}}"
+			"particles" "1"
 		{%- endif -%}
 		{%- if entry.mapper -%}
 			<br>
-			"mapper"    "{{- entry.mapper -}}"
+			"mapper"    "1"
 		{%- endif -%}
 		{%- if entry.tester -%}
 			<br>
-			"tester"    "{{- entry.tester -}}"
+			"tester"    "1"
 		{%- endif -%}
 		{%- if entry.concepts -%}
 			<br>
-			"concepts"  "{{- entry.concepts -}}"
+			"concepts"  "1"
 		{%- endif -%}
 		{%- if entry.other -%}
 			<br>
@@ -86,7 +86,7 @@ permalink: "/credits.txt"
 			{
 				{%- for lang in entry.localization -%}
 				<br>
-				"{{- lang -}}"  "true"
+				"{{- lang -}}"  "1"
 				{%- endfor -%}
 				<br>
 			}
