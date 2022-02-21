@@ -117,10 +117,10 @@
       },
       {
          "name": "Sour Dani",
+         "code": true
          "other":
          {
          	"English": "Domain owner, Discord bot host, Server host, Menu Designer",
-		"code": true
          }
       },
       {
