@@ -20,12 +20,18 @@ permalink: "/motd.html"
       src: url("/assets/fonts/TF2build.woff") format("woff");
       src: url("/assets/fonts/TF2build.woff2") format("woff2");
     }
-    p {
-    font-family: TF2build;
-    text-align:center;
+    div {
+    position: absolute; 
+    width: 300px;
+    height: 200px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+    background: red;
     }
-    div{
-      margin-top:25%;
+    p {
+      font-family: TF2build;
     }
   </style>
   </head>
