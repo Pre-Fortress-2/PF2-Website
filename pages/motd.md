@@ -16,19 +16,19 @@ permalink: "/motd.html"
       background-size: cover; 
     }
     @font-face {
-      font-family: TF2build;
-      src: url("/assets/fonts/TF2build.woff") format("woff");
-      src: url("/assets/fonts/TF2build.woff2") format("woff2");
+      font-family: TF2Build;
+      src: url("/assets/fonts/TF2Build.woff") format("woff");
+      src: url("/assets/fonts/TF2Build.woff2") format("woff2");
     }
     div {
-    position: absolute; 
-    width: 300px;
-    height: 200px;
-    z-index: 15;
-    top: 50%;
-    left: 50%;
-    margin: -100px 0 0 -150px;
-    background: red;
+      position: absolute; 
+      width: 300px;
+      height: 200px;
+      z-index: 15;
+      top: 50%;
+      left: 50%;
+      margin: -100px 0 0 -150px;
+      background: red;
     }
     p {
       font-family: TF2build;

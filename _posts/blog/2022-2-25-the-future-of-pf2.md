@@ -32,7 +32,7 @@ The partnership was not working out, and ended up costing us more development ti
 
 # Pending Update
 
-It's been almost a year since 0.6 was released and we're excited to announce that 0.7 is nearing a releasible state. There's still lots of work to be done but the following 
+It's been almost a year since 0.6 was released and we're excited to announce that 0.7 is nearing a releasable state. There's still lots of work to be done but the following 
 major changes will be coming to Pre-Fortress 2:
 
 - Grenade view models and major changes to grenade gameplay
