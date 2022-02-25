@@ -10,16 +10,17 @@ permalink: "/motd.html"
 	<link rel="icon" href="https://prefortress.com/favicon.ico">
   </head>
   <body>
+    <div>
     <img style="
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;"
-    src="/img/chalkboard.png" alt="chalkboard/">
-    <p style="text-align:center">
+    src="/img/chalkboard.png" alt="chalkboard">
+    <p style="text-align:center; margin:auto;">
     Welcome to Pre-Fortress 2, after 4 years of development, we hope it's been worth the wait.
-    <p>
-    
+    </p>
+    <div>
   </body>
 </html>
