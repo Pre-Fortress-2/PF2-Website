@@ -22,9 +22,10 @@ permalink: "/motd.html"
     }
     p {
     font-family: TF2build;
-    top:50%;
     text-align:center;
-    margin:auto;
+    }
+    div{
+      margin-top:50%;
     }
   </style>
   </head>
