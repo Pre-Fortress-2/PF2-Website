@@ -9,7 +9,7 @@ permalink: "/motd.html"
 	<meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#b73739">
 	<link rel="icon" href="https://prefortress.com/favicon.ico">
   </head>
-  <body img src="./img/chalkboard.png" style="
+  <body img src="/img/chalkboard.png" style="
     position: fixed;
     top: 0;
     left: 0;
