@@ -16,8 +16,7 @@ permalink: "/motd.html"
     left: 0;
     width: 100%;
     height: 100%;"
-    src="/img/chalkboard.png" alt="chalkboard">
-    
+    src="/img/chalkboard.png" alt="chalkboard/">
     <p style="text-align:center">
     Welcome to Pre-Fortress 2, after 4 years of development, we hope it's been worth the wait.
     <p>
