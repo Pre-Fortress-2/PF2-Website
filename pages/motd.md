@@ -9,23 +9,23 @@ permalink: "/motd.html"
 	<meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#b73739">
 	<link rel="icon" href="https://prefortress.com/favicon.ico">
   <style>
-      body {
-        background-image: url("/img/chalkboard.png");
-        background-position: fixed;
-        background-repeat: no-repeat;
-        background-size: cover; 
-        }
-        @font-face {
-          font-family: TF2build;
-          src: url("/assets/fonts/TF2build.woff") format("woff");
-          src: url("/assets/fonts/TF2build.woff2") format("woff2");
-        }
-        p {
-        font-family: TF2build;
-        text-align:center;
-        margin:auto;
-        padding:auto;
-        }
+    body {
+      background-image: url("/img/chalkboard.png");
+      background-position: fixed;
+      background-repeat: no-repeat;
+      background-size: cover; 
+    }
+    @font-face {
+      font-family: TF2build;
+      src: url("/assets/fonts/TF2build.woff") format("woff");
+      src: url("/assets/fonts/TF2build.woff2") format("woff2");
+    }
+    p {
+    font-family: TF2build;
+    top:50%;
+    text-align:center;
+    margin:auto;
+    }
   </style>
   </head>
   <body>
