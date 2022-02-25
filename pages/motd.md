@@ -8,33 +8,7 @@ permalink: "/motd.html"
 	<meta name="description" content="MOTD"><meta property="og:image" content="https://wiki.teamfortress.com/w/images/5/54/Tf2_trailer03.png">
 	<meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#b73739">
 	<link rel="icon" href="https://prefortress.com/favicon.ico">
-  <style>
-    body {
-      background-image: url("/img/chalkboard.png");
-      background-position: fixed;
-      background-repeat: no-repeat;
-      background-size: cover; 
-    }
-    @font-face {
-      font-family: TF2Build;
-      src: url("/assets/fonts/TF2Build.woff") format("woff");
-      src: url("/assets/fonts/TF2Build.woff2") format("woff2");
-    }
-    div {
-      position: absolute; 
-      width: 300px;
-      height: 200px;
-      z-index: 15;
-      top: 50%;
-      left: 50%;
-      margin: -100px 0 0 -150px;
-      background: none;
-    }
-    p {
-      text-align:center;
-      font-family: TF2build;
-    }
-  </style>
+  <link rel="stylesheet" href="../assets/motd.css">
   </head>
   <body>
     <div>
