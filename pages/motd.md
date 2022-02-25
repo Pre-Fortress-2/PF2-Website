@@ -28,9 +28,10 @@ permalink: "/motd.html"
       top: 50%;
       left: 50%;
       margin: -100px 0 0 -150px;
-      background: red;
+      background: none;
     }
     p {
+      text-align:center;
       font-family: TF2build;
     }
   </style>
@@ -38,7 +39,7 @@ permalink: "/motd.html"
   <body>
     <div>
       <p>
-      Welcome to Pre-Fortress 2, after 4 years of development, we hope it's been worth the wait.
+      Welcome to the Pre-Fortress 2 development server. Have a fun playtest! We hope you go easy on us!
       </p>
     </div>
   </body>
