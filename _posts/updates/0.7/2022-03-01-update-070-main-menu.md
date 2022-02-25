@@ -7,7 +7,7 @@ categories: updates
 author: Sour Dani
 hidden: true
 NoFeatureImage: true
-permalink: /:categories/0.7/main-menu 
+permalink: /:categories/codename-pizza/main-menu 
 ---
 
 The main menu is a combination of influence from a wide variety of Source engine games. It draws most directly from the TF2 Orange Box Menu and the TF2 Menu from Circa 2012. These are the two menus I spent the most time with growing up with TF2. I would play Orange Box in the morning before school and TF2 on the home computer when I got home. These being nostalgic for me it was important to incorporate them into the new Pre-Fortress 2 main menu, loading menu, and pause menu.

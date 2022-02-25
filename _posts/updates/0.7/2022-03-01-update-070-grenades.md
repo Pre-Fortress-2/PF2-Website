@@ -7,7 +7,7 @@ categories: updates
 author: Cyanide
 hidden: true
 NoFeatureImage: true
-permalink: /:categories/0.7/grenades 
+permalink: /:categories/codename-pizza/grenades 
 ---
 
 Over the last year we've worked on getting the grenades to feel more complete and consistent to use. Their core functionalities have remained mostly intact, but some of their more random and unpredictable behaviors have been removed and altered.
