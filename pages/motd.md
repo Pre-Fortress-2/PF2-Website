@@ -15,7 +15,8 @@ permalink: "/motd.html"
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;"
+    height: 100%;
+	z-index: -1;"
     src="/img/chalkboard.png" alt="chalkboard">
     <div>
     <p style="text-align:center; margin:auto;">
