@@ -26,5 +26,9 @@ body {
     font-family: TF2build;
   }
   img {
-    height: 20px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
