@@ -19,9 +19,9 @@ permalink: "/motd.html"
         }
     </style>
     <div>
-    <p style="text-align:center; margin:auto;">
-    Welcome to Pre-Fortress 2, after 4 years of development, we hope it's been worth the wait.
-    </p>
-    <div>
+      <p style="text-align:center; margin:auto;">
+      Welcome to Pre-Fortress 2, after 4 years of development, we hope it's been worth the wait.
+      </p>
+    </div>
   </body>
 </html>
