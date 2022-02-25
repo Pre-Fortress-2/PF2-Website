@@ -13,7 +13,8 @@ NoImageEffect: 0
 
 Howdy, since joining the development team of PF2, there's been a lull in communication between us and you as the player. I've been working to close the gap between internal discussion and with players. 
 
-The following articles are what we feel y'all deserve to know about!
+The following articles are designed to bring y’all up to speed with what’s been happening behind the scenes!
+
 
 # End of Beta Accuracy
 
