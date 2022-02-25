@@ -25,7 +25,7 @@ permalink: "/motd.html"
     text-align:center;
     }
     div{
-      margin-top:50%;
+      margin-top:25%;
     }
   </style>
   </head>
