@@ -13,8 +13,8 @@ permalink: "/motd.html"
   <body>
     <div>
       <p>
-      Welcome to the Pre-Fortress 2 development server.
-      Have a fun playtest! 
+      Welcome to the Pre-Fortress 2 development server.<br>
+      Have a fun playtest!<br>
       We hope you go easy on us!
       </p>
       <img src="/img/logo.png" alt=logo>
