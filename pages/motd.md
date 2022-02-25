@@ -9,11 +9,12 @@ permalink: "/motd.html"
 	<meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#b73739">
 	<link rel="icon" href="https://prefortress.com/favicon.ico">
   </head>
-  <body img src="/img/chalkboard.png" style="
+  <body style="
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;">
+    <img src="/img/chalkboard.png">
   </body>
 </html>
