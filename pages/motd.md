@@ -16,6 +16,6 @@ permalink: "/motd.html"
     left: 0;
     width: 100%;
     height: 100%;"
-    src="/img/chalkboard.png">
+    src="/img/chalkboard.png" alt="chalkboard">
   </body>
 </html>
