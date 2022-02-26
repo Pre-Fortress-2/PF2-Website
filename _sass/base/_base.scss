@@ -120,6 +120,18 @@ picture {
 	border: solid gray 3px;
 }
 
+.feature-image2{
+	width: 100%; /* width of container */
+    height: 300px; /* height of container */
+    object-fit: cover;
+	object-position: 20% 70%;
+	border-radius: 10px;
+	border: solid gray 3px;
+	@media screen and (max-width: 767px){
+		height: 100%;
+	}
+}
+
 .feature-image{
 	width: 100%; /* width of container */
     height: 300px; /* height of container */

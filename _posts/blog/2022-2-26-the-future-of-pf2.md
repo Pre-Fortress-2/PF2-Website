@@ -8,7 +8,7 @@ author: Sour Dani
 hidden: false
 image: /assets/blog/images/sb-future_of_pf2.jpg
 permalink: /:categories/:slug
-NoImageEffect: 0
+NoImageEffect: 2
 ---
 
 Howdy, since joining the development team of PF2, there's been a lull in communication between us and you as the player. I've been working to close the gap between internal discussion and with players. 
