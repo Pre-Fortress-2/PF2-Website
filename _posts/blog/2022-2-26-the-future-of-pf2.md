@@ -2,10 +2,10 @@
 layout: blog
 title: "Blog"
 subject:  "The future of PF2"
-date:   2022-02-25 00:00:00 +1100
+date:   2022-02-26 00:00:00 +1100
 categories: blog
 author: Sour Dani
-hidden: true
+hidden: false
 image: /assets/blog/images/sb-future_of_pf2.jpg
 permalink: /:categories/:slug
 NoImageEffect: 0
@@ -18,11 +18,11 @@ The following articles are designed to bring y’all up to speed with what’s b
 
 # End of Beta Accuracy
 
-Earlier on in Pre-Fortress 2's development, we felt a strong sense of obligation to stay as close as possible to TF2's beta. The further along we got into development the more evident it became that it was a hinderance to the quality of the game, the quality of development and its identity as a source mod. We still believe strongly in capturing the essence and spirit of the beta, but as a team we are moving towards creating a more complete game rather than what is essentially a collection of unfinished ideas and concepts that the beta really was.
+Earlier on in Pre-Fortress 2's development, we felt a strong sense of obligation to stay as close as possible to TF2's beta. The further along we got into development, the more evident it became that it was a hinderance to the quality of the game, the quality of development and our identity as a source mod. We still believe strongly in capturing the essence and spirit of the beta, but as a team we are moving towards creating a more complete game rather than what is essentially a collection of unfinished ideas and concepts that the beta really was.
 
-A visual example I like to use is with the beta Soldier's model, the grenades on his chest are placeholder "eggs", it's representational rather then a finished design. In the next update we'll be replacing these egg-shaped orbs with actual frag grenades, which is more in-line with his release model. We feel that changes like this were inevitable and those egg grenades were never meant to be permanent. However concepts like Heavy's vest texture will remain as it's a unique identity of the beta model.
+A visual example I like to use is with the Soldier's beta model, the grenades on his chest are placeholder "eggs", it's representational rather then a finished design. In the next update we'll be replacing these egg-shaped orbs with actual frag grenades, which is more in-line with his release model. We feel that changes like this were inevitable and those egg grenades were never meant to be permanent. However, concepts like Heavy's vest texture will remain as it's a unique identity of his beta model.
 
-Henceforth, we are no longer a beta accurate mod, but a mod built pulling great influence from the beta era of TF2 as source material.
+Henceforth, we are no longer a beta accurate mod, but a mod built pulling great influence from the beta era of TF2, as source material.
 
 # Parting ways with Concussion Studios
 
@@ -41,5 +41,7 @@ major changes will be coming to Pre-Fortress 2:
 - New models, textures, animations, particles and sounds
 - New main menu system
 - The usual various bug fixes
+
+<i>Note: Features listed are of course, subject to change.</i>
 
 We have no definite date for a new update and we appreciate your patience!
