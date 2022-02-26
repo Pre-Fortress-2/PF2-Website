@@ -12,12 +12,11 @@ permalink: "/motd.html"
   </head>
   <body>
     <div>
-      <p>
-      Welcome to the Pre-Fortress 2 development server.<br>
-      Have a fun playtest!<br>
-      We hope you go easy on us!
-      </p>
       <img src="/img/logo.png" alt=logo>
+      <p>
+      Welcome to the Pre-Fortress 2 development server.<br><br>
+      Have a fun playtest!
+      </p>
     </div>
   </body>
 </html>
