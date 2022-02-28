@@ -7,7 +7,11 @@
       {
          "name": "Cyanide",
          "code": true,
-         "mapper": true
+         "mapper": true,
+         "other":
+         {
+            "English": "Lead Developer"
+         }
       },
       {
          "name": "Seal",
@@ -38,10 +42,6 @@
          "code": true
       },
       {
-         "name": "Chrits",
-         "code": true
-      },
-      {
          "name": "Nbc66",
          "code": true,
          "other":
@@ -54,22 +54,8 @@
          "models": true
       },
       {
-         "name": "Stachekip",
-         "textures": true,
-         "sounds": true,
-         "other":
-			{
-				"English": "Flexes"
-			}
-      },
-      {
          "name": "Xeller",
          "textures": true
-      },
-      {
-         "name": "Sandvich Thief",
-			"models": true,
-			"textures": true
       },
       {
          "name": "Redfire",
@@ -78,10 +64,6 @@
       {
          "name": "fi(v)e",
          "textures": true
-      },
-      {
-         "name": "Scarlett Ruby",
-         "code": true
       },
       {
          "name": "Farlander",
@@ -129,11 +111,38 @@
       },
       {
          "name": "Jasper",
+         "models": true,
          "textures": true
       },
       {
          "name": "Unhelpful Git",
          "models": true
+      },
+      {
+         "name": "Mr. Light",
+         "other": {
+            "English":"SFM Artist"
+         }
+      },
+      {
+         "name": "MrModez",
+         "other": {
+            "English":"Musician"
+         }
+      },
+      {
+         "name": "Polybrow",
+         "other": {
+            "English":"Musician"
+         }
+      },
+      {
+         "name": "zythe_",
+         "mapper": true
+      },
+      {
+         "name": "Blazer",
+         "concepts": true
       }
    ],
    "contributors": [
@@ -237,7 +246,7 @@
 			}
       },
       {
-         "name": "Krowing",
+         "name": "Witchkross",
          "tester": true,
 			"concepts": true
       },
@@ -308,6 +317,50 @@
       {
          "name": "xamps",
          "models": true
+      },
+      {
+         "name": "Sandvich Thief",
+			"models": true,
+			"textures": true
+      },
+      {
+         "name": "Chrits",
+         "code": true
+      },
+      {
+         "name": "Stachekip",
+         "textures": true,
+         "sounds": true,
+         "other":
+			{
+				"English": "Flexes"
+			}
+      },
+      {
+         "name": "Herwork06",
+         "tester": true,
+         "other":
+         {
+            "English": "Server hosting"
+         }
+      },
+      {
+         "name": "FigMan57",
+         "other":
+         {
+            "English": "Server hosting"
+         }
+      },
+      {
+         "name": "Scarlett Ruby",
+         "code": true
+      },
+      {
+         "name": "barcode scanner",
+         "other":
+         {
+            "English": "Server hosting"
+         }
       }
    ],
    "playtesters":
@@ -374,8 +427,43 @@
       },
       {
          "name": "sonicdude143"
+      },
+      {
+         "name": "Cheddar"
+      },
+      {
+         "name": "Heavy"
+      },
+      {
+         "name": "LuizFilipeRN"
+      },
+      {
+         "name": "ShakSheep"
+      },
+      {
+         "name": "Lidrey"
+      },
+      {
+         "name": "Cardlin"
+      },
+      {
+         "name": "engineerexit"
+      },
+      {
+         "name": "Igarni"
+      },
+      {
+         "name": "Lev1679"
+      },
+      {
+         "name": "Lilybug33"
+      },
+      {
+         "name": "Stoneman"
+      },
+      {
+         "name": "Withered Rose"
       }
-
    ],
    "special":
    [
