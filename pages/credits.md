@@ -33,7 +33,13 @@ subject: "Credits for Pre-Fortress 2"
                 {% assign credit = entry.name %}
 
                 {% if entry.lead == true %}
-                     {% assign credit = credit | append: " - Project Lead" %}
+                    {% if rolecount > 0 %}
+                    {% assign credit = credit | append: ", " %}
+                    {% else %}
+                    {% assign credit = credit | append: " - " %}
+                    {% endif %}
+
+                    {% assign credit = credit | append: "Project Lead" %}
                     {% assign rolecount = rolecount | plus:1 %}
                 {% endif %}
 
