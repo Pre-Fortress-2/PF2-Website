@@ -20,7 +20,7 @@ The following articles are designed to bring y’all up to speed with what’s b
 
 Earlier on in Pre-Fortress 2's development, we felt a strong sense of obligation to stay as close as possible to TF2's beta. The further along we got into development, the more evident it became that it was a hinderance to the quality of the game, the quality of development and our identity as a source mod. We still believe strongly in capturing the essence and spirit of the beta, but as a team we are moving towards creating a more complete game rather than what is essentially a collection of unfinished ideas and concepts that the beta really was.
 
-A visual example I like to use is with the Soldier's beta model, the grenades on his chest are placeholder "eggs", it's representational rather than a finished design. In the next update we'll be replacing these egg-shaped orbs with actual frag grenades, which is more in-line with his release model. We feel that changes like this were inevitable and those egg grenades were never meant to be permanent. However, concepts like Heavy's vest texture will remain as it's a unique identity of his beta model.
+A visual example I like to use is with the Soldier's beta model. The grenades on his chest are placeholder "eggs" and it's representational rather than a finished design. In the next update we'll be replacing these egg-shaped orbs with actual frag grenades. This is more in-line with his model from the release of TF2. We feel that changes like this were inevitable and those egg grenades were never meant to be permanent. However, concepts like Heavy's vest texture will remain as it's a unique identity of his beta model.
 
 Henceforth, we are no longer a beta accurate mod, but a mod built pulling great influence from the beta era of TF2, as source material.
 
@@ -45,3 +45,9 @@ major changes will be coming to Pre-Fortress 2:
 <i>Note: Features listed are of course, subject to change.</i>
 
 We have no definite date for a new update and we appreciate your patience!
+<br>
+
+<h2><i>EDIT:</i></h2>
+End of Beta Accuracy does not mean we will be entirely foregoing beta concepts and gameplay.
+
+Think of it as rather then preserving the beta in a broken and unfinished state, we are fixing these unfinished concepts and designs.
