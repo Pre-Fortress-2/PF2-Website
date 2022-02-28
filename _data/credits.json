@@ -361,6 +361,10 @@
          {
             "English": "Server hosting"
          }
+      },
+      {
+         "name": "Bradasparky",
+         "mapper": true
       }
    ],
    "playtesters":
