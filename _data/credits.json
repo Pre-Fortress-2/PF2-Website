@@ -70,10 +70,6 @@
          "animation": true
       },
       {
-         "name": "Jeevestew",
-         "textures": true
-      },
-      {
          "name": "Coldchou Zhao",
          "animation": true
       },
@@ -143,6 +139,15 @@
       {
          "name": "Blazer",
          "concepts": true
+      },
+      {
+         "name": "HDMine Face",
+         "tester": true,
+         "mapper": true
+      },
+      {
+         "name": "[N-cognito]",
+         "animation": true
       }
    ],
    "contributors": [
@@ -217,11 +222,6 @@
       {
          "name": "Ghetto Gamer",
          "concepts": true
-      },
-      {
-         "name": "HDMine Face",
-         "tester": true,
-         "mapper": true
       },
       {
          "name": "Horiuchi",
@@ -365,6 +365,10 @@
       {
          "name": "Bradasparky",
          "mapper": true
+      },
+      {
+         "name": "Jeevestew",
+         "textures": true
       }
    ],
    "playtesters":
