@@ -37,6 +37,17 @@ subject: "Credits for Pre-Fortress 2"
                     {% assign rolecount = rolecount | plus:1 %}
                 {% endif %}
 
+                {% if entry.devlead == true %}
+                    {% if rolecount > 0 %}
+                    {% assign credit = credit | append: ", " %}
+                    {% else %}
+                    {% assign credit = credit | append: " - " %}
+                    {% endif %}
+
+                    {% assign credit = credit | append: "Lead Developer" %}
+                    {% assign rolecount = rolecount | plus:1 %}
+                {% endif %}
+
                 {% if entry.code == true %}
                     {% if rolecount > 0 %}
                     {% assign credit = credit | append: ", " %}
@@ -114,16 +125,6 @@ subject: "Credits for Pre-Fortress 2"
                     {% assign rolecount = rolecount | plus:1 %}
                 {% endif %}
 
-                {% if entry.tester == true %}
-                    {% if rolecount > 0 %}
-                    {% assign credit = credit | append: ", " %}
-                    {% else %}
-                    {% assign credit = credit | append: " - " %}
-                    {% endif %}
-
-                    {% assign credit = credit | append: "Tester" %}
-                    {% assign rolecount = rolecount | plus:1 %}
-                {% endif %}
 
                 {% if entry.concepts == true %}
                     {% if rolecount > 0 %}
@@ -158,6 +159,39 @@ subject: "Credits for Pre-Fortress 2"
                         {% assign credit = credit | append: lang | append: " localization" %}
                         {% assign rolecount = rolecount | plus:1 %}
                     {% endfor %}
+                {% endif %}
+
+                {% if entry.sfm == true %}
+                    {% if rolecount > 0 %}
+                    {% assign credit = credit | append: ", " %}
+                    {% else %}
+                    {% assign credit = credit | append: " - " %}
+                    {% endif %}
+
+                    {% assign credit = credit | append: "SFM Artist" %}
+                    {% assign rolecount = rolecount | plus:1 %}
+                {% endif %}
+
+                {% if entry.server == true %}
+                    {% if rolecount > 0 %}
+                    {% assign credit = credit | append: ", " %}
+                    {% else %}
+                    {% assign credit = credit | append: " - " %}
+                    {% endif %}
+
+                    {% assign credit = credit | append: "Server hosting" %}
+                    {% assign rolecount = rolecount | plus:1 %}
+                {% endif %}
+
+                {% if entry.tester == true %}
+                    {% if rolecount > 0 %}
+                    {% assign credit = credit | append: ", " %}
+                    {% else %}
+                    {% assign credit = credit | append: " - " %}
+                    {% endif %}
+
+                    {% assign credit = credit | append: "Tester" %}
+                    {% assign rolecount = rolecount | plus:1 %}
                 {% endif %}
 
                 {{ credit }}

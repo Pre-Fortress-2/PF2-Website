@@ -6,12 +6,9 @@
       },
       {
          "name": "Cyanide",
+         "devlead": true,
          "code": true,
-         "mapper": true,
-         "other":
-         {
-            "English": "Lead Developer"
-         }
+         "mapper": true
       },
       {
          "name": "Seal",
@@ -84,10 +81,7 @@
       {
          "name": "Wendie",
 			"mapper": true,
-			"other":
-			{
-				"English": "SFM Artist"
-			}
+         "sfm": true
       },
       {
          "name": "Justyn",
@@ -116,9 +110,7 @@
       },
       {
          "name": "Mr. Light",
-         "other": {
-            "English":"SFM Artist"
-         }
+         "sfm": true
       },
       {
          "name": "MrModez",
@@ -226,10 +218,7 @@
          "name": "Horiuchi",
          "tester": true,
          "mapper": true,
-         "other":
-         {
-            "English": "Server hosting"
-         }
+         "server": true
       },
       {
          "name": "Cream",
@@ -338,17 +327,11 @@
       {
          "name": "Herwork06",
          "tester": true,
-         "other":
-         {
-            "English": "Server hosting"
-         }
+         "server": true
       },
       {
          "name": "FigMan57",
-         "other":
-         {
-            "English": "Server hosting"
-         }
+         "server": true
       },
       {
          "name": "Scarlett Ruby",
@@ -356,10 +339,7 @@
       },
       {
          "name": "barcode scanner",
-         "other":
-         {
-            "English": "Server hosting"
-         }
+         "server": true
       },
       {
          "name": "Bradasparky",
