@@ -47,7 +47,7 @@ major changes will be coming to Pre-Fortress 2:
 We have no definite date for a new update and we appreciate your patience!
 <br>
 
-<h2><i>EDIT:</i></h2>
+<h2><i>NOTE:</i></h2>
 End of Beta Accuracy does not mean we will be entirely foregoing beta concepts and gameplay.
 
-Think of it as rather then preserving the beta in a broken and unfinished state, we are fixing these unfinished concepts and designs.
+Think of it as rather then preserving the beta in a broken and unfinished state, we are fixing these unfinished concepts and designs. We have actually been practicing this game design philosophy for some time, it was just never officially stated.
