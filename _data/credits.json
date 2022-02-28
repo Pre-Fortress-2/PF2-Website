@@ -114,15 +114,11 @@
       },
       {
          "name": "MrModez",
-         "other": {
-            "English":"Musician"
-         }
+         "music": true
       },
       {
          "name": "Polybrow",
-         "other": {
-            "English":"Musician"
-         }
+         "music": true
       },
       {
          "name": "zythe_",

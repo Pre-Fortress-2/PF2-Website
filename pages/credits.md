@@ -182,6 +182,28 @@ subject: "Credits for Pre-Fortress 2"
                     {% assign credit = credit | append: "Server hosting" %}
                     {% assign rolecount = rolecount | plus:1 %}
                 {% endif %}
+                
+                {% if entry.music == true %}
+                    {% if rolecount > 0 %}
+                    {% assign credit = credit | append: ", " %}
+                    {% else %}
+                    {% assign credit = credit | append: " - " %}
+                    {% endif %}
+
+                    {% assign credit = credit | append: "Musician" %}
+                    {% assign rolecount = rolecount | plus:1 %}
+                {% endif %}
+
+                {% if entry.rig == true %}
+                    {% if rolecount > 0 %}
+                    {% assign credit = credit | append: ", " %}
+                    {% else %}
+                    {% assign credit = credit | append: " - " %}
+                    {% endif %}
+
+                    {% assign credit = credit | append: "Rigging" %}
+                    {% assign rolecount = rolecount | plus:1 %}
+                {% endif %}
 
                 {% if entry.tester == true %}
                     {% if rolecount > 0 %}
