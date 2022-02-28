@@ -43,7 +43,10 @@
          "code": true,
          "other":
          {
-            "English": "Discord RPC implementation"
+            "English": 
+            [
+               "Discord RPC implementation"
+            ]
          }
       },
       {
@@ -60,7 +63,9 @@
       },
       {
          "name": "fi(v)e",
-         "textures": true
+         "textures": true,
+         "concepts": true,
+         "icon": true
       },
       {
          "name": "Farlander",
@@ -90,10 +95,15 @@
       {
          "name": "Sour Dani",
          "code": true,
-         "other":
+         "other": 
          {
-         	"English": "Domain owner, Menu Designer"
+            "English":
+            [
+               "Domain Owner",
+               "Menu Designer"
+            ]
          }
+            
       },
       {
          "name": "NeoExperiences",
@@ -172,10 +182,7 @@
          "name": "Boba",
          "tester": true,
 			"particles": true,
-			"other":
-			{
-				"English": "Graphic Design"
-			}
+			"graphics": true
       },
       {
          "name": "Cadillac",
@@ -226,7 +233,11 @@
 			"mapper": true,
 			"other":
 			{
-				"English": "Beta Badlands remake"
+				"English":
+            [
+               "Beta Badlands remake"
+            ]
+            
 			}
       },
       {
@@ -242,16 +253,16 @@
       {
          "name": "Tyler McVicker",
          "tester": true,
-			"other":
-			{
-				"English": "Promotion"
-			}
+			"promo": true
       },
       {
          "name": "Sage J. Fox",
          "other":
 			{
-				"English": "Det-Pack model"
+				"English": 
+            [
+               "Det-Pack model"
+            ]
 			}
       },
       {
@@ -277,16 +288,16 @@
       {
          "name": "HypnOS 1999",
          "tester": true,
-         "other":
-         {
-            "English": "Icons"
-         }
+         "icon": true
       },
 		{
          "name": "Skyrym",
 			"other":
 			{
-				"English": "LOD for player models"
+				"English": 
+            [
+               "LOD for player models"
+            ]
 			}
 		},
       {
@@ -315,10 +326,7 @@
          "name": "Stachekip",
          "textures": true,
          "sounds": true,
-         "other":
-			{
-				"English": "Flexes"
-			}
+         "flex": true
       },
       {
          "name": "Herwork06",
@@ -454,7 +462,10 @@
          "name": "Nicknine",
 			"other":
 			{
-				"English": "For originally porting 2008 TF2 to the 2013 SDK"
+				"English": 
+            [
+               "For originally porting 2008 TF2 to the 2013 SDK"
+            ]
 			}
 		}
    ],

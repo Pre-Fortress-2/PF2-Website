@@ -137,17 +137,6 @@ subject: "Credits for Pre-Fortress 2"
                     {% assign rolecount = rolecount | plus:1 %}
                 {% endif %}
 
-                {% if entry.other %}
-                    {% if rolecount > 0 %}
-                    {% assign credit = credit | append: ", " %}
-                    {% else %}
-                    {% assign credit = credit | append: " - " %}
-                    {% endif %}
-
-                    {% assign credit = credit | append: entry.other.English %}
-                    {% assign rolecount = rolecount | plus:1 %}
-                {% endif %}
-
                 {% if entry.localization %}
                     {% for lang in entry.localization %}
                         {% if rolecount > 0 %}
@@ -203,6 +192,63 @@ subject: "Credits for Pre-Fortress 2"
 
                     {% assign credit = credit | append: "Rigging" %}
                     {% assign rolecount = rolecount | plus:1 %}
+                {% endif %}
+
+                {% if entry.icon == true %}
+                    {% if rolecount > 0 %}
+                    {% assign credit = credit | append: ", " %}
+                    {% else %}
+                    {% assign credit = credit | append: " - " %}
+                    {% endif %}
+
+                    {% assign credit = credit | append: "Icons" %}
+                    {% assign rolecount = rolecount | plus:1 %}
+                {% endif %}
+
+                {% if entry.flex == true %}
+                    {% if rolecount > 0 %}
+                    {% assign credit = credit | append: ", " %}
+                    {% else %}
+                    {% assign credit = credit | append: " - " %}
+                    {% endif %}
+
+                    {% assign credit = credit | append: "Flexes" %}
+                    {% assign rolecount = rolecount | plus:1 %}
+                {% endif %}
+
+                {% if entry.graphics == true %}
+                    {% if rolecount > 0 %}
+                    {% assign credit = credit | append: ", " %}
+                    {% else %}
+                    {% assign credit = credit | append: " - " %}
+                    {% endif %}
+
+                    {% assign credit = credit | append: "Graphic Design" %}
+                    {% assign rolecount = rolecount | plus:1 %}
+                {% endif %}
+
+                {% if entry.promo == true %}
+                    {% if rolecount > 0 %}
+                    {% assign credit = credit | append: ", " %}
+                    {% else %}
+                    {% assign credit = credit | append: " - " %}
+                    {% endif %}
+
+                    {% assign credit = credit | append: "Promotion" %}
+                    {% assign rolecount = rolecount | plus:1 %}
+                {% endif %}
+                
+                {% if entry.other %}
+                    {% for help in entry.other.English %}
+                        {% if rolecount > 0 %}
+                        {% assign credit = credit | append: ", " %}
+                        {% else %}
+                        {% assign credit = credit | append: " - " %}
+                        {% endif %}
+
+                        {% assign credit = credit | append: help %}
+                        {% assign rolecount = rolecount | plus:1 %}
+                    {% endfor %}
                 {% endif %}
 
                 {% if entry.tester == true %}
