@@ -37,6 +37,10 @@ permalink: "/credits.txt"
 			<br>
 			"lead"  "1"
 		{%- endif -%}
+		{%- if entry.devlead -%}
+			<br>
+			"devlead"  "1"
+		{%- endif -%}
 		{%- if entry.code -%}
 			<br>
 			"code"  "1"
@@ -51,7 +55,7 @@ permalink: "/credits.txt"
 		{%- endif -%}
 		{%- if entry.textures -%}
 			<br>
-			"textures"  "1}"
+			"textures"  "1"
 		{%- endif -%}
 		{%- if entry.animation -%}
 			<br>
@@ -73,11 +77,53 @@ permalink: "/credits.txt"
 			<br>
 			"concepts"  "1"
 		{%- endif -%}
+		{%- if entry.sfm -%}
+			<br>
+			"sfm"  "1"
+		{%- endif -%}
+		{%- if entry.server -%}
+			<br>
+			"server"  "1"
+		{%- endif -%}
+		{%- if entry.music -%}
+			<br>
+			"music"  "1"
+		{%- endif -%}
+		{%- if entry.rig -%}
+			<br>
+			"rig"  "1"
+		{%- endif -%}
+		{%- if entry.icon -%}
+			<br>
+			"icon"  "1"
+		{%- endif -%}
+		{%- if entry.flex -%}
+			<br>
+			"flex"  "1"
+		{%- endif -%}
+		{%- if entry.graphics -%}
+			<br>
+			"graphics"  "1"
+		{%- endif -%}
+		{%- if entry.promo -%}
+			<br>
+			"promo"  "1"
+		{%- endif -%}
 		{%- if entry.other -%}
 			<br>
 			"other"
 			{
-				"English"  "{{- entry.other.English -}}"
+		{%- assign credit = "" -%}
+		{%- assign rolecount = 0 -%}
+		{%- for help in entry.other.English -%}
+			{%- if rolecount > 0 -%}
+			{%- assign credit = credit | append: ", " -%}
+			{%- endif -%}
+			{%- assign credit = credit | append: help -%}
+			{%- assign rolecount = rolecount | plus:1 -%}
+		{%- endfor -%}
+				<br>
+				"English"	"{{ credit }}"
 			}
 		{%- endif -%}
 		{%- if entry.localization -%}
