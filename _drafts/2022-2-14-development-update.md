@@ -5,6 +5,7 @@ subject:  "What we've been working on"
 date:   2022-02-14 00:12:00 +1100
 categories: drafts
 permalink: /:categories/:slug-:year:month
+description: "lorem ipsum"
 author: Cyanide
 image: /assets/blog/images/sb-work.png
 NoImageEffect: 0
