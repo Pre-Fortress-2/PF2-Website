@@ -2,7 +2,7 @@
 layout: blog
 title: "Blog"
 subject:  "The future of PF2"
-date:   2022-02-26 13:47:00 +1100
+date:   2022-02-26 13:47:00 -0500
 categories: blog
 author: Sour Dani
 hidden: false

@@ -2,13 +2,13 @@
 layout: blog
 title: "Blog"
 subject:  "Understanding Armor"
-date:   2022-03-01 00:01:00 +1100
+date:   2022-03-01 00:13:00 -0500
 categories: blog
 author: Seal
 description: "lorem ipsum"
 hidden: true
 image: /assets/blog/images/sb-spy.jpg
-permalink: /:categories/understanding-armor
+permalink: /:categories/:slug
 NoImageEffect: 1
 ---
 

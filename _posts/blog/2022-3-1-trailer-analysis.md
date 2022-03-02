@@ -2,13 +2,13 @@
 layout: blog
 title: "Blog"
 subject:  "Trailer Analysis"
-date:   2022-03-01 00:01:00 +1100
+date:   2022-03-01 00:13:00 -0500
 categories: blog
 author: Kristofer and RedFire
 description: "lorem ipsum"
 hidden: true
 image: /assets/blog/images/sb-spy.jpg
-permalink: /:categories/trailer-analysis
+permalink: /:categories/:slug
 NoImageEffect: 1
 ---
 
