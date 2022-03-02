@@ -145,6 +145,10 @@
       {
          "name": "[N-cognito]",
          "animation": true
+      },
+      {
+         "name": "HypnOS 1999",
+         "icon": true
       }
    ],
    "contributors": [
@@ -284,11 +288,6 @@
 			[
 				"Ukrainian"
          ]
-      },
-      {
-         "name": "HypnOS 1999",
-         "tester": true,
-         "icon": true
       },
 		{
          "name": "Skyrym",
