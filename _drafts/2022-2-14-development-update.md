@@ -8,6 +8,7 @@ permalink: /:categories/:slug-:year:month
 description: "lorem ipsum"
 author: Cyanide
 image: /assets/blog/images/sb-work.png
+permalink: /:categories/:slug
 NoImageEffect: 0
 ---
 
