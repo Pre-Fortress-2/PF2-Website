@@ -5,6 +5,7 @@ subject:  "Source Mods as a hobby"
 date:   2022-03-01 00:01:00 +1100
 categories: blog
 author: Sour Dani
+description: "lorem ipsum"
 hidden: true
 image: /assets/blog/images/sb-spy.jpg
 permalink: /:categories/:slug
