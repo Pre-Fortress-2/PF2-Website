@@ -8,7 +8,7 @@ author: Seal
 description: "lorem ipsum"
 hidden: true
 image: /assets/blog/images/sb-spy.jpg
-permalink: /:categories/:slug
+permalink: /:categories/understanding-armor
 NoImageEffect: 1
 ---
 

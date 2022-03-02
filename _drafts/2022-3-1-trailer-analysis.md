@@ -8,7 +8,7 @@ author: Kristofer and RedFire
 description: "lorem ipsum"
 hidden: true
 image: /assets/blog/images/sb-spy.jpg
-permalink: /:categories/:slug
+permalink: /:categories/trailer-analysis
 NoImageEffect: 1
 ---
 
