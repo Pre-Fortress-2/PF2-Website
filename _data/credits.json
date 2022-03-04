@@ -351,6 +351,12 @@
       {
          "name": "Jeevestew",
          "textures": true
+      },
+      {
+         "name": "Marphy Black",
+         "other":{
+            "English": "VOX Announcer"
+         }
       }
    ],
    "playtesters":
