@@ -163,7 +163,7 @@ subject: "Credits for Pre-Fortress 2"
                     {% assign credit = credit | append: " - " %}
                     {% endif %}
 
-                    {% assign credit = credit | append: "SFM Artist" %}
+                    {% assign credit = credit | append: "SFM Art" %}
                     {% assign rolecount = rolecount | plus:1 %}
                 {% endif %}
 
@@ -185,7 +185,7 @@ subject: "Credits for Pre-Fortress 2"
                     {% assign credit = credit | append: " - " %}
                     {% endif %}
 
-                    {% assign credit = credit | append: "Musician" %}
+                    {% assign credit = credit | append: "Music" %}
                     {% assign rolecount = rolecount | plus:1 %}
                 {% endif %}
 
