@@ -13,6 +13,9 @@ layout: default
 <img class="feature-image-default" src="{{- postImage | relative_url -}}" alt="">
 {%- endif -%}
 {%- endif -%}
+{% if page.ImageDescription %}
+    <p style="text-align: center;" class="image-subheading">{{ page.ImageDescription | escape }}</p>
+{% endif %}
 <h1 class="credit-title">{{ page.subject | escape }}</h1>
 <h3 class="author">{{page.author | default:"PF2 Team" }} - {{ page.date | date: "%b %-d, %Y" }}</h3>
 <hr>
