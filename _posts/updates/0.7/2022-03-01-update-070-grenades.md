@@ -26,11 +26,11 @@ None of the animations are final.
 
 If you've played the mod you know grenades can be *little* unpredictable in how they bounce off the world. In the early days of the mod things were even worse as the grenade's lacked customized physics properties which made them slide and roll around a lot. This was especially noticeable when attempting to set up a conc jump as the grenade would roll away.
 
-In TFC and QWTF grenade's interactions with the world are not subject to the calculations of a complex physics engine, instead they would bounce off surfaces simply but predictably. So it was decided to change the grenades to interact and bounce off the world as they would prior to the Source engine.
+At some point I decided this was a problem I wanted to solve as I felt that the unpredictability in how they bounced and rolled around was hampering their usability. In TFC and QWTF grenade's interactions with the world are not subject to the calculations of a complex physics engine, instead they would bounce off surfaces simply but predictably. So I decided to change the grenades to interact and bounce off the world the same way they did in prior games.
 
 {% include video.html video='throw-comparison.mp4' text="Left is with the old physics. Right is with the new physics" loop=1 blog=1 %}
 
-There was of course some initial resistance and push back to the idea, however the change was very well received in play testing.
+There was of course some initial resistance and push back to this change, part of that was probably how I had initially presented the idea, as it was extremely incomplete and didn't look great _immersion-wise_. Despite this, the change did end up being well received in play testing.
 
 # Timer HUD
 
@@ -49,4 +49,8 @@ One of the play testers brought forward the idea of defusing grenades, the justi
 
 # The Gas Grenade
 
-This might be a bit of a controversial section. If you've ever played TFC, you know the hallucination effect is both underwhelming, rather annoying and overall just not very convincing. On the topic of unconvincing, I'm not particularly convinced anything was really done with it in the beta as spy's secondary grenade slot has the smoke bomb, so in the era we're supposed to be focusing on it probably doesn't exist. This has been one of those things were not trying to stick with beta or cherry-picking interesting or weird things from TFC has come in handy, as it is as of right now the gas grenades' functionality is quite simple, if you touch it you lose health and you have "drunk vision" applied to you in increasing severity if you keep choking on it, while standing in it you'll also have your armor quickly melted away. My hopes with this implementation is for it to not be a grenade of pure griefing, but rather something you don't want to go near, it's not gonna kill you, but it's gonna weaken you, and it's gonna make things a bit harder to make out. So really the intent is for it to be a keep away grenade
+This has been one of those things were strictly sticking to beta accuracy or TFC has been beneficial. If you've ever played TFC you know the hallucination effect is underwhelming and not very convincing whilst also being a bit annoying. Implementing a hallucination effect like TFC's is possible, but it's something I've been strongly apposed to. If the hallucinations were to be made convincing it would be an extreme nuisance, but if it was left as unconvincing it would be about as useful as the gas grenade previously was. Right now the grenades' functionality is quite simple, whilst in its area of effect you lose health and you have "drunk vision" applied to you in increasing severity. While standing in it you'll also have your armor quickly melted away. 
+
+{% include video.html video='gas-grenade.mp4' loop=1 blog=1 %}
+
+My hopes with this implementation is for it to be more of a lite area denial grenade, it's not likely to kill you, but it's immediately gonna make you more vulnerable by sapping away your first line of protection. 
