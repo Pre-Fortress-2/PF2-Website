@@ -360,6 +360,7 @@
       },
       {
          "name": "Iago",
+         "tester":true,
          "localization":
 			[
 				"Portuguese"
@@ -367,6 +368,7 @@
       },
       {
          "name": "Spoonastic",
+         "tester":true,
          "localization":
 			[
 				"Spanish"
