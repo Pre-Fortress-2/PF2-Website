@@ -149,6 +149,11 @@
       {
          "name": "HypnOS 1999",
          "icon": true
+      },
+      {
+         "name": "G-Gnome505",
+         "models": true,
+         "animation": true
       }
    ],
    "contributors": [
@@ -211,11 +216,6 @@
       {
          "name": "Ficool2",
          "models": true
-      },
-      {
-         "name": "G-Gnome505",
-         "models": true,
-         "animation": true
       },
       {
          "name": "Ghetto Gamer",
@@ -357,6 +357,20 @@
          "other":{
             "English": "VOX Announcer"
          }
+      },
+      {
+         "name": "Iago",
+         "localization":
+			[
+				"Portuguese"
+         ]
+      },
+      {
+         "name": "Spoonastic",
+         "localization":
+			[
+				"Spanish"
+         ]
       }
    ],
    "playtesters":
@@ -459,6 +473,18 @@
       },
       {
          "name": "Withered Rose"
+      },
+      {
+         "name": "c.marti"
+      },
+      {
+         "name": "coke"
+      },
+      {
+         "name": "chadwarden"
+      },
+      {
+         "name": "c.marti"
       }
    ],
    "special":
