@@ -384,109 +384,103 @@
          "name": "Bumpmap"
       },
       {
-         "name": "Cyruktez"
-      },
-      {
-         "name": "EverMatt"
-      },
-      {
-         "name": "GermanPeter"
-      },
-      {
-         "name": "MacD11"
-      },
-      {
-         "name": "Marioiscool246"
-      },
-      {
-         "name": "Sapphire Sky"
-      },
-      {
-         "name": "Madison"
-      },
-      {
-         "name": "KingSluggies"
-      },
-      {
-         "name": "floppyschoice"
-      },
-      {
-         "name": "Mhiyako"
-      },
-      {
-         "name": "The Socialable"
-      },
-      {
-         "name": "EskiM0JOJ0"
-      },
-      {
-         "name": "Mugg"
-      },
-      {
-         "name": "MTD"
-      },
-      {
-         "name": "Mastervandeisel"
-      },
-      {
-         "name": "Teavil"
-      },
-      {
-         "name": "DustyDalken"
-      },
-      {
-         "name": "CoolBoy736"
-      },
-      {
-         "name": "sonicdude143"
-      },
-      {
-         "name": "Cheddar"
-      },
-      {
-         "name": "Heavy"
-      },
-      {
-         "name": "LuizFilipeRN"
-      },
-      {
-         "name": "ShakSheep"
-      },
-      {
-         "name": "Lidrey"
+         "name": "c.marti"
       },
       {
          "name": "Cardlin"
       },
       {
+         "name": "chadwarden"
+      },
+      {
+         "name": "Cheddar"
+      },
+      {
+         "name": "coke"
+      },
+      {
+         "name": "CoolBoy736"
+      },
+      {
+         "name": "Cyruktez"
+      },
+      {
+         "name": "DustyDalken"
+      },
+      {
          "name": "engineerexit"
+      },
+      {
+         "name": "EskiM0JOJ0"
+      },
+      {
+         "name": "EverMatt"
+      },
+      {
+         "name": "floppyschoice"
+      },
+      {
+         "name": "GermanPeter"
+      },
+      {
+         "name": "Heavy"
       },
       {
          "name": "Igarni"
       },
       {
+         "name": "KingSluggies"
+      },
+      {
          "name": "Lev1679"
       },
       {
+         "name": "Lidrey"
+      }, 
+      {
          "name": "Lilybug33"
+      },
+      {
+         "name": "Luanyx"
+      },
+      {
+         "name": "LuizFilipeRN"
+      },
+      {
+         "name": "MacD11"
+      },
+      {
+         "name": "Madison"
+      },
+      {
+         "name": "Marioiscool246"
+      },
+      {
+         "name": "Mastervandeisel"
+      },
+      {
+         "name": "Mhiyako"
+      },
+      {
+         "name": "MTD"
+      },
+      {
+         "name": "Mugg"
+      },
+      {
+         "name": "Sapphire Sky"
+      },
+      {
+         "name": "ShakSheep"
+      },
+      {
+         "name": "sonicdude143"
       },
       {
          "name": "Stoneman"
       },
       {
          "name": "Withered Rose"
-      },
-      {
-         "name": "c.marti"
-      },
-      {
-         "name": "coke"
-      },
-      {
-         "name": "chadwarden"
-      },
-      {
-         "name": "c.marti"
       }
    ],
    "special":
@@ -511,13 +505,13 @@
          "name": "Open Fortress"
       },
       {
+         "name": "Source SDK 2013 Community Edition"
+      },
+      {
          "name": "Team Fortress 2 Classic"
       },
       {
          "name": "Team Fortress 2 Vintage"
-      },
-      {
-         "name": "Source SDK 2013 Community Edition"
       }
    ]
 }  
