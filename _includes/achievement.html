@@ -1,0 +1,63 @@
+
+<style>
+
+h2.achievement{
+    height: 120px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: gray;
+    text-align: left;
+    width: 100%;
+    padding-top: 36px;
+    padding-left: 10px;
+    max-width: 630px;
+    margin-bottom: 10px;
+}
+
+.achievement img{
+    width: auto;
+    height: 100px;
+    display: inline-block;
+    float: left;
+    margin-left: 2px;
+    margin-top: -28px;
+    margin-right: 10px;
+}
+
+.achievement p{
+    padding-top: 5px;
+}
+
+@media screen and (max-width: 767px){
+        
+    .achievement img{
+        width: auto;
+        height: 80px;
+        display: inline-block;
+        float: left;
+        margin-left: 2px;
+        margin-top: -14px;
+        margin-right: 10px;
+    }
+
+    h2.achievement{
+        height: 120px;
+        border: 1px solid #000;
+        border-radius: 10px;
+        background-color: gray;
+        text-align: left;
+        width: auto;
+        padding-top: 36px;
+        padding-left: 10px;
+        font-size: medium;
+    }
+
+    .achievement p{
+        padding-top: 5px;
+        font-size: small;
+    }
+
+}
+
+</style>
+<h2 class="achievement"><img src="{{ include.ach_image }}"><strong>{{include.ach_name}}</strong><br><p>{{include.ach_desc}}</p></h2>
