@@ -53,4 +53,4 @@ This has been one of those things were strictly sticking to beta accuracy or TFC
 
 {% include video.html video='gas-grenade.mp4' loop=1 blog=1 %}
 
-My hopes with this implementation is for it to be more of a lite area denial grenade, it's not likely to kill you, but it's immediately gonna make you more vulnerable by sapping away your first line of protection. 
+My hopes with this implementation is for it to be more of a lite area denial grenade, it's not likely to kill you, but it's gonna start sapping away your first line of protection making you pretty vulnerable. 
