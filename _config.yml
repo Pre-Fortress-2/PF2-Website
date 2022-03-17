@@ -15,3 +15,7 @@ google_analytics: G-Q8T3T3HDGV
 highlighter: rouge
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from

@@ -3,7 +3,7 @@ layout: blog
 title: "Blog"
 subject:  "Source Mods as a hobby"
 date:   2022-03-01 00:13:00 -0500
-categories: blog
+categories: posts
 author: Sour Dani
 description: "lorem ipsum"
 hidden: true

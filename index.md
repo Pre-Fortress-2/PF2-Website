@@ -4,7 +4,7 @@ title: "About"
 subject: "Pre-Fortress 2"
 ---
 <!-- Left Area in PC screens -->
-<div class="about-content">
+<div class="about-content" style="position:relative;">
     <div class="left-area">
         <!-- About Intro -->
         <p class="text"><strong> Pre-Fortress 2</strong> is a TF2 sourcemod that aims to bridge the gap between Team Fortress Classic and Team Fortress 2 to    provide fresh new experiences by combining the fast paced action of Team Fortress Classic with the streamlined Team Fortress 2.</p>
@@ -24,4 +24,5 @@ subject: "Pre-Fortress 2"
             <a href="https://www.youtube.com/channel/UCiq_1q67x00inzrY4WIQPng" target="_blank"><img src="./img/btn_youtube.png" alt="" class="youtube-img   join-img"></a>
         </div>
     </div>
+    {% include latestposts.html %}
 </div>

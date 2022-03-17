@@ -1,7 +1,7 @@
 ---
 layout: category
-title:  "Updates"
+title:  "Blog"
 permalink: /updates/
 category: updates
-subject: "Update blog for Pre-Fortress 2"
+subject: "Updates for Pre-Fortress 2"
 ---
