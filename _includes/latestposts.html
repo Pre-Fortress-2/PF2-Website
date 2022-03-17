@@ -2,11 +2,13 @@
 
     #latest-posts {
         position: absolute; 
-        bottom: 0;
-        right: 0;
+        bottom: 0px;
+        right: 20px;
+        width: 200px;
     }
 
     #latest-posts li {
+        height: 20%;
         list-style-type: none;
         white-space: nowrap;
         overflow: hidden;
@@ -16,6 +18,8 @@
         #latest-posts {
             position:relative;
             display: inline-block;
+            margin: auto;
+            width: 400px;
         }
     }
     
@@ -26,13 +30,14 @@
     <hr>
     {% assign i = 0 %}
     {% for post in site.posts %}
-        {% if i != 4 %}
+        {% if i != 3 %}
             {% if post.hidden == false %}
             {% assign i = i | plus:1 %}
             <li>
                 <p>
                     <a href="{{ post.url | relative_url }}">
-                    {{ post.subject | escape }}
+                    <img src="/assets/blog/minibanners/{{post.subject}}.png"/>
+                    {{ escape }}
                     </a>
                 </p>
             </li>

@@ -11,6 +11,7 @@
 // Right Area Size
 .right-area {
 	width: 25%;
+	margin-top: -55px;
 	position: relative;
 }
 
@@ -71,6 +72,8 @@
 
 	// Right area takes the full width
 	.right-area {
+		margin-top: 0;
+
 		width: 100%;
 	}
 
