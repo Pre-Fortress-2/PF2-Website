@@ -373,6 +373,23 @@
 			[
 				"Spanish"
          ]
+      },
+      {
+         "name":"sonicdude143",
+         "tester": true,
+         "other":{
+            "English": "Menu Background Artist"
+         }
+      },
+      {
+         "name":"Folvean",
+         "other":{
+            "English":
+            [
+               "Menu Background Artist",
+               "Painter"
+            ]
+         }
       }
    ],
    "playtesters":
@@ -474,13 +491,13 @@
          "name": "ShakSheep"
       },
       {
-         "name": "sonicdude143"
-      },
-      {
          "name": "Stoneman"
       },
       {
          "name": "Withered Rose"
+      },
+      {
+         "name": "4zy1"
       }
    ],
    "special":
