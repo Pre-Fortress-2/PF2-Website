@@ -49,7 +49,7 @@ p {
 
 a {
 	color: $color-text;
-	transition: all 1s;
+	transition: all 0.5s;
 	display: inline;
 	// overflow-wrap: break-word !important;
 	// word-wrap: break-word !important;
@@ -102,12 +102,12 @@ picture {
 
 		&:hover{
 			filter: grayscale(50%);
-			transition: 1s;
+			transition: 0.5s;
 		}
 
 		&:not(:hover){
 			filter: grayscale(0%);
-			transition: 1s;
+			transition: 0.5s;
 		}
 }
 

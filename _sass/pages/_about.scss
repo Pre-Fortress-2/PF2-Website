@@ -57,6 +57,33 @@
 .youtube-img {
 	background: $youtube;
 }
+#latest-posts {
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    width: 200px;
+}
+
+#latest-posts li {
+    height: 20%;
+    list-style-type: none;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#latest-posts img {
+    border: solid gray 3px;
+
+    &:hover{
+        filter: grayscale(50%);
+        transition: 0.5s;
+    }
+
+    &:not(:hover){
+        filter: grayscale(0%);
+        transition: 0.5s;
+    }
+}
 
 // Makes the buttons stack on top of eachother in smaller screens
 @media (max-width: 1000px) {
@@ -99,4 +126,11 @@
 	.join-img {
 		margin-bottom: 1rem;
 	}
+
+	#latest-posts {
+        position:relative;
+        display: inline-block;
+        margin: auto;
+        width: 400px;
+    }
 }
