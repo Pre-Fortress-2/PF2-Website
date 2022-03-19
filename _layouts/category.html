@@ -4,8 +4,8 @@ layout: default
 <h2 class="post-list-heading">{{ page.subject | escape }}</h2>
 <div>
   <div class="tags-expo-list" style="display: flex;">
-    <h2><a href="/blog" class="post-tag" style="margin-right: 30px;">All</a></h2>
-    <h2><a href="/posts" class="post-tag" style="margin-right: 30px;">Posts</a></h2>
+    <h2><a href="/all-posts" class="post-tag" style="margin-right: 30px;">All</a></h2>
+    <h2><a href="/blog" class="post-tag" style="margin-right: 30px;">Posts</a></h2>
     <h2><a href="/updates" class="post-tag">Updates</a></h2>
   </div>
 </div>
@@ -28,7 +28,7 @@ layout: default
             </div>
             {%- endif -%}
             <h3>
-              {{- post.subject | escape -}}
+              {{- post.title | escape -}}
             </h3>
           </a>
           <span class="post-meta">{{ post.author | default: "PF2 Team" }} - {{ post.date | date: date_format }}</span>

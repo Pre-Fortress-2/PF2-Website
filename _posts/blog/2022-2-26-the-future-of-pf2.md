@@ -1,16 +1,14 @@
 ---
 layout: blog
-title: "Blog"
-subject:  "The future of PF2"
+subject: "Blog"
+title: "The future of PF2"
 date:   2022-02-26 13:47:00 -0500
-categories: posts
+categories: blog
 author: Sour Dani
 hidden: false
 image: /assets/blog/images/sb-future_of_pf2.jpg
 permalink: /:categories/:slug
 NoImageEffect: 2
-redirect_from:
-    - /blog/the-future-of-pf2
 ---
 
 Howdy, since joining the development team of PF2, there's been a lull in communication between us and you as the player. I've been working to close the gap between internal discussion and with players. 

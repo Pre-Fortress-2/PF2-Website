@@ -12,7 +12,13 @@
 				<!-- Title Box -->
 				<div class="box">
 					<div class="box__title">
-						<h1 class="box__heading">{{ page.title | escape }}</h1>
+						<h1 class="box__heading">
+							{%- if page.categories contains 'blog' or page.categories contains 'updates' -%}
+							{{ page.subject | escape }}
+							{%- else -%}
+							{{ page.title | escape }}
+							{%- endif -%}
+						</h1>
 					</div>
 				</div>
 				<!-- Content Box -->

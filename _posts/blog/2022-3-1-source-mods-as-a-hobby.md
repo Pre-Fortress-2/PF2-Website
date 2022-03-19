@@ -1,9 +1,9 @@
 ---
 layout: blog
-title: "Blog"
-subject:  "Source Mods as a hobby"
+subject: "Blog"
+title: "Source Mods as a hobby"
 date:   2022-03-01 00:13:00 -0500
-categories: posts
+categories: blog
 author: Sour Dani
 description: "lorem ipsum"
 hidden: true

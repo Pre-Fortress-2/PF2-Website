@@ -6,34 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	{% if page.categories contains 'updates' %}
-	<title>{{page.subject}} - Pre-Fortress 2</title>
+	<title>{{page.title}} - Pre-Fortress 2</title>
     <meta name="description" content="{{ page.description | default:"PF2 Update" }}">
 	{% elsif page.categories contains 'blog' %}
-    <title>{{page.subject}} - Pre-Fortress 2</title>
+    <title>{{page.title}} - Pre-Fortress 2</title>
     <meta name="description" content="{{ page.description | default:"PF2 Blog Post" }}">
 	{%- else -%}
 	<title>{{page.title}} - Pre-Fortress 2</title>
-    <meta name="description" content="{{ page.subject | default:"Pre-Fortress 2" }}">
+    <meta name="description" content="{{ page.title | default:"Pre-Fortress 2" }}">
 	{%- endif -%}
 	{%- if page.image and page.categories contains 'updates' -%}
     <meta property="og:image" content="{{- page.image | relative_url -}}" >
     <meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@PreFortress2">
-	<meta name="og:title" content="{{page.subject}} - Pre-Fortress 2">
+	<meta name="og:title" content="{{page.title}} - Pre-Fortress 2">
 	<meta name="og:description" content="{{ page.description | default:"PF2 Update" }}">
 	<meta name="twitter:image" content="{{- page.image | absolute_url -}}">
     {%- elsif page.categories contains 'updates' -%}
     <meta property="og:image" content="{{- page.image | relative_url -}}" >
     <meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@PreFortress2">
-	<meta name="og:title" content="{{page.subject}} - Pre-Fortress 2">
+	<meta name="og:title" content="{{page.title}} - Pre-Fortress 2">
 	<meta name="og:description" content="{{ page.description | default:"PF2 Update" }}">
 	<meta name="twitter:image" content="{{ "/assets/blog/images/pf2_circle.png" | absolute_url }}">
 	{%- elsif page.image and page.categories contains 'blog' -%}
 	<meta property="og:image" content="{{- page.image | relative_url -}}" >
     <meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@PreFortress2">
-	<meta name="og:title" content="{{page.subject}} - Pre-Fortress 2">
+	<meta name="og:title" content="{{page.title}} - Pre-Fortress 2">
 	<meta name="og:description" content="{{ page.description | default:"PF2 Blog Post" }}">
 	<meta name="twitter:image" content="{{- page.image | absolute_url -}}">
     {%- else -%}
@@ -41,7 +41,7 @@
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@PreFortress2">
 	<meta name="og:title" content="{{page.title}} - Pre-Fortress 2">
-	<meta name="og:description" content="{{ page.subject | default:"Pre-Fortress 2" }}">
+	<meta name="og:description" content="{{ page.title | default:"Pre-Fortress 2" }}">
 	<meta name="twitter:image" content="{{ "/assets/blog/images/pf2_circle.png" | absolute_url }}">
     {%- endif -%}
     <meta name="theme-color" content="#b73739">
