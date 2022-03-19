@@ -1,0 +1,107 @@
+
+// This are creates the grid
+.grid {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-auto-rows: 21rem;
+	@media screen and (max-width: 840px){
+		grid-template-columns: 50% 50%;
+		grid-auto-rows: 23rem;
+	}
+	@media screen and (max-width: 640px){
+		display: block;
+	}
+	
+
+	h1 {
+		font-size: 2.6rem;
+		color: $color-text;
+		padding: 1rem 0;
+	}
+
+	h2 {
+		font-size: 2.1rem;
+		color: $color-text;
+		padding: 1rem 0;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	h3 {
+		font-size: 1.7rem;
+		color: $color-title-text;
+		padding: 0 0;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	span {
+		font-size: 1.2rem;
+		color: $color-text;
+		padding: 0 0;
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: left;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	// This affect the grid items content
+	&__item {
+		display: flex;
+		flex-direction: column;
+		align-items: left;
+		padding: 5px 5px;
+	}
+
+	img {
+		width: 100%; /* width of container */
+		height: 14rem; /* height of container */
+		@media screen and (max-width: 840px){
+			height: 16rem; /* height of container */
+			grid-template-columns: 50% 50%;
+		}
+		@media screen and (max-width: 640px){
+			height: auto;
+		}
+    	object-fit: cover;
+		object-position: center;
+	}
+}
+
+
+
+//.credit-title {
+//	font-size: 2.5rem;
+//}
+
+// Credit images size
+.credit-img {
+	width: 12rem;
+	height: 12rem;
+}
+
+.grid-2 {
+	display: flex;
+	flex-wrap: wrap;
+	//min-height: 20rem;
+}
+
+.grid__item2 {
+	margin-right: 5rem;
+}
+
+.credits-container {
+	width: 95%;
+	margin: 0 auto; 
+	padding: 0 15px 15px 15px; 
+	border-radius: 0.5rem; 
+	background: #272422;
+}
+
+.credits-container ul{
+	padding: 0 0 0 0;
+}
+
+.credits-container li{
+	list-style: none;
+}
