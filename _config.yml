@@ -7,6 +7,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://prefortress.com" # the base hostname & protocol for your site, e.g. http://example.com
 discord-invite: "https://discord.gg/ra68rM5nuE"
+game-state: "0"
+game-version: "7"
+game-patch: "0"
 
 # Google Analytics
 google_analytics: G-Q8T3T3HDGV
