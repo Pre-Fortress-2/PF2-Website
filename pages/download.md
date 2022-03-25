@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: installation
 title: "Download"
 permalink: "/download/"
 subject: "Download Pre-Fortress 2"
