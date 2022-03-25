@@ -16,7 +16,7 @@ layout: default
 {% if page.ImageDescription %}
     <p style="text-align: center;" class="image-subheading">{{ page.ImageDescription | escape }}</p>
 {% endif %}
-<h1 class="credit-title">{{ page.subject | escape }} {% include share.html %} </h1>
+<h1 class="credit-title">{{ page.title | escape }} {% include share.html %} </h1>
 <h3 class="author">{{page.author | default:"PF2 Team" }} - {{ page.date | date: "%b %-d, %Y" }}</h3>
 <hr>
 <div class="blog">{{ content }}</div>

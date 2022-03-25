@@ -71,6 +71,7 @@
     overflow: hidden;
 }
 
+
 #latest-posts img {
     border: solid gray 3px;
 
@@ -132,5 +133,12 @@
         display: inline-block;
         margin: auto;
         width: 400px;
+		@media screen and (max-width: 767px){
+			display: inline-block;
+			margin: calc(20px);
+			width: 100%;
+			position:relative;
+		}
     }
+	
 }

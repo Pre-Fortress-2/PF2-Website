@@ -1,7 +1,7 @@
 ---
 layout: category
 title:  "Blog"
-permalink: /posts/
-category: posts
+permalink: /blog/
+category: blog
 subject: "Blog posts for Pre-Fortress 2"
 ---

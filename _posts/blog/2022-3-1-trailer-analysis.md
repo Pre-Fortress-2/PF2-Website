@@ -1,9 +1,9 @@
 ---
 layout: blog
-title: "Blog"
-subject:  "Trailer Analysis"
+subject: "Blog"
+title: "Trailer Analysis"
 date:   2022-03-01 00:13:00 -0500
-categories: posts
+categories: blog
 author: Kristofer and RedFire
 description: "lorem ipsum"
 hidden: true
