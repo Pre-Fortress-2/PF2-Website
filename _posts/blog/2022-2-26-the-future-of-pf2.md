@@ -7,6 +7,7 @@ categories: blog
 author: Sour Dani
 hidden: false
 image: /assets/blog/images/sb-future_of_pf2.jpg
+ImageDescription: "Image by Sour Dani and Mr. Light"
 permalink: /:categories/:slug
 NoImageEffect: 2
 ---
