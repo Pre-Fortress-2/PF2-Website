@@ -11,6 +11,8 @@ game-state: "0"
 game-version: "7"
 game-patch: "0"
 
+installer-drive: "https://drive.google.com/file/d/1amkUEPJ6CZDyamvPivDl0RlmU_6cUm6N/view"
+
 # Google Analytics
 google_analytics: G-Q8T3T3HDGV
 

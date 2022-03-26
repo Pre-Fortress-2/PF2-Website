@@ -66,3 +66,33 @@ img
 	}
 	
 }
+.join-img {
+	padding: 0;
+	border-radius: 0.5rem;
+	width: 25rem;
+
+	&:hover {
+		background: lightgrey;
+		transition: 0.5s;
+	}
+	&:not(:hover){
+		transition: 0.5s
+	}
+}
+.back-img {
+	padding: 0;
+	border-radius: 0.5rem;
+	width: 13rem;
+
+	&:hover {
+		background: lightgrey;
+		transition: 0.5s;
+	}
+	&:not(:hover){
+		transition: 0.5s
+	}
+}
+
+.download-img {
+	background: $download;
+}
