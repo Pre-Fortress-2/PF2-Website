@@ -21,6 +21,9 @@ const all_in_one = "https://drive.google.com/file/d/1amkUEPJ6CZDyamvPivDl0RlmU_6
 
 const browser_hash = window.location.hash.split('#')[1];
 
+var url = window.location.href;   
+
+
 // Back button that disables itself and current download buttons and displays select buttons
 
 function windows_onlyRender(state)
@@ -39,6 +42,9 @@ function windows_onlyRender(state)
 
 function backPage()
 {
+    
+    window.history.pushState('Selection', 'Select OS', '/download/');
+
     // btn_back.style.top = "70%"
     // choose_game_area.style.height = "50em"
 
@@ -76,7 +82,9 @@ function everyoneElse()
 }
 // Lets the user select the OS
 function winSelect()
-{
+{   
+    window.history.pushState('Windows OS', 'Chose Windows', '/download/#windows');
+
     btn_win_dl.style.display = "block";
     windows_onlyRender(true)
     all_versions.style.display = "block"
@@ -84,6 +92,8 @@ function winSelect()
 }
 function macSelect()
 {
+    window.history.pushState('macOS', 'Chose Mac', '/download/#mac');
+
     btn_mac_dl.style.display = "block";
     everyoneElse();
     showBackBtn()
@@ -91,6 +101,8 @@ function macSelect()
 
 function linuxSelect()
 {
+    window.history.pushState('Linux', 'Chose Linux', '/download/#linux');
+
     btn_linux_dl.style.display = "block";
     everyoneElse();
     showBackBtn()
