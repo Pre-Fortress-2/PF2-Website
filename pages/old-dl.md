@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Download"
+title: "Old Download"
 permalink: "/olddownload/"
 subject: "Download Pre-Fortress 2"
 ---
