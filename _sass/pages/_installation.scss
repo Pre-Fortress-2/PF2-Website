@@ -48,6 +48,7 @@
 	position: relative;
 	width: 13rem;
 	top: 70%;
+	z-index: 1;
 	&:hover {
 		background: lightgrey;
 		transition: 0.5s;
@@ -62,7 +63,6 @@
 }
 
 #files {
-
 	margin: auto;
 	width: 700px;
 }
