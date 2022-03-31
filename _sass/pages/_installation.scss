@@ -17,8 +17,8 @@
 	position: relative;
 
 	&:hover {
-		background: lightgrey;
 		transition: 0.5s;
+		background: $download-alt;
 	}
 	&:not(:hover){
 		transition: 0.5s
@@ -33,8 +33,10 @@
 	position: relative;
 
 	&:hover {
-		background: lightgrey;
 		transition: 0.5s;
+		background: $download-alt;
+
+		
 	}
 	&:not(:hover){
 		transition: 0.5s
@@ -47,14 +49,14 @@
 // Just back button.
 .back-button {
 	display:none;
-	background: ghostwhite;
+	background: $download;
 	position: relative;
 	width: 13rem;
 	top: 70%;
 	z-index: 1;
 	&:hover {
-		background: lightgrey;
 		transition: 0.5s;
+		background: $download-alt;
 	}
 	&:not(:hover){
 		transition: 0.5s

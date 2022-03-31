@@ -43,7 +43,7 @@ function windows_onlyRender(state)
 function backPage()
 {
     
-    window.history.pushState('Selection', 'Select OS', '/download/');
+    window.history.pushState('Selection', 'Select OS', '/download/#list');
 
     // btn_back.style.top = "70%"
     // choose_game_area.style.height = "50em"
@@ -154,5 +154,8 @@ window.onload = function()
     if (browser_hash.toLowerCase() == "linux"){
         backPage()
         linuxSelect()
+    }
+    if (browser_hash.toLowerCase() == "list"){
+        backPage()
     }
 };
