@@ -66,11 +66,14 @@ img
 	}
 	
 }
-.join-img {
+.pick-img {
 	padding: 0;
 	border-radius: 0.5rem;
 	width: 25rem;
-
+	position: relative;
+	margin: auto;
+	top: 20%;
+	margin-left:100px;
 	&:hover {
 		background: lightgrey;
 		transition: 0.5s;
@@ -83,7 +86,8 @@ img
 	padding: 0;
 	border-radius: 0.5rem;
 	width: 13rem;
-
+	position: relative;
+	top: 80%;
 	&:hover {
 		background: lightgrey;
 		transition: 0.5s;
@@ -94,5 +98,15 @@ img
 }
 
 .download-img {
+	margin: auto;
 	background: $download;
+	
+}
+
+.select-img {
+	margin-top: 20px;
+}
+
+#choose-game {
+	height: 50em;
 }

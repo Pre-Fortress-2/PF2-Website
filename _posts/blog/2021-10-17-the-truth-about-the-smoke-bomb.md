@@ -6,6 +6,7 @@ date:   2021-10-17 00:12:00 +1100
 categories: blog
 permalink: /:categories/:slug
 hidden: false
+description: "PF2 Team addresses the truth about the smoke bomb by looking at it's source code."
 author: Cyanide
 image: /assets/blog/images/sb-spy.jpg
 NoImageEffect: 0

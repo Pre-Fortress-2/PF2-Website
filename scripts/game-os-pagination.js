@@ -19,15 +19,15 @@ function backPage()
     btn_mac_dl.style.display = "none";
     btn_linux_dl.style.display = "none";
 
-    btn_win_select.style.display = "inline-block";
-    btn_mac_select.style.display = "inline-block";
-    btn_linux_select.style.display = "inline-block";
+    btn_win_select.style.display = "block";
+    btn_mac_select.style.display = "block";
+    btn_linux_select.style.display = "block";
 }
 
 // Called when an OS is selected
 function showBackBtn()
 {
-    btn_back.style.display = "inline-block";
+    btn_back.style.display = "block";
 
     btn_win_select.style.display = "none";
     btn_mac_select.style.display = "none";
@@ -37,19 +37,19 @@ function showBackBtn()
 // Lets the user select the OS
 function winSelect()
 {
-    btn_win_dl.style.display = "inline-block";
+    btn_win_dl.style.display = "block";
     showBackBtn()
 }
 
 function macSelect()
 {
-    btn_mac_dl.style.display = "inline-block";
+    btn_mac_dl.style.display = "block";
     showBackBtn()
 }
 
 function linuxSelect()
 {
-    btn_linux_dl.style.display = "inline-block";
+    btn_linux_dl.style.display = "block";
     showBackBtn()
 }
 
@@ -67,13 +67,12 @@ function installMac()
 
 function installLinux()
 {
-    window.open("https://twitter.com/home");
+    window.open("https://c.tenor.com/eUOiCZiskd8AAAAC/monkey-spinning-holding-hands.gif");
 }
 
 // Hides all buttons except back button and then shows the detected option
 window.onload = function() 
 {
-    btn_back.style.display = "inline-block";
 
     btn_win_dl.style.display = "none";
     btn_mac_dl.style.display = "none";
@@ -83,16 +82,18 @@ window.onload = function()
     btn_mac_select.style.display = "none";
     btn_linux_select.style.display = "none";
 
+    btn_back.style.display = "block";
+
     if( navigator.platform.includes("Win") )
     {
-        btn_win_dl.style.display = "inline-block";
+        btn_win_dl.style.display = "block";
     }
     if( navigator.platform.includes("Mac") )
     {
-        btn_mac_dl.style.display = "inline-block";
+        btn_mac_dl.style.display = "block";
     }
     if( !navigator.platform.includes("Mac") && !navigator.platform.includes("Win") ) 
     {
-        btn_mac_dl.style.display = "inline-block";
+        btn_mac_dl.style.display = "block";
     }
 };

@@ -5,9 +5,10 @@ title: "Source Mods as a hobby"
 date:   2022-03-01 00:13:00 -0500
 categories: blog
 author: Sour Dani
-description: "lorem ipsum"
+description: "Source Mods are a hobby crafted with a fine love for Valve Games. However there's more to it then meets the eye."
 hidden: true
-image: /assets/blog/images/sb-spy.jpg
+image: /assets/blog/images/sb-source-mods-as-a-hobby.jpg
+ImageDescription: Poster by Wendie
 permalink: /:categories/:slug
 NoImageEffect: 1
 ---
