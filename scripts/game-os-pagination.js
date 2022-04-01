@@ -130,15 +130,15 @@ window.onload = function()
 {
     backPage()
 
-    if( navigator.platform.includes("Win")  ) 
+    if( navigator.userAgentData.platform.includes("Win")  ) 
     {
         winSelect()
     }
-    if( navigator.platform.includes("Mac") )
+    if( navigator.userAgentData.platform.includes("Mac") )
     {
         macSelect()
     }
-    if( !navigator.platform.includes("Mac") && !navigator.platform.includes("Win") ) 
+    if( !navigator.userAgentData.platform.includes("Mac") && !navigator.userAgentData.platform.includes("Win") ) 
     {
         linuxSelect()
     }
