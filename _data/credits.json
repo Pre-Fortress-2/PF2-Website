@@ -147,10 +147,6 @@
          "animation": true
       },
       {
-         "name": "HypnOS 1999",
-         "icon": true
-      },
-      {
          "name": "G-Gnome505",
          "models": true,
          "animation": true
@@ -390,6 +386,10 @@
                "Painter"
             ]
          }
+      },
+      {
+         "name": "HypnOS 1999",
+         "icon": true
       }
    ],
    "playtesters":
