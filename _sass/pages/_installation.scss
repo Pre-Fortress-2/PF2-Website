@@ -51,8 +51,9 @@
 	display:none;
 	background: $download;
 	position: relative;
-	width: 13rem;
-	top: 70%;
+	width: 18rem;
+	top: -11.8%;
+	right: 38%;
 	z-index: 1;
 	&:hover {
 		transition: 0.5s;
@@ -70,4 +71,23 @@
 #files {
 	margin: auto;
 	width: 700px;
+}
+
+@media screen and (max-width: 830px){
+	.back-button{
+		top: 80%;
+		right: 0;
+	}
+	.box__heading{
+		font-size: 4rem;
+	}
+	.install-box{
+		width: 30rem;
+	}
+	.pick-box {
+		width: 30rem;
+	}
+	#choose-game-area {
+		height: 80em;
+	}	
 }
