@@ -301,7 +301,7 @@
          "sounds": true
       },
       {
-         "name": "wwwaffles321",
+         "name": "Justin/Jeevestew",
          "textures": true
       },
       {
@@ -345,10 +345,6 @@
          "mapper": true
       },
       {
-         "name": "Jeevestew",
-         "textures": true
-      },
-      {
          "name": "Marphy Black",
          "other":{
             "English": "VOX Announcer"
@@ -390,6 +386,14 @@
       {
          "name": "HypnOS 1999",
          "icon": true
+      },
+      {
+         "name":"Eazy E",
+         "models": true
+      },
+      {
+         "name":"Vita/Astn/DOS_",
+         "models": true
       }
    ],
    "playtesters":
@@ -450,6 +454,9 @@
       },
       {
          "name": "Lev1679"
+      },
+      {
+         "name": "Lexile"
       },
       {
          "name": "Lidrey"
@@ -529,6 +536,9 @@
       },
       {
          "name": "Team Fortress 2 Vintage"
+      },
+      {
+         "name": "Project 2006"
       }
    ]
 }  
