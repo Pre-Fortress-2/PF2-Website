@@ -29,7 +29,7 @@ permalink: "/news.txt"
 {
 	"gamestate"	"{{ site.game-state }}"
 	"version"	"{{ site.game-version }}"
-	"patch"	"{{ site.game-patch }}"
+	"patch"		"{{ site.game-patch }}"
 	"updateurl"	"{{ updateurl }}"
 	"updatetitle"	"{{ updatetitle }}"
 	"updateexcerpt"	"{{ updateexcerpt | remove: '' }}"
