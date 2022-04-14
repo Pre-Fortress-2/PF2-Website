@@ -1,0 +1,20 @@
+<div id="latest-posts">
+    <h2>Latest blog posts</h2>
+    <hr>
+    {% assign i = 0 %}
+    {% for post in site.posts %}
+        {% if i != 3 %}
+            {% if post.hidden == false %}
+            {% assign i = i | plus:1 %}
+            <li>
+                <p>
+                    <a href="{{ post.url | relative_url }}">
+                    <img src="/assets/blog/minibanners/{{post.title}}.png"/>
+                    {{ escape }}
+                    </a>
+                </p>
+            </li>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+</div>

@@ -1,0 +1,73 @@
+---
+layout: default
+title: "Download"
+permalink: "/download/"
+subject: "Download Pre-Fortress 2"
+description: "Download Pre-Fortress 2"
+---
+<div id="choose-game-area">
+
+    <!-- Buttons to install based on OS -->
+    
+    <div id="downloads">
+        <a href="javascript:installWin()"><img src="/img/btn_win_dl.png" alt="Download for Windows" class="box-img install-box" id="btn_win_dl"></a>
+        <a href="javascript:installMac()"><img src="/img/btn_mac_dl.png" alt="Download for MacOS" class="box-img install-box" id="btn_mac_dl"></a>
+        <a href="javascript:installLinux()"><img src="/img/btn_linux_dl.png" alt="Download for Linux" class="box-img install-box" id="btn_linux_dl"></a>
+    </div>
+
+    <div class="selections">
+        <!-- Buttons to select OS -->
+        <a href="javascript:winSelect()"><img src="/img/btn_win.png" alt="Download for Windows" class="box-img pick-box" id="btn_win_select"></a>
+        <a href="javascript:macSelect()"><img src="/img/btn_mac.png" alt="Download for MacOS" class="box-img pick-box select-spacing" id="btn_mac_select"></a>
+        <a href="javascript:linuxSelect()"><img src="/img/btn_linux.png" alt="Download for Linux" class="box-img pick-box select-spacing" id="btn_linux_select"></a>
+    </div>
+    
+    <!-- Back button -->
+    <a href="javascript:backPage()"><img src="/img/btn_back.png" alt="Back" class="box-img back-button" id="btn_back"></a>
+
+    <div id="all_versions">
+        <h2>Requirements</h2>
+        <p>To play Pre-Fortress 2 you <b>must</b> have <a href="steam://install/243750"> Source SDK Base 2013 Multiplayer</a> installed.<br>
+        <li>Source mods must be installed on the <b>same</b> drive as <b>Steam.</b></li><br><br>
+        </p>
+        <div id="everyone_else">
+            <p>
+                Open the archive, navigate to the <b>sourcemods</b> folder and extract the <b>pf2</b> folder there.
+                The <b>sourcemods</b> folder can usually be found in these locations:<br>
+                <ul>
+                    <li> Linux - <b>~/.steam/steam/sourcemods/</b></li>
+                    <li> Mac - <b>/Users/USERNAME/Library/Application Support/Steam/steamapps/sourcemods/</b></li>
+                </ul>
+            </p>
+            <!-- <p>
+                A correct install should look something like this:<br><br>
+                <img id="files" src="/assets/images/explorer_biG8aCMZFd.png">
+            </p> -->  
+        </div>
+        <h2>Post-Installation</h2>
+        <p>
+            You will need to restart Steam in order for the mod to appear in your library. To do that, open up Steam, press the <b>Steam</b> button at the top-left of the window then press <b>Exit</b>. Wait a moment for Steam to fully shutdown, then reopen Steam.<br>
+            If all went well you should see <b>Pre-Fortress 2: Open Beta</b> in your library.<br>
+            <li>Linux users must put <b>-steam -steam</b> in their launch options (Yes, twice).</li>
+        </p>
+        <br>
+        
+        
+        <details>
+            <summary><b>Download Mirrors</b></summary>
+            <div class="windows_only">
+                <br>Install into <b>C:/Program Files (x86)/Steam/steamapps/sourcemods/</b>
+            </div>
+            <ul>
+                <div class="windows_only">
+                    <li><a href="https://drive.google.com/file/d/1FUUfHo5NbxvCNsKDUiZVxU4x8q8NkaKk/view" target="_blank">Google Drive - 7z archive</a></li>
+                </div>
+                <li><a href="https://mega.nz/file/9CxTXKyT#rqFGOpbJykJqFsBsxUeWaimJF82ygj-BbulEn2Yf8vI" target="_blank">Mega.nz - 7z archive</a></li>
+                <li><a href="https://disk.yandex.ru/d/yegcFzbO1h9Duw" target="_blank">Yandex.ru - 7z archive</a></li>
+            </ul>
+        </details>
+        <!-- TODO Im prolly gonna have to use JS to entirely generate the buttons on the fly, currently theres a weird
+        graphical bug where it renders all of the buttons for about a second -->
+    </div>   
+</div>
+<script src="/scripts/game-os-pagination.js"></script>

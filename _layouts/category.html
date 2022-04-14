@@ -1,37 +1,40 @@
 ---
 layout: default
 ---
-{%- if site.posts.size > 0 -%}
-  <h2 class="post-list-heading">{{ page.list_title | escape }}</h2>
-  <ul class="post-list">
-  {% for category in site.categories %}
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    {% if category_name == page.category %}
-      {% for post in site.categories[category_name] %}
+<h2 class="post-list-heading">{{ page.subject | escape }}</h2>
+<div>
+  <div class="tags-expo-list" style="display: flex;">
+    <h2><a href="/all-posts" class="post-tag" style="margin-right: 30px;">All</a></h2>
+    <h2><a href="/blog" class="post-tag" style="margin-right: 30px;">Posts</a></h2>
+    <h2><a href="/updates" class="post-tag">Updates</a></h2>
+  </div>
+</div>
+<div class="grid">
+  {%- for post in site.posts -%}
+    {% for category in post.categories %}
+      {% if category == page.category or page.category == "all" %}
         {% if post.hidden != true %}
-          <li>
-            {%- assign date_format = "%b %-d, %Y" -%}
+        {%- assign date_format = "%b %-d, %Y" -%}
+        <div class="grid__item">
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {%- if post.image -%}
+            <div class="container-image">
+              <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image">
+            </div>
+            {%- else -%}
+            {%- assign postImage = "/assets/images/Default-image.jpg" -%}
+            <div class="container-image">
+              <img src="{{- postImage | relative_url -}}" alt="" class="blog-roll-image">
+            </div>
+            {%- endif -%}
             <h3>
-              <a class="post-link" href="{{ post.url | relative_url }}">
-              {%- if post.image -%}
-                <div class="container-image">
-                  <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image">
-                </div>
-              {%- else -%}
-              {%- assign postImage = "/assets/images/Default-image.jpg" -%}
-              <div class="container-image">
-                <img src="{{- postImage | relative_url -}}" alt="" class="blog-roll-image">
-              </div>            
-              {%- endif -%}
-
-                  {{ post.subject | escape }}
-                </a>
+              {{- post.title | escape -}}
             </h3>
-            <span class="post-meta">{{ post.author | default: "PF2 Team" }} - {{ post.date | date: date_format }}</span>
-          </li>
-        {% endif %}
-      {%endfor%}
-    {% endif %}
-  {%endfor%}
-  </ul>
-{%- endif -%}
+          </a>
+          <span class="post-meta">{{ post.author | default: "PF2 Team" }} - {{ post.date | date: date_format }}</span>
+        </div>
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+</div>

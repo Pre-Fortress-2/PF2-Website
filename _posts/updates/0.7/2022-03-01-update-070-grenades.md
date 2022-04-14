@@ -7,7 +7,7 @@ categories: updates
 author: Cyanide
 hidden: true
 NoFeatureImage: true
-permalink: /:categories/codename-pizza/grenades 
+permalink: /:categories/codename-pizza/grenades
 ---
 
 Over the last year the team and I have worked on improving overall feel and completeness of the grenades. Functionality-wise, the grenades have remained the same, but a few key changes have been made in our desire to make them feel as good to use as possible.
