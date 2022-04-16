@@ -10,7 +10,7 @@ const btn_linux_dl = document.getElementById("btn_linux_dl");
 
 const btn_back = document.getElementById("btn_back");
 
-const windows_only = document.getElementsByClassName("windows_only");
+const windows_only = document.getElementByClassName("windows_only");
 const mac_only = document.getElementById("mac_only")
 const linux_only = document.getElementById("linux_only")
 const everyone_else = document.getElementById("everyone_else");
