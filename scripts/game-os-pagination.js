@@ -17,7 +17,6 @@ const everyone_else = document.getElementById("everyone_else");
 const all_versions = document.getElementById("all_versions");
 const choose_game_area = document.getElementById("choose-game-area");
 
-
 const first_mirror = "https://drive.google.com/file/d/1FUUfHo5NbxvCNsKDUiZVxU4x8q8NkaKk/view"
 const all_in_one = "https://drive.google.com/file/d/1amkUEPJ6CZDyamvPivDl0RlmU_6cUm6N/view"
 
@@ -61,8 +60,11 @@ function backPage()
     btn_linux_select.style.display = "block";
 
     windows_onlyRender(false)
-    everyone_else.style.display = "none"
+    
     all_versions.style.display = "none"
+    everyone_else.style.display = "none"
+    mac_only.style.display = "none"
+    linux_only.style.display = "none"
 }
 
 // Called when an OS is selected
@@ -88,7 +90,7 @@ function winSelect()
     window.history.pushState('Windows OS', 'Chose Windows', '/download/#windows');
 
     btn_win_dl.style.display = "block";
-    windows_onlyRender(true)
+    // windows_onlyRender(true)
     all_versions.style.display = "block"
     
     showBackBtn()
@@ -96,6 +98,7 @@ function winSelect()
 function macSelect()
 {
     window.history.pushState('macOS', 'Chose Mac', '/download/#mac');
+    mac_only.style.display = "block"
 
     btn_mac_dl.style.display = "block";
     everyoneElse();
@@ -105,6 +108,7 @@ function macSelect()
 function linuxSelect()
 {
     window.history.pushState('Linux', 'Chose Linux', '/download/#linux');
+    linux_only.style.display = "block"
 
     btn_linux_dl.style.display = "block";
     everyoneElse();
@@ -112,7 +116,6 @@ function linuxSelect()
 }
 
 // These functions actually take the user to the installation.
-// TODO flesh out installation instructions.
 function installWin()
 {
     window.open(all_in_one);
