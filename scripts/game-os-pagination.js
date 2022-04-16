@@ -11,6 +11,8 @@ const btn_linux_dl = document.getElementById("btn_linux_dl");
 const btn_back = document.getElementById("btn_back");
 
 const windows_only = document.getElementsByClassName("windows_only");
+const mac_only = document.getElementsById("mac_only")
+const linux_only = document.getElementById("linux_only")
 const everyone_else = document.getElementById("everyone_else");
 const all_versions = document.getElementById("all_versions");
 const choose_game_area = document.getElementById("choose-game-area");
@@ -88,6 +90,7 @@ function winSelect()
     btn_win_dl.style.display = "block";
     windows_onlyRender(true)
     all_versions.style.display = "block"
+    
     showBackBtn()
 }
 function macSelect()
