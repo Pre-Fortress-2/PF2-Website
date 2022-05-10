@@ -150,6 +150,16 @@
          "name": "G-Gnome505",
          "models": true,
          "animation": true
+      },
+      {
+         "name": "conneath",
+         "code": true,
+         "other":{
+            "English":
+            [
+               "Source Mod Plugins Support"
+            ]
+         }
       }
    ],
    "contributors": [
@@ -505,6 +515,9 @@
       },
       {
          "name": "4zy1"
+      },
+      {
+         "name": "Biker Pyro"
       }
    ],
    "special":
