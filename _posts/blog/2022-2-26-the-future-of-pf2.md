@@ -11,9 +11,7 @@ ImageDescription: "Image by Sour Dani and Mr. Light"
 description: "Pre-Fortress 2's Future is bright and here's what the team's been working on as well as officially addressing some pressing topics."
 permalink: /:categories/:slug
 NoImageEffect: 1
-excerpt: "Howdy, since joining the development team of PF2, there's been a lull in communication between us and you as the player. I've been working to close the gap between internal discussion and with players. 
-
-The following articles are designed to bring y’all up to speed with what’s been happening behind the scenes!"
+excerpt: "Howdy, since joining the development team of PF2, there's been a lull in communication between us and you as the player. I've been working to close the gap between internal discussion and with players."
 ---
 
 Howdy, since joining the development team of PF2, there's been a lull in communication between us and you as the player. I've been working to close the gap between internal discussion and with players. 
