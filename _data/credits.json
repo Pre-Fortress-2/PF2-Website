@@ -5,17 +5,6 @@
          "lead": true
       },
       {
-         "name": "Cyanide",
-         "devlead": true,
-         "code": true,
-         "mapper": true
-      },
-      {
-         "name": "Seal",
-         "models": true,
-         "animation": true
-      },
-      {
          "name": "Technochips",
          "code": true,
          "models": true,
@@ -80,10 +69,6 @@
          "code": true
       },
       {
-         "name": "gamingcam2008",
-         "mapper": true
-      },
-      {
          "name": "Wendie",
 			"mapper": true,
          "sfm": true
@@ -108,11 +93,6 @@
       {
          "name": "NeoExperiences",
          "mapper": true
-      },
-      {
-         "name": "Jasper",
-         "models": true,
-         "textures": true
       },
       {
          "name": "Unhelpful Git",
@@ -146,11 +126,7 @@
          "name": "[N-cognito]",
          "animation": true
       },
-      {
-         "name": "G-Gnome505",
-         "models": true,
-         "animation": true
-      },
+      
       {
          "name": "conneath",
          "code": true,
@@ -404,6 +380,31 @@
       {
          "name":"Vita/Astn/DOS_",
          "models": true
+      },
+      {
+         "name": "G-Gnome505",
+         "models": true,
+         "animation": true
+      },
+      {
+         "name": "Jasper",
+         "models": true,
+         "textures": true
+      },
+      {
+         "name": "Cyanide",
+         "devlead": true,
+         "code": true,
+         "mapper": true
+      },
+      {
+         "name": "Seal",
+         "models": true,
+         "animation": true
+      },
+      {
+         "name": "gamingcam2008",
+         "mapper": true
       }
    ],
    "playtesters":
