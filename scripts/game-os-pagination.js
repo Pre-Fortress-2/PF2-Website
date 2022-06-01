@@ -11,9 +11,8 @@ const btn_linux_dl = document.getElementById("btn_linux_dl");
 const btn_back = document.getElementById("btn_back");
 
 const windows_only = document.getElementsByClassName("windows_only");
-const mac_only = document.getElementById("mac_only")
-const linux_only = document.getElementById("linux_only")
-const everyone_else = document.getElementById("everyone_else");
+const mac_only = document.getElementsByClassName("mac_only")
+const linux_only = document.getElementsByClassName("linux_only")
 const all_versions = document.getElementById("all_versions");
 const choose_game_area = document.getElementById("choose-game-area");
 
@@ -41,13 +40,38 @@ function windows_onlyRender(state)
     }
 }
 
+function mac_onlyRender(state)
+{
+    if (state == true){
+        for (var i = 0; i < mac_only.length; i++) {
+            mac_only[i].style.display = "block";
+        }
+    }
+    if (state == false){
+        for (var i = 0; i < mac_only.length; i++) {
+            mac_only[i].style.display = "none";
+        }
+    }
+}
+
+function linux_onlyRender(state)
+{
+    if (state == true){
+        for (var i = 0; i < linux_only.length; i++) {
+            linux_only[i].style.display = "block";
+        }
+    }
+    if (state == false){
+        for (var i = 0; i < linux_only.length; i++) {
+            linux_only[i].style.display = "none";
+        }
+    }
+}
+
 function backPage()
 {
     
     window.history.pushState('Selection', 'Select OS', '/download/#list');
-
-    // btn_back.style.top = "70%"
-    // choose_game_area.style.height = "50em"
 
     btn_back.style.display = "none";
 
@@ -60,11 +84,11 @@ function backPage()
     btn_linux_select.style.display = "block";
 
     windows_onlyRender(false)
-    
+    mac_onlyRender(false)
+    linux_onlyRender(false)
+
     all_versions.style.display = "none"
-    everyone_else.style.display = "none"
-    mac_only.style.display = "none"
-    linux_only.style.display = "none"
+    
 }
 
 // Called when an OS is selected
@@ -76,42 +100,34 @@ function showBackBtn()
     btn_mac_select.style.display = "none";
     btn_linux_select.style.display = "none";
 }
-function everyoneElse()
-{
-    // btn_back.style.top = "82%"
-    // choose_game_area.style.height = "70em"
-    everyone_else.style.display = "block";
-    all_versions.style.display = "block"
-    
-}
+
 // Lets the user select the OS
 function winSelect()
 {   
     window.history.pushState('Windows OS', 'Chose Windows', '/download/#windows');
 
     btn_win_dl.style.display = "block";
-    // windows_onlyRender(true)
+    windows_onlyRender(true)
     all_versions.style.display = "block"
-    
     showBackBtn()
 }
 function macSelect()
 {
     window.history.pushState('macOS', 'Chose Mac', '/download/#mac');
-    mac_only.style.display = "block"
 
     btn_mac_dl.style.display = "block";
-    everyoneElse();
+    mac_onlyRender(true)
+    all_versions.style.display = "block"
     showBackBtn()
 }
 
 function linuxSelect()
 {
     window.history.pushState('Linux', 'Chose Linux', '/download/#linux');
-    linux_only.style.display = "block"
 
     btn_linux_dl.style.display = "block";
-    everyoneElse();
+    linux_onlyRender(true)
+    all_versions.style.display = "block"
     showBackBtn()
 }
 
