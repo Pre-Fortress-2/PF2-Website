@@ -74,10 +74,6 @@
          "sfm": true
       },
       {
-         "name": "Justyn",
-			"particles": true
-      },
-      {
          "name": "Sour Dani",
          "code": true,
          "other": 
@@ -403,6 +399,13 @@
       {
          "name": "gamingcam2008",
          "mapper": true
+      },
+      {
+         "name": "Justyn",
+			"particles": true,
+         "animation": true,
+         "models": true,
+         "textures": true
       }
    ],
    "playtesters":
