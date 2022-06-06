@@ -16,7 +16,7 @@ const linux_only = document.getElementsByClassName("linux_only")
 const all_versions = document.getElementById("all_versions");
 const choose_game_area = document.getElementById("choose-game-area");
 
-const first_mirror = "https://drive.google.com/file/d/1FUUfHo5NbxvCNsKDUiZVxU4x8q8NkaKk/view"
+const first_mirror = "https://drive.google.com/file/d/1oFYloWtvmp2w5x_rq1d6ECDkMEdKnGRX/view"
 const all_in_one = "https://drive.google.com/file/d/1amkUEPJ6CZDyamvPivDl0RlmU_6cUm6N/view"
 
 const browser_hash = window.location.hash.split('#')[1];
