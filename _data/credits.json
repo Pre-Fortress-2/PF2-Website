@@ -406,6 +406,15 @@
          "animation": true,
          "models": true,
          "textures": true
+      },
+      {
+         "name": "IntriguingTiles",
+         "other":{
+            "English":
+            [
+               "GitHub Runner Host"
+            ]
+         }
       }
    ],
    "playtesters":
