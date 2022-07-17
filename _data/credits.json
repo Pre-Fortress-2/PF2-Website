@@ -1,8 +1,20 @@
 {
    "developers": [
       {
+         "name": "Sour Dani",
+         "lead": true,
+         "code": true,
+         "other": 
+         {
+            "English":
+            [
+               "UI Designer"
+            ]
+         }
+      },
+      {
          "name": "Kristofer",
-         "lead": true
+         "concepts": true
       },
       {
          "name": "Technochips",
@@ -72,18 +84,6 @@
          "name": "Wendie",
 			"mapper": true,
          "sfm": true
-      },
-      {
-         "name": "Sour Dani",
-         "code": true,
-         "other": 
-         {
-            "English":
-            [
-               "UI Designer"
-            ]
-         }
-            
       },
       {
          "name": "NeoExperiences",
