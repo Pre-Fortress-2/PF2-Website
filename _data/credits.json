@@ -227,6 +227,12 @@
          "mapper": true
       },
       {
+         "name": "Cvoxalury",
+         "other":{"English":[
+            "HUD Fixes"
+         ]}
+      }
+      {
          "name": "Cyanide",
          "code": true,
          "mapper": true
@@ -351,6 +357,10 @@
       {
          "name": "KaydemonLP",
          "code": true
+      },
+      {
+         "name": "KingyKronous",
+         "models": true
       },
       {
          "name": "Kit Carson",
