@@ -13,21 +13,6 @@
          }
       },
       {
-         "name": "Kristofer",
-         "concepts": true
-      },
-      {
-         "name": "Technochips",
-         "code": true,
-         "models": true,
-         "mapper": true,
-         "particles": true,
-         "localization" :
-         [
-            "French"
-         ]
-      },
-      {
          "name": "AlexEpisode",
          "code": true,
          "localization" :
@@ -38,6 +23,89 @@
       {
          "name": "AnthonyPython",
          "code": true
+      },
+      {
+         "name": "Blazer",
+         "concepts": true
+      },
+      {
+         "name": "cazsu",
+         "sounds": true
+      },
+      {
+         "name": "Coldchou Zhao",
+         "animation": true,
+         "models": true
+      },
+      {
+         "name": "conneath",
+         "code": true,
+         "other":{
+            "English":
+            [
+               "Source Mod Plugins Support"
+            ]
+         }
+      },
+      {
+         "name": "dead_thing",
+         "code": true
+      },
+      {
+         "name": "Farlander",
+         "animation": true
+      },
+      {
+         "name": "fi(v)e",
+         "textures": true,
+         "concepts": true,
+         "icon": true
+      },
+      {
+         "name":"Folvaen",
+         "other":{
+            "English":
+            [
+               "Menu Background Artist",
+               "Painter"
+            ]
+         }
+      },
+      {
+         "name": "HDMine Face",
+         "mapper": true
+      },
+      {
+         "name": "juhdon",
+         "other":{
+            "English":[
+               "Player Models"
+            ]
+         }
+      },
+      {
+         "name": "KrazyZark",
+         "mapper": true
+      },
+      {
+         "name": "Kristofer",
+         "concepts": true
+      },
+      {
+         "name": "Lev1679",
+         "mapper": true
+      },
+      {
+         "name": "Mr. Light",
+         "sfm": true
+      },
+      {
+         "name": "MrModez",
+         "music": true
+      },
+      {
+         "name": "NeoExperiences",
+         "mapper": true
       },
       {
          "name": "Nbc66",
@@ -51,6 +119,54 @@
          }
       },
       {
+         "name": "PJX",
+         "mapper": true
+      },
+      {
+         "name": "Polybrow",
+         "music": true
+      },
+      {
+         "name": "Razur",
+         "models": true
+      },
+      {
+         "name": "RedFire",
+         "mapper": true
+      },
+      {
+         "name": "Scarlett Ruby",
+         "code": true
+      },
+		{
+         "name": "Skyrym",
+			"models": true
+		},
+      {
+         "name": "Technochips",
+         "code": true,
+         "models": true,
+         "mapper": true,
+         "particles": true,
+         "localization" :
+         [
+            "French"
+         ]
+      },
+      {
+         "name": "Unhelpful Git",
+         "models": true
+      },
+      {
+         "name": "Wendie/Sploink",
+			"mapper": true,
+         "sfm": true
+      },
+      {
+         "name": "Wendy",
+         "models":true
+      },
+      {
          "name": "Wolfcl0ck",
          "models": true
       },
@@ -59,110 +175,22 @@
          "textures": true
       },
       {
-         "name": "RedFire",
-         "mapper": true
-      },
-      {
-         "name": "fi(v)e",
-         "textures": true,
-         "concepts": true,
-         "icon": true
-      },
-      {
-         "name": "Farlander",
-         "animation": true
-      },
-      {
-         "name": "Coldchou Zhao",
-         "animation": true
-      },
-      {
-         "name": "dead_thing",
-         "code": true
-      },
-      {
-         "name": "Wendie",
-			"mapper": true,
-         "sfm": true
-      },
-      {
-         "name": "NeoExperiences",
-         "mapper": true
-      },
-      {
-         "name": "Unhelpful Git",
-         "models": true
-      },
-      {
-         "name": "Mr. Light",
-         "sfm": true
-      },
-      {
-         "name": "MrModez",
-         "music": true
-      },
-      {
-         "name": "Polybrow",
-         "music": true
-      },
-      {
          "name": "zythe_",
-         "mapper": true
-      },
-      {
-         "name": "Blazer",
-         "concepts": true
-      },
-      {
-         "name": "HDMine Face",
          "mapper": true
       },
       {
          "name": "[N-cognito]",
          "animation": true
-      },
-      
-      {
-         "name": "conneath",
-         "code": true,
-         "other":{
-            "English":
-            [
-               "Source Mod Plugins Support"
-            ]
-         }
       }
    ],
    "contributors": [
-      {
-         "name": "Mechadexic",
-         "tester": true,
-         "code": true
-      },
       {
          "name": "Alaxe",
          "models": true
       },
       {
-         "name": "Lurondor",
-         "models": true,
-			"textures": true
-      },
-      {
-         "name": "KaydemonLP",
-         "code": true
-      },
-      {
-         "name": "Swox",
-         "animation": true
-      },
-      {
-         "name": "FusionR",
-         "tester": true,
-         "localization":
-			[
-				"Serbo-Croatian"
-         ]
+         "name": "barcode scanner",
+         "server": true
       },
       {
          "name": "Boba",
@@ -171,9 +199,42 @@
 			"graphics": true
       },
       {
+         "name": "Bradasparky",
+         "mapper": true
+      },
+      {
+         "name": "bulboxide",
+         "other":{
+            "English":[
+               "HUD Fixes"
+            ]
+         }
+      },
+      {
          "name": "Cadillac",
          "tester": true,
 		 "animation": true
+      },
+      {
+         "name": "Chrits",
+         "code": true
+      },
+      {
+         "name": "Cream",
+         "mapper": true
+      },
+      {
+         "name": "Cyanide",
+         "code": true,
+         "mapper": true
+      },
+      {
+         "name": "FusionR",
+         "tester": true,
+         "localization":
+			[
+				"Serbo-Croatian"
+         ]
       },
       {
          "name": "DrPyspy",
@@ -186,6 +247,10 @@
          "concepts": true
       },
       {
+         "name":"Eazy E",
+         "models": true
+      },
+      {
          "name": "EnergyPixel",
          "tester": true,
          "models": true
@@ -195,8 +260,34 @@
          "models": true
       },
       {
+         "name": "FigMan57",
+         "server": true
+      },
+      {
+         "name": "Frispy",
+         "tester": true,
+         "localization":
+			[
+				"Ukrainian"
+         ]
+      },
+      {
+         "name": "G-Gnome505",
+         "models": true,
+         "animation": true
+      },
+      {
+         "name": "gamingcam2008",
+         "mapper": true
+      },
+      {
          "name": "Ghetto Gamer",
          "concepts": true
+      },
+      {
+         "name": "Herwork06",
+         "tester": true,
+         "server": true
       },
       {
          "name": "Horiuchi",
@@ -205,8 +296,58 @@
          "server": true
       },
       {
-         "name": "Cream",
-         "mapper": true
+         "name": "HypnOS 1999",
+         "icon": true
+      },
+      {
+         "name": "Iago",
+         "tester":true,
+         "localization":
+			[
+				"Portuguese"
+         ]
+      },
+      {
+         "name": "IntriguingTiles",
+         "other":{
+            "English":
+            [
+               "GitHub Runner Host"
+            ]
+         }
+      },
+      {
+         "name": "Jan",
+         "tester": true,
+         "sounds": true
+      },
+      {
+         "name": "Jasper",
+         "models": true,
+         "textures": true
+      },
+      {
+         "name": "Justin/Jeevestew",
+         "textures": true
+      },
+      {
+         "name": "Justyn",
+			"particles": true,
+         "animation": true,
+         "models": true,
+         "textures": true
+      },
+      {
+         "name": "Kay",
+         "tester": true,
+         "localization":
+			[
+				"Russian"
+         ]
+      },
+      {
+         "name": "KaydemonLP",
+         "code": true
       },
       {
          "name": "Kit Carson",
@@ -218,23 +359,28 @@
             [
                "Beta Badlands remake"
             ]
-            
 			}
       },
       {
-         "name": "Witchkross",
+         "name": "Lurondor",
+         "models": true,
+			"textures": true
+      },
+      {
+         "name": "Marphy Black",
+         "other":{
+            "English": "VOX Announcer"
+         }
+      },
+      {
+         "name": "Mechadexic",
          "tester": true,
-			"concepts": true
+         "code": true
       },
       {
          "name": "Retro",
          "tester": true,
 			"concepts": true
-      },
-      {
-         "name": "Tyler McVicker",
-         "tester": true,
-			"promo": true
       },
       {
          "name": "Sage J. Fox",
@@ -247,97 +393,21 @@
 			}
       },
       {
-         "name": "Train",
-         "code": true
-      },
-      {
-         "name": "Kay",
-         "tester": true,
-         "localization":
-			[
-				"Russian"
-         ]
-      },
-      {
-         "name": "Frispy",
-         "tester": true,
-         "localization":
-			[
-				"Ukrainian"
-         ]
-      },
-		{
-         "name": "Skyrym",
-			"other":
-			{
-				"English": 
-            [
-               "LOD for player models"
-            ]
-			}
-		},
-      {
-         "name": "Jan",
-         "tester": true,
-         "sounds": true
-      },
-      {
-         "name": "Justin/Jeevestew",
-         "textures": true
-      },
-      {
-         "name": "xamps",
-         "models": true
-      },
-      {
          "name": "Sandvich Thief",
 			"models": true,
 			"textures": true
       },
       {
-         "name": "Chrits",
-         "code": true
+         "name": "Seal",
+         "models": true,
+         "animation": true
       },
       {
-         "name": "Stachekip",
-         "textures": true,
-         "sounds": true,
-         "flex": true
-      },
-      {
-         "name": "Herwork06",
+         "name":"sonicdude143",
          "tester": true,
-         "server": true
-      },
-      {
-         "name": "FigMan57",
-         "server": true
-      },
-      {
-         "name": "Scarlett Ruby",
-         "code": true
-      },
-      {
-         "name": "barcode scanner",
-         "server": true
-      },
-      {
-         "name": "Bradasparky",
-         "mapper": true
-      },
-      {
-         "name": "Marphy Black",
          "other":{
-            "English": "VOX Announcer"
+            "English": "Menu Background Artist"
          }
-      },
-      {
-         "name": "Iago",
-         "tester":true,
-         "localization":
-			[
-				"Portuguese"
-         ]
       },
       {
          "name": "Spoonastic",
@@ -348,79 +418,49 @@
          ]
       },
       {
-         "name":"sonicdude143",
+         "name": "Stachekip",
+         "textures": true,
+         "sounds": true,
+         "flex": true
+      },
+      {
+         "name":"Suomimies55",
+         "textures": true
+      },
+      {
+         "name": "Swox",
+         "animation": true
+      },
+      {
+         "name": "Tyler McVicker",
          "tester": true,
-         "other":{
-            "English": "Menu Background Artist"
-         }
+			"promo": true
       },
       {
-         "name":"Folvaen",
-         "other":{
-            "English":
-            [
-               "Menu Background Artist",
-               "Painter"
-            ]
-         }
-      },
-      {
-         "name": "HypnOS 1999",
-         "icon": true
-      },
-      {
-         "name":"Eazy E",
-         "models": true
+         "name": "Train",
+         "code": true
       },
       {
          "name":"Vita/Astn/DOS_",
          "models": true
       },
       {
-         "name": "G-Gnome505",
-         "models": true,
-         "animation": true
+         "name": "Witchkross",
+         "tester": true,
+			"concepts": true
       },
       {
-         "name": "Jasper",
-         "models": true,
-         "textures": true
-      },
-      {
-         "name": "Cyanide",
-         "code": true,
-         "mapper": true
-      },
-      {
-         "name": "Seal",
-         "models": true,
-         "animation": true
-      },
-      {
-         "name": "gamingcam2008",
-         "mapper": true
-      },
-      {
-         "name": "Justyn",
-			"particles": true,
-         "animation": true,
-         "models": true,
-         "textures": true
-      },
-      {
-         "name": "IntriguingTiles",
-         "other":{
-            "English":
-            [
-               "GitHub Runner Host"
-            ]
-         }
+         "name": "xamps",
+         "models": true
       }
    ],
    "playtesters":
    [
       {
          "name": "Big Man Man"
+      },
+      {
+         "name": "Biker Pyro"
       },
       {
          "name": "Bumpmap"
@@ -474,9 +514,6 @@
          "name": "KingSluggies"
       },
       {
-         "name": "Lev1679"
-      },
-      {
          "name": "Lexile"
       },
       {
@@ -526,9 +563,6 @@
       },
       {
          "name": "4zy1"
-      },
-      {
-         "name": "Biker Pyro"
       }
    ],
    "special":
@@ -553,6 +587,9 @@
          "name": "Open Fortress"
       },
       {
+         "name": "Project 2006"
+      },
+      {
          "name": "Source SDK 2013 Community Edition"
       },
       {
@@ -560,9 +597,6 @@
       },
       {
          "name": "Team Fortress 2 Vintage"
-      },
-      {
-         "name": "Project 2006"
       }
    ]
 }  
