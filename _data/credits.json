@@ -164,11 +164,14 @@
       },
       {
          "name": "Wendy",
-         "models":true
+         "models": true,
+         "mapper": true
       },
       {
          "name": "Wolfcl0ck",
-         "models": true
+         "models": true,
+         "mapper": true,
+         "textures": true
       },
       {
          "name": "Xeller",
