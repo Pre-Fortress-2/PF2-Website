@@ -76,6 +76,16 @@
          "mapper": true
       },
       {
+         "name": "IntriguingTiles",
+	"programmer": true,
+         "other":{
+            "English":
+            [
+               "GitHub Runner Host"
+            ]
+         }
+      },
+      {
          "name": "juhdon",
          "other":{
             "English":[
@@ -317,15 +327,6 @@
          ]
       },
       {
-         "name": "IntriguingTiles",
-         "other":{
-            "English":
-            [
-               "GitHub Runner Host"
-            ]
-         }
-      },
-      {
          "name": "Jan",
          "tester": true,
          "sounds": true
@@ -391,6 +392,11 @@
          "code": true
       },
       {
+         "name": "Mister Sandman",
+			"models": true,
+			"textures": true
+      },
+      {
          "name": "Retro",
          "tester": true,
 			"concepts": true
@@ -404,11 +410,6 @@
                "Det-Pack model"
             ]
 			}
-      },
-      {
-         "name": "Sandvich Thief",
-			"models": true,
-			"textures": true
       },
       {
          "name": "Seal",
