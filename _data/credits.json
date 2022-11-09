@@ -76,6 +76,11 @@
          "mapper": true
       },
       {
+         "name": "Herwork",
+         "tester": true,
+         "server": true
+      },
+      {
          "name": "IntriguingTiles",
 	 "code": true,
          "other":{
@@ -302,11 +307,6 @@
       {
          "name": "Ghetto Gamer",
          "concepts": true
-      },
-      {
-         "name": "Herwork06",
-         "tester": true,
-         "server": true
       },
       {
          "name": "Horiuchi",
