@@ -36,9 +36,9 @@ If you were to look at the smoke bomb's entire `EmitGrenade` function, you would
 Also within the source code is an unused HUD, `HudSmokeBomb`, that would appear while invisible. It would display a progress bar indicating the time you had left, and would display the icon `cond_smoke_bomb` along with it.
 
 Asset-wise only a particle file, `smoke_disappear.pcf`, has been discovered. It was found within the TF2 build that leaked with the Postal 3 beta. This file contained a particle that presumably would have been emitted from the player when the grenade was activated. 
-[smokebomb.webm](https://user-images.githubusercontent.com/35577693/201422038-0a74406b-bcf8-4ca8-b314-33e3331468f7.webm)
 
+{% include video.html video="https://user-images.githubusercontent.com/35577693/201422038-0a74406b-bcf8-4ca8-b314-33e3331468f7.webm" text="The smoke bomb particle"%}
 
 And that's pretty much it, not really all that special. It's an interesting glimpse at an earlier iteration of a now iconic mechanic, but not much beyond that. We don't have any plans on bringing the grenade back in PF2, but I'll leave you with a clip of it in-action from last year.
 
-[smokebomb-cloak.webm](https://user-images.githubusercontent.com/35577693/201422004-e134282d-37b9-4cd2-9853-f7be5b0ea186.webm)
+{% include video.html video="https://user-images.githubusercontent.com/35577693/201422004-e134282d-37b9-4cd2-9853-f7be5b0ea186.webm" text="The smoke bomb particle in use"%}
