@@ -7,7 +7,8 @@ subject: "Pre-Fortress 2"
 <div class="about-content" style="position:relative;">
     <div class="left-area">
         <!-- About Intro -->
-        <p class="text"><strong> Pre-Fortress 2</strong> is a TF2 sourcemod that aims to bridge the gap between Team Fortress Classic and Team Fortress 2 to    provide fresh new experiences by combining the fast paced action of Team Fortress Classic with the streamlined Team Fortress 2.</p>
+        <p class="text"><strong> Pre-Fortress 2</strong> is a TF2 sourcemod that caters to the gameplay of earlier Team Fortress installments while maintaining the aesthetics from TF2's alternative designs from 2006.<br><br>
+        Grenades, armor, and cut content are all back to create a nostalgic Team Fortress experience! Visit the reimagined world of classic maps such as Crossover and more!</p>
         <br>
         <!-- Youtube Video -->
         <iframe width="100%" height="330" class="about__video" src="https://www.youtube.com/embed/YAlRsmZ7n-Y" frameborder="0"
