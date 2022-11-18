@@ -4,7 +4,7 @@ subject: "Blog"
 title: "Understanding Armor"
 date:   2022-03-01 00:13:00 -0500
 categories: blog
-author: Seal
+author: PF2 Team
 description: "lorem ipsum"
 hidden: true
 image: /assets/blog/images/sb-spy.jpg
