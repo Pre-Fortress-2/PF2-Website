@@ -29,6 +29,14 @@
          "concepts": true
       },
       {
+         "name": "bulboxide",
+         "other":{
+            "English":[
+               "HUD Fixes"
+            ]
+         }
+      },
+      {
          "name": "cazsu",
          "sounds": true
       },
@@ -178,11 +186,6 @@
          "sfm": true
       },
       {
-         "name": "Wendy",
-         "models": true,
-         "mapper": true
-      },
-      {
          "name": "Wolfcl0ck",
          "models": true,
          "mapper": true,
@@ -219,14 +222,6 @@
       {
          "name": "Bradasparky",
          "mapper": true
-      },
-      {
-         "name": "bulboxide",
-         "other":{
-            "English":[
-               "HUD Fixes"
-            ]
-         }
       },
       {
          "name": "Cadillac",
@@ -456,6 +451,10 @@
       },
       {
          "name":"Vita/Astn/DOS_",
+         "models": true
+      },
+      {
+         "name": "Wendy",
          "models": true
       },
       {
