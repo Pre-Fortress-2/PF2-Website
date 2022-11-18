@@ -4,7 +4,6 @@ title: "Updates"
 subject:  "Update 0.7 - Grenades"
 date:   2022-02-01 00:00:00 +1100
 categories: updates
-author: Cyanide
 hidden: true
 NoFeatureImage: true
 permalink: /:categories/codename-pizza/grenades

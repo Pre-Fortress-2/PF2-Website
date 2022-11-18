@@ -14,10 +14,6 @@ NoImageEffect: 1
 excerpt: ""
 ---
 
-The dev build is no more.
+pun intended btw
 
-We are now open source.
-Every update will be through GitHub and any experimental or WIP changes going towards the next update
-Change branch to dev.
-
-We have restructured the discord servers.
+still wip
