@@ -6,7 +6,7 @@ date:   2022-11-18 00:00:00 -0500
 categories: updates
 hidden: true
 NoFeatureImage: true
-permalink: /:categories/codename-pizza/grenades
+permalink: /:categories/0.7/grenades
 ---
 
 Over the last year, the PF2 Team has worked on improving the overall feel of the grenades. Functionality-wise, the grenades have remained the same, but a few key changes have been made in our desire to make them feel better to use.
