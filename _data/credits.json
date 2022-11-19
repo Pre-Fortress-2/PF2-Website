@@ -131,17 +131,6 @@
          "mapper": true
       },
       {
-         "name": "Nbc66",
-         "code": true,
-         "other":
-         {
-            "English": 
-            [
-               "Discord RPC implementation"
-            ]
-         }
-      },
-      {
          "name": "PJX",
          "mapper": true
       },
@@ -394,6 +383,17 @@
          "name": "Mister Sandman",
 			"models": true,
 			"textures": true
+      },
+      {
+         "name": "Nbc66",
+         "code": true,
+         "other":
+         {
+            "English": 
+            [
+               "Discord RPC implementation"
+            ]
+         }
       },
       {
          "name": "Retro",
