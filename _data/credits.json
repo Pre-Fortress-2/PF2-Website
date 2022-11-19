@@ -210,6 +210,10 @@
          "models": true
       },
       {
+         "name": "Angry",
+         "models": true
+      },
+      {
          "name": "barcode scanner",
          "server": true
       },
@@ -494,6 +498,9 @@
          "name": "coke"
       },
       {
+         "name": "colby"
+      },
+      {
          "name": "CoolBoy736"
       },
       {
@@ -543,9 +550,6 @@
       },
       {
          "name": "MacD11"
-      },
-      {
-         "name": "Madison"
       },
       {
          "name": "Marioiscool246"
