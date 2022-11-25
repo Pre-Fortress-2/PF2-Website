@@ -28,6 +28,7 @@ Update addressing bugs and issues found during the first week of 0.7's release.
 - Fixed a bug where players were able to take teleporters while dead
 - Fixed the Übercharge overlay on DX8
 - Fixed a Spy disguise bug where if you're overhealed, the disguise itself will stay permanently overhealed
+- Fixed a Spy disguise bug where if you were damaged with a disguise, the disguise health and disguise armor wouldn't get damage applied to them
 
 # Models
 - Removed Herobrine Medic
@@ -53,3 +54,4 @@ Update addressing bugs and issues found during the first week of 0.7's release.
 - Added localization for the Hold This Position voice option
 - Added a unique Pipebomb Launcher kill icon
 - Added a closing sound to the Pipebomb Launcher's draw animation
+- Properly centered the the Medic Übercharge panel 
