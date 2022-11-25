@@ -40,8 +40,9 @@ Update addressing bugs and issues found during the first week of 0.7's release.
 - tf_arena_first_blood, which is the crits that you get from killing someone first in the Arena gamemode, is off by default
 - pf_round_end_friendlyfire, where you can attack your teammates on round end, is on by default
 - tf_delete_temp_files, where spray files are deleted upon exiting the game, is on by default
-- Removed the pf_picmip command, due to stability issues. Only mat_picmip values from -1 to 4 are allowed.
+- Removed the pf_picmip command, due to instability. Only mat_picmip values from -1 to 4 are allowed.
 - pf_accessibility_concussion, which shakes the crosshair rather than your whole screen, is on by default
+- pf_alerts_armor, which warns you if your armor gets damaged to a certain percentage, is on by default
 
 # Maps
 - ad_dustbowl: Added func_nobuild brushes to building exploit spots
