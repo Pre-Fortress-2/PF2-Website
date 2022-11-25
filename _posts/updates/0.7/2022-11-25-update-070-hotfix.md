@@ -2,10 +2,10 @@
 layout: blog
 subject: "Updates"
 title:  "The 0.7 Hotfix"
-date:   2022-11-24 00:00:00 -0500
+date:   2022-11-25 00:00:00 -0500
 categories: updates
 description: "Week 1 Hotfix"
-hidden: true
+hidden: false
 permalink: /:categories/0.7/hotfix
 excerpt: "Update addressing bugs and issues found during the first week of 0.7's release."
 ---
@@ -35,6 +35,8 @@ Update addressing bugs and issues found during the first week of 0.7's release.
 - Removed Herobrine Medic
 - Adjusted the bounding box collision on flamerockets and pipebombs
 - Added a unique teleporter blueprint model
+- Updated civilian texture
+- Updated large ammo box texture
 
 # Commands
 - tf_use_arena_queue, the queue system the Arena gamemode uses, is off by default
@@ -56,3 +58,4 @@ Update addressing bugs and issues found during the first week of 0.7's release.
 - Added a unique Pipebomb Launcher kill icon
 - Added a closing sound to the Pipebomb Launcher's draw animation
 - Properly centered the the Medic Übercharge panel 
+- Updated default sprays
