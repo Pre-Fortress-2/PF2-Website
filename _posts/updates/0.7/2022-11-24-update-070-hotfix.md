@@ -29,6 +29,7 @@ Update addressing bugs and issues found during the first week of 0.7's release.
 - Fixed the Übercharge overlay on DX8
 - Fixed a Spy disguise bug where if you're overhealed, the disguise itself will stay permanently overhealed
 - Fixed a Spy disguise bug where if you were damaged with a disguise, the disguise health and disguise armor wouldn't get damage applied to them
+- Fixed hitboxes desyncing after class changing
 
 # Models
 - Removed Herobrine Medic
@@ -49,7 +50,6 @@ Update addressing bugs and issues found during the first week of 0.7's release.
 - ctf_2fort: Fixed being able to reach the skybox in front of the BLU battlements
 - koth_crossover: Updated clipping on one of the truss models on the RED side
 - pl_goldrush: Fixed being able to go out of bounds, and fixed stage 3's explosion particle's orientation being misaligned
-
 
 # Misc
 - Added localization for the Hold This Position voice option
