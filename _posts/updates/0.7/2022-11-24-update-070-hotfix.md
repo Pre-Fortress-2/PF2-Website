@@ -6,7 +6,7 @@ date:   2022-11-24 00:00:00 -0500
 categories: updates
 description: "Week 1 Hotfix"
 hidden: true
-permalink: /:categories/0.7/ 
+permalink: /:categories/0.7/hotfix
 excerpt: "Update addressing bugs and issues found during the first week of 0.7's release."
 ---
 
