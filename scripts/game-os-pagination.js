@@ -16,8 +16,8 @@ const linux_only = document.getElementsByClassName("linux_only")
 const all_versions = document.getElementById("all_versions");
 const choose_game_area = document.getElementById("choose-game-area");
 
-const first_mirror = "https://github.com/Pre-Fortress-2/pf2/releases/tag/0.7"
-const all_in_one = "https://github.com/Pre-Fortress-2/pf2/releases/tag/0.7"
+const first_mirror = "https://github.com/Pre-Fortress-2/pf2/releases/tag/0.7hotfix"
+const all_in_one = "https://github.com/Pre-Fortress-2/pf2/releases/tag/0.7hotfix"
 
 const browser_hash = window.location.hash.split('#')[1];
 
