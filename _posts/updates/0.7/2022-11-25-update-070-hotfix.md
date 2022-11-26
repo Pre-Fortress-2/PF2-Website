@@ -59,3 +59,6 @@ Update addressing bugs and issues found during the first week of 0.7's release.
 - Added a closing sound to the Pipebomb Launcher's draw animation
 - Properly centered the the Medic Übercharge panel 
 - Updated default sprays
+
+# Download link to the Hotfix
+https://github.com/Pre-Fortress-2/pf2/releases/tag/0.7hotfix
