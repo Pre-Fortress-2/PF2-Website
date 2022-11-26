@@ -60,5 +60,5 @@ Update addressing bugs and issues found during the first week of 0.7's release.
 - Properly centered the the Medic Übercharge panel 
 - Updated default sprays
 
-# Download link to the Hotfix
+# Download Link
 [Pre-Fortress 2 0.7 Hotfix](https://github.com/Pre-Fortress-2/pf2/releases/tag/0.7hotfix)
