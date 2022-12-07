@@ -82,13 +82,11 @@ Pyro as seen in T1 & T2
 ### [Heavy and Sniper Emblems by -=[FALLSCHIRM] G4NG$ST4=-](https://gamebanana.com/mods/414134)
 A simple mod that adds emblems to Heavy and Sniper
 
-
 ### [Class Emblems by -=[FALLSCHIRM] G4NG$ST4=-](https://gamebanana.com/mods/413941)
 A simple mod that adds class emblems for Soldier, Demoman, Engineer and 2 for Spy.
 
 ### [Tf2 Beta scout by xamps](https://gamebanana.com/mods/413542)
 Illustrative Rendering and Trailer 2 scout skins
-
 
 ### [Beta Styled Illustrative Rendering Spy by EveriK](https://gamebanana.com/mods/413827)
 A very polished IR spy skin
