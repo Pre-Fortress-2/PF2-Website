@@ -21,10 +21,6 @@
          ]
       },
       {
-         "name": "AnthonyPython",
-         "code": true
-      },
-      {
          "name": "Blazer",
          "concepts": true
       },
@@ -64,12 +60,6 @@
          "animation": true
       },
       {
-         "name": "fi(v)e",
-         "textures": true,
-         "concepts": true,
-         "icon": true
-      },
-      {
          "name":"Folvaen",
          "other":{
             "English":
@@ -78,10 +68,6 @@
                "Painter"
             ]
          }
-      },
-      {
-         "name": "HDMine Face",
-         "mapper": true
       },
       {
          "name": "Herwork",
@@ -181,14 +167,6 @@
          "textures": true
       },
       {
-         "name": "Xeller",
-         "textures": true
-      },
-      {
-         "name": "zythe_",
-         "mapper": true
-      },
-      {
          "name": "[N-cognito]",
          "animation": true
       }
@@ -205,6 +183,10 @@
       {
          "name": "Angry",
          "models": true
+      },
+      {
+         "name": "AnthonyPython",
+         "code": true
       },
       {
          "name": "barcode scanner",
@@ -276,6 +258,12 @@
          "textures": true
       },
       {
+         "name": "fi(v)e",
+         "textures": true,
+         "concepts": true,
+         "icon": true
+      },
+      {
          "name": "Ficool2",
          "models": true
       },
@@ -303,6 +291,10 @@
       {
          "name": "Ghetto Gamer",
          "concepts": true
+      },
+      {
+         "name": "HDMine Face",
+         "mapper": true
       },
       {
          "name": "Horiuchi",
@@ -477,6 +469,14 @@
       {
          "name": "xamps",
          "models": true
+      },
+      {
+         "name": "Xeller",
+         "textures": true
+      },
+      {
+         "name": "zythe_",
+         "mapper": true
       }
    ],
    "playtesters":
