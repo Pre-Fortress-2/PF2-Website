@@ -11,7 +11,7 @@ subject: "Pre-Fortress 2"
         Grenades, armor, and cut content are all back to create a nostalgic Team Fortress experience! Visit the reimagined world of classic maps such as Crossover and more!</p>
         <br>
         <!-- Youtube Video -->
-        <iframe width="100%" height="330" class="about__video" src="https://www.youtube.com/embed/YAlRsmZ7n-Y" frameborder="0"
+        <iframe width="100%" height="330" class="about__video" src="https://www.youtube.com/embed/O-aJXgkgW4Y" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <!-- Right Area in PC screens -->
