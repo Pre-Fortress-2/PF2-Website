@@ -21,6 +21,7 @@ permalink: "/news.txt"
 			{%- assign gotupdate = true -%}
 			{%- assign updateurl = post.url | relative_url -%}
 			{%- assign updatetitle = post.title -%}
+			{%- assign updatedate = post.date | date: "%Y%m%d" -%}
 			{%- assign updateexcerpt = post.excerpt -%}
 		{%- endif -%}
 	{%- endif -%}
@@ -32,6 +33,7 @@ permalink: "/news.txt"
 	"patch"		"{{ site.game-patch }}"
 	"updateurl"	"{{ updateurl }}"
 	"updatetitle"	"{{ updatetitle }}"
+	"updatedate"	"{{ updatedate }}"
 	"updateexcerpt"	"{{ updateexcerpt | remove: '' }}"
 	"blogdate"	"{{ blogdate }}"
 	"blogurl"	"{{ blogurl }}"
