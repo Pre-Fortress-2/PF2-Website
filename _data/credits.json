@@ -84,7 +84,7 @@
       },
       {
          "name": "IntriguingTiles",
-	 "code": true,
+		 "code": true,
          "other":{
             "English":
             [
@@ -164,8 +164,8 @@
          "models": true
       },
       {
-         "name": "Wendie/Sploink",
-			"mapper": true,
+         "name": "Sploink",
+		 "mapper": true,
          "sfm": true
       },
       {
@@ -206,6 +206,7 @@
 		 "mapper": true
       },
    ],
+   
    "contributors": [
       {
          "name": "Akis_02",
