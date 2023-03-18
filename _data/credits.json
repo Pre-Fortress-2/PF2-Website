@@ -177,7 +177,7 @@
       {
          "name": "[N-cognito]",
          "animation": true
-      }
+      },
 	  {
          "name": "jan",
          "tester": true,
