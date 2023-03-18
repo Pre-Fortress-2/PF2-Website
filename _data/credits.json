@@ -54,6 +54,11 @@
       {
          "name": "dead_thing",
          "code": true
+		 "other":{
+			 "English":
+			 [
+				"Lead Programmer"
+			 ]
       },
       {
          "name": "Farlander",
@@ -170,10 +175,37 @@
          "name": "[N-cognito]",
          "animation": true
       }
+	  {
+         "name": "jan",
+         "tester": true,
+         "sounds": true
+      },
+	  {
+         "name": "HypnOS 1999",
+         "icon": true,
+		 "textures": true,
+		 "sounds": true
+      },
+	  {
+         "name": "EveriK",
+         "textures": true
+      },
+	  {
+         "name": "Justyn",
+		 "particles": true,
+         "animation": true,
+         "models": true,
+         "textures": true
+      },
+	  {
+         "name": "GrassyTrams",
+         "models": true,
+		 "mapper": true
+      },
    ],
    "contributors": [
       {
-         "name":"Akis_02",
+         "name": "Akis_02",
          "sounds": true
       },
       {
@@ -195,8 +227,8 @@
       {
          "name": "Boba",
          "tester": true,
-			"particles": true,
-			"graphics": true
+		 "particles": true,
+		 "graphics": true
       },
       {
          "name": "Bradasparky",
@@ -254,18 +286,10 @@
          "models": true
       },
       {
-         "name": "EveriK",
-         "textures": true
-      },
-      {
          "name": "fi(v)e",
          "textures": true,
          "concepts": true,
          "icon": true
-      },
-      {
-         "name": "Ficool2",
-         "models": true
       },
       {
          "name": "FigMan57",
@@ -275,8 +299,8 @@
          "name": "Frispy",
          "tester": true,
          "localization":
-			[
-				"Ukrainian"
+		 [
+			"Ukrainian"
          ]
       },
       {
@@ -303,21 +327,12 @@
          "server": true
       },
       {
-         "name": "HypnOS 1999",
-         "icon": true
-      },
-      {
          "name": "Iago",
          "tester":true,
          "localization":
 			[
 				"Portuguese"
-         ]
-      },
-      {
-         "name": "Jan",
-         "tester": true,
-         "sounds": true
+			]
       },
       {
          "name": "Jasper",
@@ -326,13 +341,6 @@
       },
       {
          "name": "Justin/Jeevestew",
-         "textures": true
-      },
-      {
-         "name": "Justyn",
-			"particles": true,
-         "animation": true,
-         "models": true,
          "textures": true
       },
       {
@@ -386,14 +394,7 @@
       },
       {
          "name": "Nbc66",
-         "code": true,
-         "other":
-         {
-            "English": 
-            [
-               "Discord RPC implementation"
-            ]
-         }
+         "code": true
       },
       {
          "name": "Retro",
@@ -413,7 +414,8 @@
       {
          "name": "Seal",
          "models": true,
-         "animation": true
+         "animation": true,
+		 "code": true
       },
       {
          "name":"sonicdude143",
