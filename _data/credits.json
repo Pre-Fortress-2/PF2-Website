@@ -59,10 +59,13 @@
 			 [
 				"Lead Programmer"
 			 ]
+		 }
       },
       {
          "name": "Farlander",
-         "animation": true
+         "animation": true,
+		 "sounds": true,
+		 "textures": true
       },
       {
          "name":"Folvaen",
