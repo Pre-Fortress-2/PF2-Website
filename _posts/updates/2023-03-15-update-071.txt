@@ -23,11 +23,13 @@ Added arena_trainyard
 **[New Animations]**
 Added thirdperson grenade animations to all of the classes! Your active weapon will now disappear while the grenade is primed, which will go into an animation
 	Demoman gif of MIRV spinning TP animation
+	demomirv.gif
 	
 Redid the MIRV Grenade viewmodel animations for Heavy and the Spy Frag and Gas Grenade:
 	Video showcase
-
-
+	
+Redid the Scout class selection animations
+	scout gif
 
 **[Gameplay Changes]**
 Soldier/Demoman
@@ -52,6 +54,7 @@ Engineer
 		Level 3: 20% (from 33%)
 	Gave the EMP the ability to disarm remote detonatable pipebombs
 	Slightly nerfed the max possible detonation base damage for dispensers (220 damage -> 200 damage)
+	Added a building HUD notification for when they're disabled by the EMP
 	
 Medic
 	The Heal Grenade now explodes on teammate impact, similar to a grenade launcher pipe impact on enemies
@@ -61,7 +64,7 @@ Medic
 
 Sniper
 	Added a bullet tracer to the Sniper Rifle
-	Sniper only does the zoom in animation if he is charging his Sniper Rifle
+	Added a unique animation that plays when charging the Sniper Rifle
 
 Spy
 	Reverted a change from the previous patch which made Spy disguised fake health and armor update as if they were hurt. This gave away Spies' disguises too easily.
@@ -70,11 +73,14 @@ Spy
 General
 	The flag is thrown instead of dropped upon the flag holder's death
 	Flags now reset back to their base if they are thrown into deathpits or into a func_respawnroom trigger
-	Buffed the MIRV's base damage to 120
-	Buffed the Frag Grenade's base damage to 100
+	Increased the MIRV Grenade's base damage to 120 (from 100)
+	Increased the Frag Grenade's base damage to 100 (from 90)
+	Added lead in sounds to the MIRV Grenade, the EMP Grenade, and the Heal Grenade
+	Added unique impact sounds for the grenades
 
 
 **[Mapping]**
+Ported many assets and soundscapes from Live TF2 (WARNING! THE GAME HAS GROWN TO ABOUT 6-7 GIGABYTES DUE TO THIS)
 Added proper building I/O for all of the map placed objects 
 Added the map object building input InputSetBuilder, which sets the builder of map placed objects
 Ported filter_tf_condition, filter_tf_class, trigger_add_tf_condition, and trigger_remove_tf_condition from Live TF2
@@ -168,7 +174,6 @@ Added func_flag_no_zone, a trigger to drop the flag, or prevent players from pic
 		``OnFlagDropped``
 		
 Added the input SetCustomModel for players and pickups (Thanks Open Fortress!)
-Ported many assets and soundscapes from Live TF2 (WARNING! THE GAME HAS GROWN TO ABOUT 6 GIGABYTES DUE TO THIS)
 Added Civilian to the filter_tf_class class list
 Added class spawn flags for the entity info_player_teamspawn
 Added an option for func_respawnroom to toggle dropping the flag
@@ -185,10 +190,12 @@ Updated the Civilian's health to 200
 Tweaked the textures of the Pistol, Rocket Launcher, Branding Iron, SMG, and Wrench
 Tweaked the textures of the Engineer and Spy to fix some small issues
 Updated the Heavy's player model (Thanks xamps!)
+Updated the Scout's player model (Thanks xamps!)
+Updated the Demoman's player model (Thanks xamps!)
 The Soldier's secondary taunt is randomized between the Soldier's Salute taunt and the grenade juggling taunt
 Remote detonatable pipebombs and grenades now gib when shot
 Gave the Defense Turret a proper death animation
-Gave the MIRV grenade bomblets trail particles
+Gave the MIRV Grenade bomblets trail particles
 Slightly touched up the detonatable pipebombs and how they interact with the world
 Added an intro video for koth_crossover
 Shifted the angles of the Pipebomb Launcher's viewmodel
@@ -199,11 +206,16 @@ Added new Pipebomb Launcher sounds
 Added proximity voice chat as an option! Set the command ``pf_voice_proximity_chat`` or toggle Voice Proximity Chat in the Advanced Options. With it on, only your voice chat volume will be affected by distance from other players.
 The Sniper Rifle now gibs on a fully charged headshot
 Added the event "owner_object_destroyed", which specifies what object was detonated, and from what coordinates the owner detonated it from
-Added a lead in sound to the MIRV Grenade, EMP Grenade, and Heal Grenade
 Updated the Heal Grenade texture
 Updated the bunny cutout model and textures
 Updated the Sniper's Club weapon textures
-Adjusted the Pyro's Shotgun reload viewmodel animations 
+Adjusted the Pyro's Shotgun reload viewmodel animations
+The News button on the Main Menu now shows the most recent post on the website, whether it's an update or blog post
+Updated the Syringe model to have liquid inside
+Updated the Syringe sounds
+Added sounds for when a player is infected
+Added Infection spreading! The command ``pf_infection_spread`` controls this and is off by default. If set, if you are infected, you can infect teammates within a set range, which is controlled by the command ``pf_infection_spread_range``.
+Removed the infection icon particle from players and replaced it with a green coloring over the player model
 
 
 **[Bug Fixes]**
@@ -253,6 +265,12 @@ Fixed a bug where the Armor Repaired scoreboard label would show up in the HLTV 
 Fixed a text scaling issue with the Defender/Attackers hud panels
 Fixed a bug where sometimes, if a teleporter was destroyed and still had a matching teleporter, the matching teleporter's upgrade level wouldn't revert to level one 
 Fixed a bug where Sentry Guns could still shoot off sappers 
+Fixed the throwing sound playing multiple times when the beartraps are thrown
+Fixed a bug where sniper rifle leg shots and tranquilizer darts could affect Übered players
+Fixed a bug where if the flag is reset, the OnReturn output wasn't called
+Fixed the unnaturally shiny pickup04 truck texture
+Fixed a bug where classes' Payload voicelines wouldn't play
+
 
 **[Commands]**
 Added ``tf_allow_taunt_sliding``, to control taunt sliding capabilities.
@@ -264,3 +282,4 @@ Added ``pf_voice_proximity_chat``, which turns on proximity voice chat. People w
 Added ``pf_discord_rpc_show_map_icons``, a command to toggle map icons
 Changed ``pf_disable_bunnyhop_cap`` to ``pf_bunnyhop_cap``, which allows you to input the specific cap as a decimal number, instead of changing it to off or on. The default value is 1.2.
 Changed ``pf_discord_class`` to ``pf_discord_rpc_show_class_icons``
+Added ``pf_infection_spread`` and ``pf_infection_spread_range``
