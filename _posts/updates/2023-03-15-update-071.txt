@@ -76,7 +76,7 @@ General
 	Flags now reset back to their base if they are thrown into deathpits or into a func_respawnroom trigger
 	Increased the MIRV Grenade's base damage to 120 (from 100)
 	Increased the Frag Grenade's base damage to 100 (from 90)
-	Added lead in sounds to the MIRV Grenade, the EMP Grenade, and the Heal Grenade
+	Added lead in sounds to the MIRV Grenade, the EMP Grenade, and the Heal Grenade. This lets you know if one of these grenades will go off around your area, as these grenades are devastating compared to the rest.
 	Added unique impact sounds for the grenades
 
 
@@ -205,10 +205,10 @@ The Soldier's secondary taunt is randomized between the Soldier's Salute taunt a
 Detonatable pipes and grenades now gib when shot
 Added a Defense Turret death animation
 Gave the MIRV Grenade bomblets trail particles
-Touched up the detonatable pipebombs and how they interact with the world
+Updated how the detonatable pipebombs and how they interact with the world
 Added an intro video for koth_crossover
 Shifted the angles of the Pipebomb Launcher's viewmodel
-Touched up the Nailgun and Pipebomb Launcher viewmodel animations
+Updated the Nailgun and Pipebomb Launcher viewmodel animations
 Added a player condition hud icon for being on fire
 Added new Medic SMG sounds
 Added new Pipebomb Launcher sounds
@@ -226,6 +226,7 @@ Added sounds for when a player is infected
 Added Infection spreading! The command ``pf_infection_spread`` controls this and is off by default. If set, if you are infected, you can infect teammates within a set range, which is controlled by the command ``pf_infection_spread_range``.
 Removed the infection icon particle that appeared above players and replaced it with a green coloring over the player model
 Updated the Sniper's viewmodel arms
+
 
 **[Bug Fixes]**
 Addressed more stability issues
@@ -273,7 +274,7 @@ Fixed a bug where if grenade holstering was off, and you had grenade press throw
 Fixed a bug where the Armor Repaired scoreboard label would show up in the HLTV scoreboard
 Fixed a text scaling issue with the Defender/Attackers hud panels
 Fixed a bug where sometimes, if a teleporter was destroyed and still had a matching teleporter, the matching teleporter's upgrade level wouldn't revert to level one 
-Fixed a bug where Sentry Guns could still shoot off sappers 
+Fixed a bug where Sentry Guns could shoot off sappers 
 Fixed the throwing sound playing multiple times when the beartraps are thrown
 Fixed a bug where sniper rifle leg shots and tranquilizer darts could affect Übered players
 Fixed a bug where if the flag is reset, the OnReturn output wasn't called
@@ -281,15 +282,14 @@ Fixed the unnaturally shiny pickup04 truck textures
 Fixed a bug where classes' Payload voicelines wouldn't play
 
 
-
 **[Commands]**
-Added ``tf_allow_taunt_sliding``, to control taunt sliding capabilities.
+Added ``tf_allow_taunt_sliding``, to control taunt sliding capabilities. The default value is 0. Similar to Live TF2's implementation.
 Added ``sv_quota_stringcmdspersecond`` to control how many string commands a player can send per second. The default value is 20. Thanks sappho!
-Added ``sv_spew_stringcmds`` for server operators to see players' stringcmds. Thanks sappho!
-Added ``net_chan_proctime_limit_ms``, which controls the max amount of time in milliseconds a server is allowed to process networking packets. The default is 128. Thanks sappho!
-Added ``tf_avoidteammates_pushaway``, which turns off the push you get from colliding with your teammates. 
+Added ``sv_spew_stringcmds`` for server operators to see players' stringcmds. The default value is 0. (Thanks sappho!)
+Added ``net_chan_proctime_limit_ms``, which controls the max amount of time in milliseconds a server is allowed to process networking packets. The default value is 128. (Thanks sappho!)
+Added ``tf_avoidteammates_pushaway``, which turns off the push you get from colliding with your teammates. The default value is 1.
 Added ``pf_voice_proximity_chat``, which turns on proximity voice chat. People will only be able to hear you within a radius. Just like real life!
-Added ``pf_discord_rpc_show_map_icons``, a command to toggle map icons
+Added ``pf_discord_rpc_show_map_icons``, a command to toggle map icons. The default value is 1.
 Changed ``pf_disable_bunnyhop_cap`` to ``pf_bunnyhop_cap``, which allows you to input the specific cap as a decimal number, instead of changing it to off or on. The default value is 1.2.
 Changed ``pf_discord_class`` to ``pf_discord_rpc_show_class_icons``
-Added ``pf_infection_spread`` and ``pf_infection_spread_range``
+Added ``pf_infection_spread`` and ``pf_infection_spread_range`` The default values are 0, and 64, respectively.
