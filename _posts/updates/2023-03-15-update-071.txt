@@ -34,6 +34,7 @@ Redid the Scout class selection animations
 **[Gameplay Changes]**
 Soldier/Demoman
 	Added a 20% self explosive damage resistance to Soldier and Demoman (does not apply to grenade jumping) 
+	Added a new detonatable pipebomb model for Demoman
 	
 Pyro
 	Nerfed the afterburn duration to 6 seconds (from 10 seconds)
@@ -168,16 +169,24 @@ Added more options and I/O to obj_dispenser/mapobj_cart_dispenser
 		``OnDispenserTouch``
 
 Added the entity trigger_catapult from Momentum Mod, which is similar to the implementation of Live TF2's
-Added func_flag_no_zone, a trigger to drop the flag, or prevent players from picking up the flag in the trigger
-(dropdown)
+Added func_flag_no_zone, a trigger to drop or reset the flag.
+	(dropdown)
+	Options:
+		``Reset the Flag?``
+		
+	Inputs: 
+		``ToggleResetFlag``
+		
 	Outputs:
 		``OnFlagDropped``
+		``OnFlagReset``
 		
 Added the input SetCustomModel for players and pickups (Thanks Open Fortress!)
 Added Civilian to the filter_tf_class class list
-Added class spawn flags for the entity info_player_teamspawn
+Added class spawn flags for info_player_teamspawn
 Added an option for func_respawnroom to toggle dropping the flag
-Added obj_teleporter to the fgd, with the I/O from Live TF2
+Added obj_teleporter, with the I/O from Live TF2
+Added math_counter_static, which is math_counter but preserved between rounds
 
 
 **[Miscellaneous Features]**
@@ -193,10 +202,10 @@ Updated the Heavy's player model (Thanks xamps!)
 Updated the Scout's player model (Thanks xamps!)
 Updated the Demoman's player model (Thanks xamps!)
 The Soldier's secondary taunt is randomized between the Soldier's Salute taunt and the grenade juggling taunt
-Remote detonatable pipebombs and grenades now gib when shot
-Gave the Defense Turret a proper death animation
+Detonatable pipes and grenades now gib when shot
+Added a Defense Turret death animation
 Gave the MIRV Grenade bomblets trail particles
-Slightly touched up the detonatable pipebombs and how they interact with the world
+Touched up the detonatable pipebombs and how they interact with the world
 Added an intro video for koth_crossover
 Shifted the angles of the Pipebomb Launcher's viewmodel
 Touched up the Nailgun and Pipebomb Launcher viewmodel animations
@@ -211,12 +220,12 @@ Updated the bunny cutout model and textures
 Updated the Sniper's Club weapon textures
 Adjusted the Pyro's Shotgun reload viewmodel animations
 The News button on the Main Menu now shows the most recent post on the website, whether it's an update or blog post
-Updated the Syringe model to have liquid inside
+Added liquid inside the Syringe 
 Updated the Syringe sounds
 Added sounds for when a player is infected
 Added Infection spreading! The command ``pf_infection_spread`` controls this and is off by default. If set, if you are infected, you can infect teammates within a set range, which is controlled by the command ``pf_infection_spread_range``.
-Removed the infection icon particle from players and replaced it with a green coloring over the player model
-
+Removed the infection icon particle that appeared above players and replaced it with a green coloring over the player model
+Updated the Sniper's viewmodel arms
 
 **[Bug Fixes]**
 Addressed more stability issues
@@ -268,8 +277,9 @@ Fixed a bug where Sentry Guns could still shoot off sappers
 Fixed the throwing sound playing multiple times when the beartraps are thrown
 Fixed a bug where sniper rifle leg shots and tranquilizer darts could affect Übered players
 Fixed a bug where if the flag is reset, the OnReturn output wasn't called
-Fixed the unnaturally shiny pickup04 truck texture
+Fixed the unnaturally shiny pickup04 truck textures
 Fixed a bug where classes' Payload voicelines wouldn't play
+
 
 
 **[Commands]**
