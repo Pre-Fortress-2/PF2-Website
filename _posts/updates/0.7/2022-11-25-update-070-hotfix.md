@@ -53,7 +53,7 @@ Update addressing bugs and issues found during the first week of 0.7's release.
 - koth_crossover: Updated clipping on one of the truss models on the RED side
 - pl_goldrush: Fixed being able to go out of bounds, and fixed stage 3's explosion particle's orientation being misaligned
 
-## Misc
+## Miscellaneous
 - Added localization for the Hold This Position voice option
 - Added a unique Pipebomb Launcher kill icon
 - Added a closing sound to the Pipebomb Launcher's draw animation
