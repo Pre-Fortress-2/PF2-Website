@@ -12,7 +12,7 @@ excerpt: "Update addressing bugs and issues found during the first week of 0.7's
 
 Update addressing bugs and issues found during the first week of 0.7's release.
 
-# Bug Fixes
+## Bug Fixes
 - Addressed the server stability issues
 - Fixed the Medic's Syringe not giving Übercharge upon healing a teammate (Up to 5% Übercharge on full heal)
 - Fixed a bug where some of the pipebombs from the Pipebomb Launcher wouldn't disappear upon death
@@ -31,14 +31,14 @@ Update addressing bugs and issues found during the first week of 0.7's release.
 - Fixed a Spy disguise bug where if you were damaged with a disguise, the disguise health and disguise armor wouldn't get damage applied to them
 - Fixed hitboxes desyncing after class changing
 
-# Models
+## Models
 - Removed Herobrine Medic
 - Adjusted the bounding box collision on flamerockets and pipebombs
 - Added a unique teleporter blueprint model
 - Updated civilian texture
 - Updated large ammo box texture
 
-# Commands
+## Commands
 - tf_use_arena_queue, the queue system the Arena gamemode uses, is off by default
 - tf_arena_first_blood, which is the crits that you get from killing someone first in the Arena gamemode, is off by default
 - pf_round_end_friendlyfire, where you can attack your teammates on round end, is on by default
@@ -47,18 +47,18 @@ Update addressing bugs and issues found during the first week of 0.7's release.
 - pf_accessibility_concussion, which shakes the crosshair rather than your whole screen, is on by default
 - pf_alerts_armor, which warns you if your armor gets damaged to a certain percentage, is on by default
 
-# Maps
+## Maps
 - ad_dustbowl: Added func_nobuild brushes to building exploit spots
 - ctf_2fort: Fixed being able to reach the skybox in front of the BLU battlements
 - koth_crossover: Updated clipping on one of the truss models on the RED side
 - pl_goldrush: Fixed being able to go out of bounds, and fixed stage 3's explosion particle's orientation being misaligned
 
-# Misc
+## Misc
 - Added localization for the Hold This Position voice option
 - Added a unique Pipebomb Launcher kill icon
 - Added a closing sound to the Pipebomb Launcher's draw animation
 - Properly centered the the Medic Übercharge panel 
 - Updated default sprays
 
-# Download Link
+## Download Link
 [Pre-Fortress 2 0.7 Hotfix](https://github.com/Pre-Fortress-2/pf2/releases/tag/0.7hotfix)
