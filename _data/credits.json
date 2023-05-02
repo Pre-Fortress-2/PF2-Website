@@ -13,6 +13,11 @@
          }
       },
       {
+         "name": "Sploink",
+	 "mapper": true,
+         "sfm": true
+      },
+      {
          "name": "AlexEpisode",
          "code": true,
          "localization" :
@@ -140,14 +145,11 @@
          "name": "RedFire",
          "mapper": true
       },
+      
       {
-         "name": "Scarlett Ruby",
-         "code": true
-      },
-		{
          "name": "Skyrym",
-			"models": true
-		},
+	 "models": true
+      },
       {
          "name": "Technochips",
          "code": true,
@@ -160,13 +162,8 @@
          ]
       },
       {
-         "name": "Unhelpful Git",
+         "name": "Helpful Git",
          "models": true
-      },
-      {
-         "name": "Sploink",
-		 "mapper": true,
-         "sfm": true
       },
       {
          "name": "Wolfcl0ck",
