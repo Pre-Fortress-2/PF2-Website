@@ -163,13 +163,7 @@
       {
          "name": "Helpful Git",
          "models": true
-      },
-      {
-         "name": "Wolfcl0ck",
-         "models": true,
-         "mapper": true,
-         "textures": true
-      },
+      },     
       {
          "name": "[N-cognito]",
          "animation": true
@@ -189,14 +183,14 @@
          "textures": true
       },
 	  {
-         "name": "Justyn",
+         "name": "justyn",
 		 "particles": true,
          "animation": true,
          "models": true,
          "textures": true
       },
 	  {
-         "name": "GrassyTrams",
+         "name": "Funicular",
          "models": true,
 		 "mapper": true
       },
@@ -225,7 +219,7 @@
          "server": true
       },
       {
-         "name": "Boba",
+         "name": "boba",
          "tester": true,
 		 "particles": true,
 		 "graphics": true
@@ -267,14 +261,6 @@
          "mapper": true
       },
       {
-         "name": "FusionR",
-         "tester": true,
-         "localization":
-		 [
-			"Serbo-Croatian"
-         ]
-      },
-      {
          "name": "DrPyspy",
          "tester": true,
          "models": true
@@ -292,6 +278,14 @@
          "name": "EnergyPixel",
          "tester": true,
          "models": true
+      },
+	  {
+         "name": "FusionR",
+         "tester": true,
+         "localization":
+		 [
+			"Serbo-Croatian"
+         ]
       },
       {
          "name": "fi(v)e",
@@ -462,6 +456,10 @@
          "name": "swox",
          "animation": true
       },
+	  {
+		 "name": "Scarlett Ruby",
+         "code": true
+	  },
       {
          "name": "Train",
          "code": true
