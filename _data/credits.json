@@ -144,7 +144,12 @@
          "name": "RedFire",
          "mapper": true
       },
-      
+      {
+         "name": "Seal",
+         "models": true,
+         "animation": true,
+		 "code": true
+      },
       {
         "name": "Skyrym",
 		"models": true
@@ -188,12 +193,7 @@
          "animation": true,
          "models": true,
          "textures": true
-      },
-	  {
-         "name": "Funicular",
-         "models": true,
-		 "mapper": true
-      },
+      }
    ],
    
    "contributors": 
@@ -296,6 +296,11 @@
       {
          "name": "FigMan57",
          "server": true
+      },
+      {
+         "name": "Funicular",
+         "models": true,
+	 "mapper": true
       },
       {
          "name": "Frispy",
@@ -428,12 +433,6 @@
                "Det-Pack model"
             ]
 		}
-      },
-      {
-         "name": "Seal",
-         "models": true,
-         "animation": true,
-		 "code": true
       },
       {
          "name": "sonicdude143",
