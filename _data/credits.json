@@ -404,6 +404,17 @@
          "code": true
       },
       {
+         "name": "NotQuiteApex",
+         "code": true,
+	 "other":
+		{
+		"English": 
+	            [
+	               "Docker Server Image Base"
+	            ]
+		}
+      },
+      {
          "name": "Retro",
          "tester": true,
 		 "concepts": true
