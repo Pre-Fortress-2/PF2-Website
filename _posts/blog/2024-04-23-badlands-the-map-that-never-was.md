@@ -18,10 +18,10 @@ Badlands was a map excluded from TF2’s initial release, but was added in later
 Well, spoiler alert: it’s not. The screenshots we have are of an artpass test, showcasing an idea for a potential artpass of the map—it’s in line with the concept art, too. There are some key things that prove that the map was not meant to be actually playable.
 
 These doors on the main buildings are a big indication. These models don’t have a back side, and are culled off in-engine. 
-<img src="/assets/blog/images/badlands-mystery/blue-base-door.png" alt="The door props at the entrance of Blue base on Badlands." width="129"/>
+<img class="full-size" src="/assets/blog/images/badlands-mystery/blue-base-door.png" alt="The door props at the entrance of Blue base on Badlands." width="129"/>
 
 Another telling piece of evidence is the fact that there is no apparent entrance from the sniper deck into the base. From this angle, you should be able to see the doorway into the base, as it would be on the wall with tan/computerwall texture. 
-<img src="/assets/blog/images/badlands-mystery/badlands-sniperdeck-nodoor.png" alt="Left: the sniper deck on Red with no doorway to the interior. Right: the sniper deck on Blue with no doorway to the interior." width="124"/>
+<img class="full-size" src="/assets/blog/images/badlands-mystery/badlands-sniperdeck-nodoor.png" alt="Left: the sniper deck on Red with no doorway to the interior. Right: the sniper deck on Blue with no doorway to the interior." width="124"/>
 
 A lot of the props (mostly the cliff props) are all “superpositioned.” When loaded into Hammer, a lot of the cliffs line up automatically and just need to be rotated. If lined up with the TFC Badlands layout, the prop of the interior doesn’t line up with the layout.
 
