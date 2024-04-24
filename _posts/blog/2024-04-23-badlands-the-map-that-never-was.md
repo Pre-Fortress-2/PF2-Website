@@ -2,10 +2,11 @@
 layout: blog
 subject: "Blog"
 title: "CTF Badlands: the map that never was"
-date:   2024-05-01 00:13:00 -0500
+date:   2024-04-23 00:13:00 -0500
 categories: blog
 description: "The mystery of the CTF Badlands map."
 hidden: true
+author: RedFire
 image: /assets/blog/images/badlands-mystery/sb-badlands-blue-base.jpg
 permalink: /:categories/:slug
 NoImageEffect: 0
