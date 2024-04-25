@@ -7,6 +7,7 @@ categories: updates
 description: "Week 1 Hotfix"
 hidden: false
 permalink: /:categories/0.7/hotfix
+minibanner: "update-07-hotfix"
 excerpt: "Update addressing bugs and issues found during the first week of 0.7's release."
 ---
 

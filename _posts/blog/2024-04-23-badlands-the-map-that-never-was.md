@@ -9,6 +9,7 @@ hidden: true
 author: RedFire
 image: /assets/blog/badlands-mystery/sb-badlands-blue-base.png
 permalink: /:categories/:slug
+minibanner: "badlands-mystery"
 NoImageEffect: 1
 excerpt: "Badlands was a map excluded from TF2’s initial release, but was added in later with a completely new layout and gamemode. Many know of the early screenshots, and many thought of those to be the playable version of the map. Well, spoiler alert: it’s not."
 ---
