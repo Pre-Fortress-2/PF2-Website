@@ -14,7 +14,7 @@ NoImageEffect: 1
 excerpt: "Badlands was a map excluded from TF2’s initial release, but was added in later with a completely new layout and gamemode. Many know of the early screenshots, and many thought of those to be the playable version of the map. Well, spoiler alert: it’s not."
 ---
 
-Badlands was a map excluded from TF2’s initial release, but was added in later with a completely new layout and gamemode. Back in Team Fortress Classic, Badlands was a CTF map with a lot of verticality and movement opportunities.. Many know of the early screenshots by Stéphane Gaudette and Isabelle Lemay featuring a really high quality version of the map, and many thought it to be of the CTF_Badlands map being developed in the beta.
+Badlands was a map excluded from TF2’s initial release, but was added in later with a completely new layout and gamemode. Back in Team Fortress Classic, Badlands was a CTF map with a lot of verticality and movement opportunities. Many know of the early screenshots by Stéphane Gaudette and Isabelle Lemay featuring a really high quality version of the map, and many thought it to be of the CTF_Badlands map being developed in the beta.
 
 Well, spoiler alert: it’s not. The screenshots we have are of an artpass test, showcasing an idea for a potential artpass of the map—it’s in line with the concept art, too. There are some key things that prove that the map was not meant to be actually playable.
 
