@@ -1,7 +1,7 @@
 ---
 layout: blog
 subject: "Blog"
-title: "CTF Badlands: the map that never was"
+title: "Badlands: The Map That Never Was"
 date:   2024-04-23 00:13:00 -0500
 categories: blog
 description: "The mystery of the CTF Badlands map."
