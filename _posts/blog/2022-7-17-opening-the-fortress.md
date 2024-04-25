@@ -10,6 +10,7 @@ author: Sour Dani
 ImageDescription: "Poster by FarLegends"
 description: "Pre-Fortress 2 goes open source."
 image: /assets/blog/images/sb-qna.png
+minibanner: opening-fortress.png
 NoImageEffect: 1
 excerpt: ""
 ---

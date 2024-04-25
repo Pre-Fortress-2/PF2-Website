@@ -10,6 +10,7 @@ hidden: true
 image: /assets/blog/images/sb-source-mods-as-a-hobby.jpg
 ImageDescription: Poster by Wendie
 permalink: /:categories/:slug
+minibanner: sourcemod-hobby.png
 NoImageEffect: 1
 ---
 

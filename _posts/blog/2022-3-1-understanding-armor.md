@@ -7,6 +7,7 @@ categories: blog
 description: "lorem ipsum"
 hidden: true
 image: /assets/blog/images/sb-spy.jpg
+minibanner: armor101.png
 permalink: /:categories/:slug
 NoImageEffect: 1
 ---

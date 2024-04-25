@@ -9,6 +9,7 @@ hidden: false
 description: "PF2 Team addresses the truth about the smoke bomb by looking at it's source code."
 author: Cyanide
 image: /assets/blog/images/sb-spy.jpg
+minibanner: truth-about-smokebombs.png
 NoImageEffect: 0
 ---
 The smoke bomb is a very misunderstood grenade, its functionality is clearly explained in the code, but it has been lost due to misconceptions and needless speculation, so let’s start from the very beginning.
