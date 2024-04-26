@@ -2,7 +2,7 @@
 layout: blog
 subject: "Blog"
 title: "Badlands: The Map That Never Was"
-date:   2024-04-23 00:13:00 -0500
+date:   2024-04-26 00:14:00 -0400
 categories: blog
 description: "The mystery of the CTF Badlands map."
 hidden: true
@@ -34,7 +34,7 @@ We have pieces of art that appear to depict several interior shots. One of these
 All of these images have parallels to areas in the TFC version of the map. Image 1 is a piece of concept art, image 2 is a render of a hallway in the same area as the concept art, and image 3 is from the SFM leak files. There was a series of images named “faceend”, which mostly seem to be within Badlands. This image is the same area as the render, just from a different angle.
 
 Here are the adjacent TFC angles:
-![Left: Team Fortress Classic Badlands flag room, depicting the hallway leading out to the battlements. Right: RHallway leading to the battlements, facing the flag room. Bottom: Alternate angle of the hallway leading to the battlements.](/assets/blog/badlands-mystery/badlands-tfc-angles.png)
+![Left: Team Fortress Classic Badlands flag room, depicting the hallway leading out to the battlements. Right: Hallway leading to the battlements, facing the flag room. Bottom: Alternate angle of the hallway leading to the battlements.](/assets/blog/badlands-mystery/badlands-tfc-angles.png)
 
 Additionally, the TF2 repository leak, which contained the map sources, has a VMF titled “CP_Badlands_Base_IK1.vmf”. It features a very early rendition of the CP_Badlands base, but there are a few features that still match with the TFC/early TF2 layout. Most notably, a section that highly resembles the battlements as seen in the infamous artpass test screenshots.
 ![Left: CP_Badlands_Base_IK1 battlements. Right: Art pass test Badlands battlements.](/assets/blog/badlands-mystery/badlands-baseik-stephane.png)
