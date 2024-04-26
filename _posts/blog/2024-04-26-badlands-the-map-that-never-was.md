@@ -5,7 +5,7 @@ title: "Badlands: The Map That Never Was"
 date:   2024-04-26 00:14:00 -0400
 categories: blog
 description: "The mystery of the CTF Badlands map."
-hidden: true
+hidden: false
 author: RedFire
 image: /assets/blog/badlands-mystery/sb-badlands-blue-base.png
 permalink: /:categories/:slug
