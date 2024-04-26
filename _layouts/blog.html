@@ -9,7 +9,7 @@ layout: default
 {%- elsif page.NoImageEffect == 1 or page.image -%}
 <img class="feature-image-no-effect" src="{{- page.image | relative_url -}}" alt="">
 {%- else -%}
-{%- assign postImage = "/assets/images/Default-image.jpg" -%}
+{%- assign postImage = "/assets/images/default-banner.png" -%}
 <img class="feature-image-default" src="{{- postImage | relative_url -}}" alt="">
 {%- endif -%}
 {%- endif -%}
