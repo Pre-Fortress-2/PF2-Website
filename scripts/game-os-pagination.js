@@ -1,4 +1,3 @@
-
 // Declarations to shorten referencing later.
 const btn_win_select = document.getElementById("btn_win_select");
 const btn_mac_select = document.getElementById("btn_mac_select");
@@ -8,16 +7,19 @@ const btn_win_dl = document.getElementById("btn_win_dl");
 const btn_mac_dl = document.getElementById("btn_mac_dl");
 const btn_linux_dl = document.getElementById("btn_linux_dl");
 
-const btn_back = document.getElementById("btn_back");
+// Lazy way to fix that overextending hyperlink by replacing it with this 
+btn_win_dl.addEventListener( "click", () => { installWin(); } );
+btn_mac_dl.addEventListener( "click", () =>{ installMac(); } );
+btn_linux_dl.addEventListener( "click", () => { installLinux(); } );
 
+const btn_back = document.getElementById("btn_back");
 const windows_only = document.getElementsByClassName("windows_only");
 const mac_only = document.getElementsByClassName("mac_only")
 const linux_only = document.getElementsByClassName("linux_only")
 const all_versions = document.getElementById("all_versions");
 const choose_game_area = document.getElementById("choose-game-area");
 
-const first_mirror = "https://github.com/Pre-Fortress-2/pf2/releases/"
-const all_in_one = "https://github.com/Pre-Fortress-2/pf2/releases/"
+const download_link = "https://github.com/Pre-Fortress-2/pf2/releases/"
 
 const browser_hash = window.location.hash.split('#')[1];
 
@@ -28,49 +30,27 @@ var url = window.location.href;
 
 function windows_onlyRender(state)
 {
-    if (state == true){
-        for (var i = 0; i < windows_only.length; i++) {
-            windows_only[i].style.display = "block";
-        }
-    }
-    if (state == false){
-        for (var i = 0; i < windows_only.length; i++) {
-            windows_only[i].style.display = "none";
-        }
+    for (var i = 0; i < windows_only.length; i++) {
+        windows_only[i].style.display = state ? "block" : "none";
     }
 }
 
 function mac_onlyRender(state)
 {
-    if (state == true){
-        for (var i = 0; i < mac_only.length; i++) {
-            mac_only[i].style.display = "block";
-        }
-    }
-    if (state == false){
-        for (var i = 0; i < mac_only.length; i++) {
-            mac_only[i].style.display = "none";
-        }
+    for (var i = 0; i < mac_only.length; i++) {
+        mac_only[i].style.display = state ? "block" : "none";
     }
 }
 
 function linux_onlyRender(state)
 {
-    if (state == true){
-        for (var i = 0; i < linux_only.length; i++) {
-            linux_only[i].style.display = "block";
-        }
-    }
-    if (state == false){
-        for (var i = 0; i < linux_only.length; i++) {
-            linux_only[i].style.display = "none";
-        }
+    for (var i = 0; i < linux_only.length; i++) {
+        linux_only[i].style.display = state ? "block" : "none";
     }
 }
 
 function backPage()
 {
-    
     window.history.pushState('Selection', 'Select OS', '/download/#list');
 
     btn_back.style.display = "none";
@@ -87,8 +67,7 @@ function backPage()
     mac_onlyRender(false)
     linux_onlyRender(false)
 
-    all_versions.style.display = "none"
-    
+    all_versions.style.display = "none";
 }
 
 // Called when an OS is selected
@@ -104,16 +83,16 @@ function showBackBtn()
 // Lets the user select the OS
 function winSelect()
 {   
-    window.history.pushState('Windows OS', 'Chose Windows', '/download/#windows');
+    window.history.pushState('Windows', 'Chose Windows', '/download/#windows');
 
     btn_win_dl.style.display = "block";
     windows_onlyRender(true)
-    all_versions.style.display = "block"
-    showBackBtn()
+    all_versions.style.display = "block";
+    showBackBtn();
 }
 function macSelect()
 {
-    window.history.pushState('macOS', 'Chose Mac', '/download/#mac');
+    window.history.pushState('Mac', 'Chose Mac', '/download/#mac');
 
     btn_mac_dl.style.display = "block";
     mac_onlyRender(true)
@@ -126,25 +105,26 @@ function linuxSelect()
     window.history.pushState('Linux', 'Chose Linux', '/download/#linux');
 
     btn_linux_dl.style.display = "block";
-    linux_onlyRender(true)
+    linux_onlyRender( true )
     all_versions.style.display = "block"
     showBackBtn()
 }
 
 // These functions actually take the user to the installation.
+// Note: keep these functions separate for now if maybe you want to redirect OSes to other links in the future?
 function installWin()
 {
-    window.open(all_in_one);
+    window.open(download_link);
 }
 
 function installMac()
 {
-    window.open(first_mirror);
+    window.open(download_link);
 }
 
 function installLinux()
 {
-    window.open(first_mirror);
+    window.open(download_link);
 }
 
 // Hides all buttons except back button and then shows the detected option
@@ -152,32 +132,16 @@ window.onload = function()
 {
     backPage()
 
-    if( navigator.userAgentData.platform.includes("Win")  ) 
+    if( navigator.userAgent.includes("Win")  ) 
     {
         winSelect()
     }
-    if( navigator.userAgentData.platform.includes("Mac") )
+    if( navigator.userAgent.includes("Mac") )
     {
         macSelect()
     }
-    if( !navigator.userAgentData.platform.includes("Mac") && !navigator.userAgentData.platform.includes("Win") ) 
+    if( !navigator.userAgent.includes("Mac") && !navigator.userAgent.includes("Win") ) 
     {
         linuxSelect()
-    }
-
-    if (browser_hash.toLowerCase() == "windows"){
-        backPage()
-        winSelect()
-    }
-    if (browser_hash.toLowerCase() == "mac"){
-        backPage()
-        macSelect()
-    }
-    if (browser_hash.toLowerCase() == "linux"){
-        backPage()
-        linuxSelect()
-    }
-    if (browser_hash.toLowerCase() == "list"){
-        backPage()
     }
 };

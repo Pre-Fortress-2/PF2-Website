@@ -10,9 +10,9 @@ description: "Download Pre-Fortress 2"
     <!-- Buttons to install based on OS -->
     
     <div id="downloads">
-        <a href="javascript:installWin()"><img src="/img/btn_win_dl.png" alt="Download for Windows" class="box-img install-box" id="btn_win_dl"></a>
-        <a href="javascript:installMac()"><img src="/img/btn_mac_dl.png" alt="Download for Mac OS" class="box-img install-box" id="btn_mac_dl"></a>
-        <a href="javascript:installLinux()"><img src="/img/btn_linux_dl.png" alt="Download for Linux" class="box-img install-box" id="btn_linux_dl"></a>
+        <img src="/img/btn_win_dl.png" alt="Download for Windows" class="box-img install-box" id="btn_win_dl">
+        <img src="/img/btn_mac_dl.png" alt="Download for Mac OS" class="box-img install-box" id="btn_mac_dl">
+        <img src="/img/btn_linux_dl.png" alt="Download for Linux" class="box-img install-box" id="btn_linux_dl">
     </div>
 
     <div class="selections">
@@ -27,44 +27,47 @@ description: "Download Pre-Fortress 2"
 
     <div id="all_versions">
         <h2>Requirements</h2>
-        <p>To play Pre-Fortress 2 you <strong>must</strong> have <a href="steam://install/243750"> Source SDK Base 2013 Multiplayer</a> installed.<br>
-        <p>Source mods must be installed on the <strong>same</strong> drive as <strong>Steam.</strong><br><br>
+        <p>To play Pre-Fortress 2 you must have <a href="steam://install/243750"> Source SDK Base 2013 Multiplayer</a> installed.
+        <p><strong>Pre-Fortress 2 needs to be installed on the drive where Steam is installed!</strong><br><br>
         </p>
+
         <div>
             <p>
                 Open the archive, navigate to the <strong>sourcemods</strong> folder and extract the <strong>pf2</strong> folder there.
-                The <strong>sourcemods</strong> folder can usually be found in this location:<br>
+                The <strong>sourcemods</strong> folder can usually be found in this location:
                 <ul class="windows_only">
-                    <li> Windows - <strong>C:/Program Files (x86)/Steam/steamapps/sourcemods/</strong></li>
+                    <li>C:/Program Files (x86)/Steam/steamapps/sourcemods/</li>
                 </ul>
                 <ul class="linux_only">
-                    <li> Linux - <strong>~/.steam/steam/sourcemods/</strong></li>
+                    <li>~/.steam/steam/sourcemods/</li>
                 </ul>
                 <ul class="mac_only">
-                    <li> Mac - <strong>/Users/USERNAME/Library/Application Support/Steam/steamapps/sourcemods/</strong></li>
+                    <li>/Users/USERNAME/Library/Application Support/Steam/steamapps/sourcemods/</li>
                 </ul>
-            </p>
-            
+            </p>  
         </div>
-        <h2>Post-Installation</h2>
-        <p>
-            You will need to restart Steam in order for the mod to appear in your library. To do that, open up Steam, press the <strong>Steam</strong> button at the top-left of the window then press <b>Exit</b>. Wait a moment for Steam to fully shutdown, then reopen Steam.<br>
-            If all went well you should see <strong>Pre-Fortress 2</strong> in your library.<br>
-            <p class="windows_only"><strong>NOTE:</strong> Windows versions lower than 7 are not supported.<p></p>
-            <p class="linux_only"><strong>NOTE:</strong> Linux users must put <strong>-steam -steam</strong> in their launch options (Yes, twice).</p>
-            <p class="mac_only"><strong>NOTE:</b> Mac users must be on macOS 10.9 Mavericks to 10.14 Mojave. Nothing older or newer works!<p>
-        </p>
-        <br>
-        <details>
-            <summary><strong>Download Mirrors</strong></summary>
-            <ul>
-                <div>
-			<li><a href="https://archive.prefortress.com/0.7/pf2_0.7.3.7z" target="_blank">US Mirror - 7z archive</a></li>
-			<li><a href="https://public.nickcloud.at/share/pf2/pf2_0.7.3.zip" target="_blank">EU Mirror - ZIP archive</a></li>
-			<li><a href="https://public.nickcloud.at/share/pf2/pf2_0.7.3.tar.gz" target="_blank">EU Mirror - TAR.GZ archive</a></li>
-		</div>
+
+        <div>
+            <h2>Post-Installation</h2>
+            <p>
+                You will need to restart Steam in order for the mod to appear in your library. To do that, open up Steam, press the <strong>Steam</strong> button at the top-left of the window then press <b>Exit</b>. Wait a moment for Steam to fully shutdown, then reopen Steam.<br>
+                If all went well, you should see <strong>Pre-Fortress 2</strong> in your library.<br>
+                <p class="windows_only"><strong>NOTE:</strong> Windows versions lower than 7 are not supported.<p></p>
+                <p class="linux_only"><strong>NOTE:</strong> Linux users must put <strong>-steam -steam</strong> in their launch options (Yes, twice).</p>
+                <p class="mac_only"><strong>NOTE:</b> Mac users must be on macOS 10.9 Mavericks to 10.14 Mojave. Nothing older or newer works!<p>
+            </p>
+        </div>
+        
+        <div id="mirrors">
+            <h2>Download Mirrors</h3>
+            <ul id="mirror_list">
+                <p>
+                    <li><a href="https://archive.prefortress.com/0.7/pf2_0.7.3.7z" target="_blank">US Mirror - 7z archive</a></li>
+                    <li><a href="https://public.nickcloud.at/share/pf2/pf2_0.7.3.zip" target="_blank">EU Mirror - ZIP archive</a></li>
+                    <li><a href="https://public.nickcloud.at/share/pf2/pf2_0.7.3.tar.gz" target="_blank">EU Mirror - tar.gz archive</a></li>
+                </p>
             </ul>
-        </details>
+		</div>
     </div>   
 </div>
 <script src="/scripts/game-os-pagination.js"></script>
