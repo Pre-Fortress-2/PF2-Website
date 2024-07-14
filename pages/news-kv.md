@@ -19,6 +19,7 @@ permalink: "/news.txt"
 	{%- if gotupdate == false %}
 		{%- if post.hidden == false and post.categories contains 'updates' -%}
 			{%- assign gotupdate = true -%}
+			{%- assign gameversion = post.gameversion -%}
 			{%- assign updateurl = post.url | relative_url -%}
 			{%- assign updatetitle = post.title -%}
 			{%- assign updatedate = post.date | date: "%Y%m%d" -%}
@@ -28,10 +29,8 @@ permalink: "/news.txt"
 {%- endfor -%}
 "news"
 {
-	"gamestate"	"{{ site.game-state }}"
-	"version"	"{{ site.game-version }}"
-	"patch"		"{{ site.game-patch }}"
-	"updateurl"	"{{ updateurl }}"
+	"gameversion" 	"{{ gameversion }}"
+	"updateurl"		"{{ updateurl }}"
 	"updatetitle"	"{{ updatetitle }}"
 	"updatedate"	"{{ updatedate }}"
 	"updateexcerpt"	"{{ updateexcerpt | remove: '' }}"
