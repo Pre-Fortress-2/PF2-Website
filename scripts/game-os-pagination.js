@@ -124,7 +124,8 @@ function installMac()
 
 function installLinux()
 {
-    window.open(download_link);
+    window.open("https://github.com/Pre-Fortress-2/pf2/releases/download/0.7.3/pf2_0.7.3.7z.002");
+    return true;
 }
 
 // Hides all buttons except back button and then shows the detected option
