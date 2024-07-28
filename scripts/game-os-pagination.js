@@ -20,6 +20,8 @@ const all_versions = document.getElementById("all_versions");
 const choose_game_area = document.getElementById("choose-game-area");
 
 const download_link = "https://github.com/Pre-Fortress-2/pf2/releases/"
+const download_001 = "https://github.com/Pre-Fortress-2/pf2/releases/download/0.7.3/pf2_0.7.3.7z.001"
+const download_002 = "https://github.com/Pre-Fortress-2/pf2/releases/download/0.7.3/pf2_0.7.3.7z.002"
 
 const browser_hash = window.location.hash.split('#')[1];
 
@@ -106,7 +108,7 @@ function linuxSelect()
 
     btn_linux_dl.style.display = "block";
     btn_linux_dl.onclick = function() {
-        window.location.href = 'https://github.com/Pre-Fortress-2/pf2/releases/download/0.7.3/pf2_0.7.3.7z.001';
+        window.location.href = download_001;
     };
     linux_onlyRender( true )
     all_versions.style.display = "block"
@@ -127,8 +129,7 @@ function installMac()
 
 function installLinux()
 {
-    let link = "https://github.com/Pre-Fortress-2/pf2/releases/download/0.7.3/pf2_0.7.3.7z.002"
-    window.open(link);
+    window.open(download_002);
 }
 
 // Hides all buttons except back button and then shows the detected option
