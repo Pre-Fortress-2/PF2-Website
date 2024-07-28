@@ -105,9 +105,9 @@ function linuxSelect()
     window.history.pushState('Linux', 'Chose Linux', '/download/#linux');
 
     btn_linux_dl.style.display = "block";
-    // btn_linux_dl.onclick = function() {
-    //     window.location.href = 'https://github.com/Pre-Fortress-2/pf2/releases/download/0.7.3/pf2_0.7.3.7z.002';
-    // };
+    btn_linux_dl.onclick = function() {
+        window.location.href = 'https://github.com/Pre-Fortress-2/pf2/releases/download/0.7.3/pf2_0.7.3.7z.001';
+    };
     linux_onlyRender( true )
     all_versions.style.display = "block"
     showBackBtn()
@@ -127,8 +127,7 @@ function installMac()
 
 function installLinux()
 {
-    window.open("https://github.com/Pre-Fortress-2/pf2/releases/download/0.7.3/pf2_0.7.3.7z.001", "_download1");
-    window.open("https://github.com/Pre-Fortress-2/pf2/releases/download/0.7.3/pf2_0.7.3.7z.002", "_download2");
+    window.open("https://github.com/Pre-Fortress-2/pf2/releases/download/0.7.3/pf2_0.7.3.7z.002");
     return true;
 }
 
