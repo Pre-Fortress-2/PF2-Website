@@ -1,17 +1,14 @@
 title: Pre-Fortress 2 Website
-email: your-email@example.com
+email: staff@prefortress.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Pre-Fortress 2 is a TF2 sourcemod that caters to the gameplay of earlier Team Fortress installments 
+  while maintaining the aesthetics from TF2's older designs from 2006.
+  Grenades, armor, and cut content are all back to create a nostalgic Team Fortress experience! 
+  Visit the reimagined world of classic maps such as Crossover and more!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://prefortress.com" # the base hostname & protocol for your site, e.g. http://example.com
 discord-invite: "https://discord.gg/ra68rM5nuE"
-game-state: "0"
-game-version: "7"
-game-patch: "0"
-
-installer-drive: "https://drive.google.com/file/d/1amkUEPJ6CZDyamvPivDl0RlmU_6cUm6N/view"
+gameversion: "073" # current game version
 
 # Google Analytics
 google_analytics: G-Q8T3T3HDGV

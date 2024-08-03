@@ -27,6 +27,7 @@
 #share-buttons > div.reddit:hover > svg {fill: #FF5700; transition: 0.2s;}
 #share-buttons > div.linkedin:hover > svg {fill: #0077b5; transition: 0.2s;}
 #share-buttons > div.pinterest:hover > svg {fill: #CB2027; transition: 0.2s;}
+#share-buttons > div.rss:hover > svg { fill: orange; transition: 0.2s;}
 #share-buttons > div.gplus:hover > svg {fill: #dd4b39; transition: 0.2s;}
 #share-buttons > div.mail:hover > svg {fill: #7D7D7D; transition: 0.2s;}
 #share-buttons > div.instagram:hover > svg {fill: #C73B92; transition: 0.2s;}
@@ -35,6 +36,7 @@
 #share-buttons > div.reddit:not(:hover) > svg {transition: 0.2s;}
 #share-buttons > div.linkedin:not(:hover) > svg { transition: 0.2s;}
 #share-buttons > div.pinterest:not(:hover) > svg { transition: 0.2s;}
+#share-buttons > div.rss:not(:hover) > svg { transition: 0.2s;}
 #share-buttons > div.gplus:not(:hover) > svg { transition: 0.2s;}
 #share-buttons > div.mail:not(:hover) > svg {transition: 0.2s;}
 #share-buttons > div.instagram:not(:hover) > svg {transition: 0.2s;}
@@ -49,5 +51,5 @@
 <span style="color: silver; font-family: Arial, Helvetica, sans-serif;"></span><div id="share-buttons">
     <div class="twitter" title="Share this on Twitter" onclick="window.open('https://twitter.com/intent/tweet?text={{ page.title }}%0A{{ site.url }}{{ page.url }}');"><svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>
     <div class="reddit" title="Share this on Reddit" onclick="window.open('https://reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}');"><svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M24 11.779c0-1.459-1.192-2.645-2.657-2.645-.715 0-1.363.286-1.84.746-1.81-1.191-4.259-1.949-6.971-2.046l1.483-4.669 4.016.941-.006.058c0 1.193.975 2.163 2.174 2.163 1.198 0 2.172-.97 2.172-2.163s-.975-2.164-2.172-2.164c-.92 0-1.704.574-2.021 1.379l-4.329-1.015c-.189-.046-.381.063-.44.249l-1.654 5.207c-2.838.034-5.409.798-7.3 2.025-.474-.438-1.103-.712-1.799-.712-1.465 0-2.656 1.187-2.656 2.646 0 .97.533 1.811 1.317 2.271-.052.282-.086.567-.086.857 0 3.911 4.808 7.093 10.719 7.093s10.72-3.182 10.72-7.093c0-.274-.029-.544-.075-.81.832-.447 1.405-1.312 1.405-2.318zm-17.224 1.816c0-.868.71-1.575 1.582-1.575.872 0 1.581.707 1.581 1.575s-.709 1.574-1.581 1.574-1.582-.706-1.582-1.574zm9.061 4.669c-.797.793-2.048 1.179-3.824 1.179l-.013-.003-.013.003c-1.777 0-3.028-.386-3.824-1.179-.145-.144-.145-.379 0-.523.145-.145.381-.145.526 0 .65.647 1.729.961 3.298.961l.013.003.013-.003c1.569 0 2.648-.315 3.298-.962.145-.145.381-.144.526 0 .145.145.145.379 0 .524zm-.189-3.095c-.872 0-1.581-.706-1.581-1.574 0-.868.709-1.575 1.581-1.575s1.581.707 1.581 1.575-.709 1.574-1.581 1.574z"/></svg></div>
-    <div class="mail" title="Share this through Email" onclick="window.open('mailto:?&body={{ site.url }}{{ page.url }}');"><svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/></svg></div>
+    <div class="rss" title="Subscribe to the RSS Feed" onclick="window.open('/feed.xml');"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rss" viewBox="0 0 16 16"><path d="M5.5 12a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m-3-8.5a1 1 0 0 1 1-1c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1 6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1-1-1"/></svg></div> <!-- stolen and edited from https://icons.getbootstrap.com/icons/rss/ without the border part-->
 </div>
