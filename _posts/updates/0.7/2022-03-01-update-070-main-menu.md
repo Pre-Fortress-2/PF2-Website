@@ -4,11 +4,11 @@ title: "New Main Menu"
 subject:  "The 0.7 Update - Main menu"
 date:   2022-11-17 17:12:00 -0500
 categories: updates
-author: Sour Dani
 hidden: true
 image: /assets/blog/update-070-main-menu/pause-menu.png
 NoImageEffect: 0
-permalink: /:categories/0.7/main-menu 
+permalink: /:categories/0.7/main-menu
+author: Sour Dani
 draft: true
 ---
 

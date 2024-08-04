@@ -7,6 +7,7 @@ categories: updates
 hidden: true
 NoFeatureImage: true
 permalink: /:categories/0.7/grenades
+author: PF2 Team
 draft: true
 ---
 

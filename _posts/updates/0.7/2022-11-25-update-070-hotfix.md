@@ -8,6 +8,7 @@ description: "Update addressing bugs and issues found during the first week of 0
 hidden: false
 permalink: /:categories/0.7/hotfix
 minibanner: update-070-hotfix.png
+author: PF2 Team
 excerpt: "Update addressing bugs and issues found during the first week of 0.7's release."
 ---
 
