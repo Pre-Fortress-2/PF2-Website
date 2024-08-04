@@ -2,7 +2,7 @@
 layout: blog
 subject: "Updates"
 title:  "The 0.7 Hotfix"
-date:   2022-11-25 00:00:00 -0500
+date:   2022-11-25 15:50:00 -0500
 categories: updates
 description: "Update addressing bugs and issues found during the first week of 0.7's release."
 hidden: false

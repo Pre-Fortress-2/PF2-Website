@@ -2,7 +2,7 @@
 layout: blog
 title: "Updates"
 subject:  "The 0.7 Update - Grenades"
-date:   2022-11-18 00:00:00 -0500
+date:   2022-11-18 17:12:00 -0500
 categories: updates
 hidden: true
 NoFeatureImage: true
