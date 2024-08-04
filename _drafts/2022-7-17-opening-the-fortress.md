@@ -2,7 +2,7 @@
 layout: blog
 subject: "Blog"
 title: "Opening the Fortress"
-date:   2100-06-02 00:13:00 -0500
+date:   2022-06-02 00:13:00 -0500
 categories: blog
 permalink: /:categories/:slug
 hidden: true
