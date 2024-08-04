@@ -2,7 +2,7 @@
 layout: blog
 subject: "Blog"
 title: "Understanding Armor"
-date:   2022-03-01 00:13:00 -0500
+date:   2100-03-01 00:13:00 -0500
 categories: blog
 description: "lorem ipsum"
 hidden: true

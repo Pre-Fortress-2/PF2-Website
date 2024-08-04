@@ -1,4 +1,4 @@
-title: Pre-Fortress 2 Website
+title: Pre-Fortress 2 - RSS Feed
 email: staff@prefortress.com
 description: >- # this means to ignore newlines until "baseurl:"
   Pre-Fortress 2 is a TF2 sourcemod that caters to the gameplay of earlier Team Fortress installments 
@@ -21,3 +21,10 @@ plugins:
 
 whitelist:
   - jekyll-redirect-from
+
+feed:
+  categories: 
+    - updates
+    - blog  
+
+  posts_limit: 5
