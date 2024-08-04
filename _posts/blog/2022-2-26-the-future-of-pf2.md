@@ -8,14 +8,14 @@ author: Sour Dani
 hidden: false
 image: /assets/blog/images/sb-future_of_pf2.jpg
 ImageDescription: "Image by Sour Dani and Mr. Light"
-description: "Pre-Fortress 2's Future is bright and here's what the team's been working on as well as officially addressing some pressing topics."
+description: "Pre Fortress 2's future is bright and here's what the team's been working on as well as officially addressing some pressing topics."
 permalink: /:categories/:slug
 minibanner: the-future-of-pf2.png
 NoImageEffect: 1
-excerpt: "Howdy, since joining the development team of PF2, there's been a lull in communication between us and you as the player. I've been working to close the gap between internal discussion and with players."
+excerpt: "Howdy, since joining the development team of Pre Fortress 2, there's been a lull in communication between us and you as the player. I've been working to close the gap between internal discussion and with players."
 ---
 
-Howdy, since joining the development team of PF2, there's been a lull in communication between us and you as the player. I've been working to close the gap between internal discussion and with players. 
+Howdy, since joining the development team of Pre Fortress 2, there's been a lull in communication between us and you as the player. I've been working to close the gap between internal discussion and with players. 
 
 The following articles are designed to bring y’all up to speed with what’s been happening behind the scenes!
 
@@ -37,11 +37,11 @@ The partnership was not working out, and ended up costing us more development ti
 # Pending Update
 
 It's been almost a year since 0.6 was released and we're excited to announce that 0.7 is nearing a releasable state. There's still lots of work to be done but the following 
-major changes will be coming to Pre-Fortress 2:
+major changes will be coming to Pre Fortress 2:
 
 - Grenade view models and major changes to grenade gameplay
 - Fixes to various bugs leading to server crashes
-- Soldier Nerf
+- Soldier Nerfs
 - New models, textures, animations, particles and sounds
 - New main menu system
 - The usual various bug fixes

@@ -27,4 +27,4 @@ feed:
     - updates
     - blog  
 
-  posts_limit: 5
+  posts_limit: 10

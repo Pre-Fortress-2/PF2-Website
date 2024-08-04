@@ -9,6 +9,7 @@ hidden: true
 image: /assets/blog/update-070-main-menu/pause-menu.png
 NoImageEffect: 0
 permalink: /:categories/0.7/main-menu 
+draft: true
 ---
 
 The main menu is influenced from a wide variety of Source engine games. It draws most directly from the TF2 Orange Box Menu and the TF2 Menu from Circa 2012. These are the two versions of TF2 I spent the most time growing up with. I would play Orange Box in the morning before school and TF2 on the home computer when I got home. These being nostalgic for me it was important to incorporate them into the new Pre-Fortress 2 main menu, loading menu, and pause menu.
