@@ -2,7 +2,7 @@
 layout: blog
 subject: "Blog"
 title: "Source Mods as a hobby"
-date:   2100-03-01 00:13:00 -0500
+date:   2022-03-01 00:13:00 -0500
 categories: blog
 author: Sour Dani
 description: "Sourcemods are a hobby crafted with a fine love for Valve Games. However, there's more to it then meets the eye."
