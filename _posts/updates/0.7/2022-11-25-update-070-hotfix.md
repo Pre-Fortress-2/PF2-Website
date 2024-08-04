@@ -4,7 +4,7 @@ subject: "Updates"
 title:  "The 0.7 Hotfix"
 date:   2022-11-25 00:00:00 -0500
 categories: updates
-description: "Week 1 Hotfix"
+description: "Update addressing bugs and issues found during the first week of 0.7's release."
 hidden: false
 permalink: /:categories/0.7/hotfix
 minibanner: update-070-hotfix.png
