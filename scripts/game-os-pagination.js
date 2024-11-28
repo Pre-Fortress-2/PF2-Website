@@ -19,9 +19,7 @@ const linux_only = document.getElementsByClassName("linux_only")
 const all_versions = document.getElementById("all_versions");
 const choose_game_area = document.getElementById("choose-game-area");
 
-const download_link = "https://github.com/Pre-Fortress-2/pf2/releases/"
-const download_001 = "https://github.com/Pre-Fortress-2/pf2/releases/download/0.7.3/pf2_0.7.3.7z.001"
-const download_002 = "https://github.com/Pre-Fortress-2/pf2/releases/download/0.7.3/pf2_0.7.3.7z.002"
+const download_link = "https://dl.prefortress.com/latest/latest.tar.gz"
 
 const browser_hash = window.location.hash.split('#')[1];
 
