@@ -105,10 +105,7 @@ function linuxSelect()
     window.history.pushState('Linux', 'Chose Linux', '/download/#linux');
 
     btn_linux_dl.style.display = "block";
-    btn_linux_dl.onclick = function() {
-        window.location.href = download_001;
-    };
-    linux_onlyRender( true )
+    linux_onlyRender(true)
     all_versions.style.display = "block"
     showBackBtn()
 }
