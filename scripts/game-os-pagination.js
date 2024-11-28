@@ -127,7 +127,7 @@ function installMac()
 
 function installLinux()
 {
-    window.open(download_002);
+    window.open(download_link);
 }
 
 // Hides all buttons except back button and then shows the detected option
