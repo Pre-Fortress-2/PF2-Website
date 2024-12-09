@@ -101,7 +101,7 @@ In case you've forgotten, PF2 used to look a lot different! Oh god...
 
 You can't spell 2Fort without Trailer 2 Roleplay! This segment is dedicated to all the people who gave up their lives in the name of Trailer 2 RP.
 
-<img class="full-size" src="/assets/blog/anniversary/trailer2roleplay.png" alt="Trailer 2 Roleplay" width="124"/>
+![PF2 Trailer 2 RP](/assets/blog/anniversary/trailer2roleplay.png)
 
 Remember when we had our ARG? Oh that was good times.
 
