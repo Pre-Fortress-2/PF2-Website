@@ -92,7 +92,7 @@ We'll never forget when Pre-Fortress 2 won the TF2 Sourcemod election by a lands
 
 In case you've forgotten, PF2 used to look a lot different! Oh god...
 
-{%include video.html video="\assets\blog\anniversary\old.webm" text="A very old clip of Pre-Fortress 2." %}
+{%include video.html video="\assets\blog\anniversary\old.mp4" text="A very old clip of Pre-Fortress 2." %}
 
 **All hail 2Fort Chicken!**  
 <img class="full-size" src="/assets/blog/anniversary/toasty.png" alt="2Fort Chicken on Fire" width="124"/>
