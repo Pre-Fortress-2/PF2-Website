@@ -83,12 +83,11 @@ What you've just read is from just a fraction of the talent supporting Pre-Fortr
 # PF2 Funny Moments
 
 Before we had the Armor model that resembles a suit, we had the Armor bag. It was a widely contested item, until this screenshot of a Demoman ragdoll on 2Fort ended the conversation once and for all. (We still think they're nothing alike but we prefer the suit of armor.)
-
-![Dead demoman](/assets/blog/anniversary/ammo.png)
+<img class="full-size" src="/assets/blog/anniversary/ammo.png" alt="Dead Demoman" width="124"/>
 
 We'll never forget when Pre-Fortress 2 won the TF2 Sourcemod election by a landslide. It was a good race and we were proud to have run against such major league TF2 Sourcemods, such as Greg Fortress and Hungarian Fortress. 
 
-![PF2 Sweep](/assets/blog/anniversary/sweep.png)
+<img class="full-size" src="/assets/blog/anniversary/sweep.png" alt="PF2 Sweep" width="124"/>
 
 In case you've forgotten, PF2 used to look a lot different! Oh god...
 
@@ -98,7 +97,7 @@ In case you've forgotten, PF2 used to look a lot different! Oh god...
 <img class="full-size" src="/assets/blog/anniversary/toasty.png" alt="2Fort Chicken on Fire" width="124"/>
 *He always had our backs even in our darkest moments.*
 
-<img class="full-size" src="assets/blog/anniversary/piggyback.jpg" alt="2Fort Chicken Piggyback" width="124"/>
+<img class="full-size" src="/assets/blog/anniversary/piggyback.jpg" alt="2Fort Chicken Piggyback" width="124"/>
 
 You can't spell 2Fort without Trailer 2 Roleplay! This segment is dedicated to all the people who gave up their lives in the name of Trailer 2 RP.
 
