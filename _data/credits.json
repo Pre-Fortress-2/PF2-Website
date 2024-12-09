@@ -11,12 +11,6 @@
 			}
 		},
 		{
-			"name": "bloink",
-			"mapper": true,
-			"textures": true,
-			"sfm": true
-		},
-		{
 			"name": "dead_thing",
 			"code": true
 		},
@@ -160,6 +154,12 @@
 		{
 			"name": "Bradasparky",
 			"mapper": true
+		},
+		{
+			"name": "bloink",
+			"mapper": true,
+			"textures": true,
+			"sfm": true
 		},
 		{
 			"name": "bulboxide",
