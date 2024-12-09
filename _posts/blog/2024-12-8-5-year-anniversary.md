@@ -117,6 +117,6 @@ Who could forget our most favorite cursed pose?
 ![Balls heavy in the backrooms](/assets/blog/anniversary/backrooms.jpg)
 **Not coming soon to a sourcemod near you.**
 # Update news
-*We can't end the blog post without mention the next update!*
+*We can't end the blog post without mentioning the next update!*
 
 We're excited to announce that version `0.7.4` is just around the corner! It features the usual bug fixes, new maps and gameplay. We really think you'll enjoy this intermediate update while we work on `0.8`! Think of it as our holiday gift to you! We were considering giving you all coal but the grenade fairy told us you were all good this year.
