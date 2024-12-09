@@ -53,7 +53,7 @@ We asked our team if they had any experiences over the years that they wanted to
 \- Jan (Sound Design)
 
 *When I joined the PF2 dev team as an artist 2 years ago. Initially I thought it was a simple tf2 beta recreation mod, but very quickly I realized it's much more than that. PF2 is almost like a celebration for the Team Fortress Series. It's very interesting how this project explores old ideas from previous Team Fortress games and flesh them out in so many interesting ways. I'm very grateful for every developer who works on PF2 and making this project amazing to work on.*  
-\- Justyn (Particle Artist)
+\- Justyn (3D Artist)
 
 *Pre Fortress 2 will always be my favorite sourcemod because of the seriously talented people who work on this game and the amazing PF2 community that plays it. Without those two steady support beams, this game wouldn't have lasted longer than it has.  
 I really love the creative insight that the seriously dedicated developers have. To me, this game feels like a love letter to the Team Fortress franchise than just a source mod, and I am extremely excited for the future content this project awaits. Here's to 5 more years!*   
@@ -101,7 +101,7 @@ In case you've forgotten, PF2 used to look a lot different! Oh god...
 
 You can't spell 2Fort without Trailer 2 Roleplay! This segment is dedicated to all the people who gave up their lives in the name of Trailer 2 RP.
 
-![Trailer 2 Roleplay](/assets/blog/anniversary/trailer2roleplay.png)
+<img class="full-size" src="/assets/blog/anniversary/trailer2roleplay.png" alt="Trailer 2 Roleplay" width="124"/>
 
 Remember when we had our ARG? Oh that was good times.
 
