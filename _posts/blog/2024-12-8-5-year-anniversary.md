@@ -16,7 +16,7 @@ excerpt: "5 years ago today, Pre-Fortress 2 was publicly released into what woul
 
 5 years ago today, Pre-Fortress 2 was publicly released into what would become a half of a decade of twists and turns! Along the way, we've made a really amazing game. We are proud of the work we've done and are grateful to everyone who had a hand in making it. We've had well over 90 contributors and that's not including the amazing community projects that have helped us get off the ground!
 
-![Party Fowl](/assets/blog/anniversary/partyfowl.png)
+<img class="full-size" src="/assets/blog/anniversary/partyfowl.png" alt="Party Fowl" width="124"/>
 
 # Thank you to our playtesters
 We want to say thank you to everyone who has ever been a playtester and helped by giving us feedback. Without the feedback from the community we would not have be where we are today. We value the perspective our playtesters bring to us and their dedication to improving PF2.
@@ -24,12 +24,9 @@ We want to say thank you to everyone who has ever been a playtester and helped b
 # Thank you to the community
 It goes without saying that a game is nothing without the people who play it. Ever since launching version `0.7`, we've had a whole host of servers taking PF2 to it's upper limits and we've even had an [unofficial Android port](https://www.youtube.com/watch?v=EJDH-PeyAic). This community has never ceases to amaze us. From a playable civilian to janky but drivable helicopters, the content produced by the community keeps us on our toes.
 
-{%include video.html video="\assets\blog\anniversary\helicopter.mp4" text="The jankiest helicopter known to man." %}
-
 There's never a dull moment when we join a community server. We've come a long way and seeing over a dozen servers hosted to support our game fills us with immense gratitude. The first time we saw the server counter reach over 10 was a huge milestone for us. 
 
-
-![PF2 Lore](/assets/blog/anniversary/lore.jpg)
+<img class="full-size" src="/assets/blog/anniversary/lore.jpg" alt="PF2 Lore" width="124"/>
 
 The humor of the community has created unforgettable moments such as the [PF2 lore](https://docs.google.com/presentation/d/1sjx5BA-XVEhVLaHv6AWipikeZaVvaUYbKWfG1cnrqsM/edit#slide=id.p1) or the assault on beta accuracy.
 
@@ -98,10 +95,10 @@ In case you've forgotten, PF2 used to look a lot different! Oh god...
 {%include video.html video="\assets\blog\anniversary\old.webm" text="A very old clip of Pre-Fortress 2." %}
 
 **All hail 2Fort Chicken!**  
-![2Fort Chicken on Fire](/assets/blog/anniversary/toasty.png)
+<img class="full-size" src="/assets/blog/anniversary/toasty.png" alt="2Fort Chicken on Fire" width="124"/>
 *He always had our backs even in our darkest moments.*
 
-![2Fort Chicken Piggyback](/assets/blog/anniversary/piggyback.jpg)
+<img class="full-size" src="assets/blog/anniversary/piggyback.jpg" alt="2Fort Chicken Piggyback" width="124"/>
 
 You can't spell 2Fort without Trailer 2 Roleplay! This segment is dedicated to all the people who gave up their lives in the name of Trailer 2 RP.
 
