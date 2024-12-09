@@ -7,9 +7,9 @@ categories: blog
 description: "After 5 years of development, we hope it's been worth the wait."
 hidden: false
 author: PF2 Team
-image: /assets/blog/anniversary/anniversary.png
+image: /assets/blog/anniversary/5-year-anniversary.png
 permalink: /:categories/:slug
-minibanner: anniversary.png
+minibanner: 5-year-anniversary.png
 NoImageEffect: 1
 excerpt: "5 years ago today, Pre-Fortress 2 was publicly released into what would become a half of a decade of twists and turns!"
 ---
