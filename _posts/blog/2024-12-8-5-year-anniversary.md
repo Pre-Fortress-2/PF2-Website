@@ -114,7 +114,7 @@ Here's some footage we just leaked of Sniper's new grenade. We'd love to get you
 
 To think this game started out life as a tf2008 revival group.
 
-![First day of gameplay](/assets/blog/anniversary/trailer2roleplay.png)
+![First day of gameplay](/assets/blog/anniversary/dayone.jpg)
 *Screenshot is dated 12/9/2019*
 
 Who could forget our most favorite cursed pose?
