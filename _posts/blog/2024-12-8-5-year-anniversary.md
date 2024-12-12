@@ -112,6 +112,11 @@ Here's some footage we just leaked of Sniper's new grenade. We'd love to get you
 
 {%include video.html video="\assets\blog\anniversary\sniperspecialgrenade.mp4" text="Now this... is a grenade..." %}
 
+To think this game started out life as a tf2008 revival group.
+
+![First day of gameplay](/assets/blog/anniversary/trailer2roleplay.png)
+*Screenshot is dated 12/9/2019*
+
 Who could forget our most favorite cursed pose?
 
 ![Balls heavy in the backrooms](/assets/blog/anniversary/backrooms.jpg)
