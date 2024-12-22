@@ -13,7 +13,7 @@ permalink: "/news.txt"
 			{%- assign blogtitle = post.title -%}
 			{%- assign blogauthor = post.author -%}
 			{%- assign blogdate = post.date | date: "%Y%m%d" -%}
-			{%- assign blogtime = post.date | date: "%-H%-M%-S" -%}
+			{%- assign blogtime = post.date | date: "%H:%M:%S" -%}
 			{%- assign blogexcerpt = post.excerpt -%}
 		{%- endif -%}
 	{%- endif -%}
@@ -24,7 +24,7 @@ permalink: "/news.txt"
 			{%- assign updateurl = post.url | relative_url -%}
 			{%- assign updatetitle = post.title -%}
 			{%- assign updatedate = post.date | date: "%Y%m%d" -%}
-			{%- assign updatetime = post.date | date: "%-H%-M%-S" -%}
+			{%- assign updatetime = post.date | date: "%H:%M:%S" -%}
 			{%- assign updateexcerpt = post.excerpt -%}
 		{%- endif -%}
 	{%- endif -%}
@@ -35,8 +35,10 @@ permalink: "/news.txt"
 	"updateurl"		"{{ updateurl }}"
 	"updatetitle"	"{{ updatetitle }}"
 	"updatedate"	"{{ updatedate }}"
+	"updatetime"	"{{ updatetime | remove: ':' }}"
 	"updateexcerpt"	"{{ updateexcerpt | remove: '' }}"
 	"blogdate"	"{{ blogdate }}"
+	"blogtime"	"{{ blogtime | remove: ':' }}"
 	"blogurl"	"{{ blogurl }}"
 	"blogtitle"	"{{ blogtitle }}"
 	"blogauthor"	"{{ blogauthor }}"
