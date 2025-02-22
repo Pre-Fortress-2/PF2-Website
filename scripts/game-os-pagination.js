@@ -19,7 +19,7 @@ const linux_only = document.getElementsByClassName("linux_only")
 const all_versions = document.getElementById("all_versions");
 const choose_game_area = document.getElementById("choose-game-area");
 
-const download_link = "https://dl.prefortress.com/latest/latest.tar.gz"
+const download_link = "https://dl.prefortress.com/0.7/pf2_0.7.3.7z"
 
 const browser_hash = window.location.hash.split('#')[1];
 
