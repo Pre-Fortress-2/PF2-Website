@@ -1,13 +1,11 @@
 title: Pre-Fortress 2 - RSS Feed
 email: staff@prefortress.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Pre-Fortress 2 is a TF2 sourcemod that caters to the gameplay of earlier Team Fortress installments 
-  while maintaining the aesthetics from TF2's older designs from 2006.
-  Grenades, armor, and cut content are all back to create a nostalgic Team Fortress experience! 
-  Visit the reimagined world of classic maps such as Crossover and more!
+  Pre-Fortress 2 is a mod for Team Fortress 2 that brings back grenades, armor and much more! 
+  It aims to bridge the gap between Team Fortress installments and the art-style is heavily inspired by the pre-release era of Team Fortress 2! 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://prefortress.com" # the base hostname & protocol for your site, e.g. http://example.com
-discord-invite: "https://prefortress.com/discord/"
+discord-invite: "https://prefortress.com/discord"
 gameversion: "073" # current game version
 
 # Google Analytics
