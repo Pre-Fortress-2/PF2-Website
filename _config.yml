@@ -7,7 +7,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Visit the reimagined world of classic maps such as Crossover and more!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://prefortress.com" # the base hostname & protocol for your site, e.g. http://example.com
-discord-invite: "https://discord.gg/ra68rM5nuE"
+discord-invite: "https://prefortress.com/discord/"
 gameversion: "073" # current game version
 
 # Google Analytics
