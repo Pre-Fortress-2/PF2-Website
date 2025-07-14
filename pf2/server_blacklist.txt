@@ -1,0 +1,28 @@
+"serverblacklist"
+{
+	"Server"
+	{
+		"name"	"Bad Server: 188.47.72.33"
+		"addr"	"188.47.72.33:0"
+	}
+	"Server"
+	{
+		"name"	"Bad Server: 188.47.87.117"
+		"addr"	"188.47.87.117:0"
+	}
+	"Server"
+	{
+		"name"	"Bad Server: 24.154.58.100"
+		"addr"	"24.154.58.100:0"
+	}
+	"Server"
+	{
+		"name"	"Bad Server: 76.164.192.116"
+		"addr"	"76.164.192.116:0"
+	}
+	"Server"
+	{
+		"name"	"Bad Server: 93.115.172.140"
+		"addr"	"93.115.172.140:0"
+	}
+}

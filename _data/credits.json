@@ -41,6 +41,10 @@
 			"concepts": true
 		},
 		{
+			"name": "cola",
+			"sounds": true
+		},
+		{
 			"name": "cool_username07",
 			"mapper": true
 		},
@@ -83,10 +87,6 @@
 			}
 		},
 		{
-			"name": "jan",
-			"sounds": true
-		},
-		{
 			"name": "JamesRetro",
 			"models": true
 		},
@@ -108,7 +108,12 @@
 		},
 		{
 			"name": "Kristofer",
-			"concepts": true
+			"concepts": true,
+			"other": {
+				"English": [
+					"Former Lead Developer"
+				]
+			}
 		},
 		{
 			"name": "luse",
@@ -169,7 +174,10 @@
 		},
 		{
 			"name": "Bradasparky",
-			"mapper": true
+			"mapper": true,
+			"English": [
+					"Former Lead Developer"
+			]
 		},
 		{
 			"name": "bloink",
@@ -427,7 +435,12 @@
 		{
 			"name": "Retro",
 			"tester": true,
-			"concepts": true
+			"concepts": true,
+			"other": {
+				"English": [
+					"Founder"
+				]
+			}
 		},
 		{
 			"name": "Sage J. Fox",
@@ -445,7 +458,7 @@
 			"name": "Seal",
 			"models": true,
 			"animation": true,
-			"code": true
+			"code": true,
 		},
 		{
 			"name": "sonicdude143",
@@ -496,6 +509,16 @@
 			]
 		},
 		{
+			"name": "tr4shqu33n",
+			"tester": true,
+			"concepts": true,
+			"other": {
+				"English": [
+					"Founder"
+				]
+			}
+		},
+		{
 			"name": "Train",
 			"code": true
 		},
@@ -506,11 +529,6 @@
 		{
 			"name": "Wendy",
 			"models": true
-		},
-		{
-			"name": "Witchkross",
-			"tester": true,
-			"concepts": true
 		},
 		{
 			"name": "Wolfcl0ck",
