@@ -16,7 +16,8 @@
 			"devlead": true,
 			"animation": true,
 			"sounds": true,
-			"textures": true
+			"textures": true,
+			"sfm": true
 		},
 		{
 			"name": "NeoExperiences",
@@ -236,7 +237,8 @@
 		{
 			"name": "Drudlyclean the Skeledude",
 			"tester": true,
-			"concepts": true
+			"concepts": true,
+			"mapper": true
 		},
 		{
 			"name": "Eazy E",
