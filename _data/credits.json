@@ -2,22 +2,26 @@
 	"developers": [
 		{
 			"name": "Sour Dani",
+			"devlead": true,
 			"server": true,
-			"code": true,
-			"other": {
-				"English": [
-					"UI Designer"
-				]
-			}
+			"code": true
 		},
 		{
 			"name": "dead_thing",
+			"devlead": true,
 			"code": true
 		},
 		{
 			"name": "Farlander",
+			"devlead": true,
 			"animation": true,
 			"sounds": true,
+			"textures": true
+		},
+		{
+			"name": "NeoExperiences",
+			"devlead": true,
+			"mapper": true,
 			"textures": true
 		},
 		{
@@ -28,17 +32,16 @@
 			]
 		},
 		{
+			"name": "Avast AntiPony 9445",
+			"code": true
+		},
+		{
 			"name": "Blazer",
 			"concepts": true
 		},
 		{
-			"name": "conneath",
-			"code": true,
-			"other": {
-				"English": [
-					"SourceMod Plugin Support"
-				]
-			}
+			"name": "cool_username07",
+			"mapper": true
 		},
 		{
 			"name": "Folvaen",
@@ -50,6 +53,10 @@
 			}
 		},
 		{
+			"name": "gamingcam2008",
+			"mapper": true
+		},
+		{
 			"name": "Herwork",
 			"server": true,
 			"other": {
@@ -57,6 +64,13 @@
 					"API Developer"
 				]
 			}
+		}, 
+		{
+			"name": "HypnOS 1999",
+			"icon": true,
+			"textures": true,
+			"sounds": true,
+			"concepts": true
 		},
 		{
 			"name": "IntriguingTiles",
@@ -68,56 +82,20 @@
 			}
 		},
 		{
+			"name": "jan",
+			"sounds": true
+		},
+		{
+			"name": "JamesRetro",
+			"models": true
+		},
+		{
 			"name": "juhdon",
 			"other": {
 				"English": [
 					"Player Models"
 				]
 			}
-		},
-		{
-			"name": "Kristofer",
-			"concepts": true
-		},
-		{
-			"name": "NeoExperiences",
-			"mapper": true
-		},
-		{
-			"name": "PJX",
-			"mapper": true
-		},
-		{
-			"name": "Polybrow",
-			"music": true
-		},
-		{
-			"name": "RedFire",
-			"mapper": true
-		},
-		{
-			"name": "Skyrym",
-			"models": true
-		},
-		{
-			"name": "Technochips",
-			"code": true,
-			"models": true,
-			"mapper": true,
-			"particles": true,
-			"localization" : [
-				"French"
-			]
-		}, 
-		{
-			"name": "HypnOS 1999",
-			"icon": true,
-			"textures": true,
-			"sounds": true
-		},
-		{
-			"name": "EveriK",
-			"textures": true
 		},
 	  	{
 			"name": "justyn",
@@ -126,12 +104,49 @@
 			"models": true,
 			"textures": true,
 			"code": true
+		},
+		{
+			"name": "Kristofer",
+			"concepts": true
+		},
+		{
+			"name": "luse",
+			"code": true
+		},
+		{
+			"name": "Polybrow",
+			"music": true
+		},
+		{
+			"name": "rainer",
+			"mapper": true,
+			"textures": true
+		},
+		{
+			"name": "RedFire",
+			"mapper": true
+		},
+		{
+			"name": "stefanebunik",
+			"mapper": true
+		},
+		{
+			"name": "Skyrym",
+			"models": true
+		},
+		{
+			"name": "Waugh101",
+			"mapper": true
 		}
 	],
 	"contributors": [
 		{
 			"name": "Akis_02",
 			"sounds": true
+		},
+		{
+			"name": "Agion",
+			"tester": true
 		},
 		{
 			"name": "Alaxe",
@@ -192,6 +207,15 @@
 			"models": true
 		},
 		{
+			"name": "conneath",
+			"code": true,
+			"other": {
+				"English": [
+					"SourceMod Plugin Support"
+				]
+			}
+		},
+		{
 			"name": "Cvoxalury",
 			"other": {
 				"English": [
@@ -224,11 +248,16 @@
 			"models": true
 		},
 		{
-			"name": "FusionR",
-			"tester": true,
-			"localization": [
-				"Serbo-Croatian"
-			]
+			"name": "EveriK",
+			"textures": true
+		},
+		{
+			"name": "FGD5",
+			"other": {
+				"English": [
+					"More Vehicles Model Pack"
+				]
+			}
 		},
 		{
 			"name": "fi(v)e",
@@ -239,6 +268,13 @@
 		{
 			"name": "FigMan57",
 			"server": true
+		},
+		{
+			"name": "FusionR",
+			"tester": true,
+			"localization": [
+				"Serbo-Croatian"
+			]
 		},
 		{
 			"name": "Funicular",
@@ -256,10 +292,6 @@
 			"name": "G-Gnome505",
 			"models": true,
 			"animation": true
-		},
-		{
-			"name": "gamingcam2008",
-			"mapper": true
 		},
 		{
 			"name": "Ghetto Gamer",
@@ -280,14 +312,10 @@
 		},
 		{
 			"name": "Iago",
-			"tester":true,
+			"tester": true,
 			"localization": [
 				"Portuguese"
 			]
-		},
-		{
-			"name": "jan",
-			"sounds": true
 		},
 		{
 			"name": "Jasper",
@@ -327,7 +355,12 @@
 		{
 			"name": "KrazyZark",
 			"models": true,
-			"mapper": true
+			"mapper": true,
+			"other": {
+				"English": [
+					"Snow Covered Prop Pack"
+				]
+			}
 		},
 		{
 			"name": "Lev1679",
@@ -356,6 +389,11 @@
 			"textures": true
 		},
 		{
+			"name": "moldy colby",
+			"tester": true,
+			"textures": true
+		},
+		{
 			"name": "Mr. Light",
 			"sfm": true
 		},
@@ -375,6 +413,10 @@
 				"Docker Server Image Base"
 				]
 			}
+		},
+		{
+			"name": "PJX",
+			"mapper": true
 		},
 		{
 			"name": "Razur",
@@ -414,6 +456,14 @@
 			}
 		},
 		{
+			"name": "sparkless",
+			"other": {
+				"English": [
+					"Main Menu Fixes"
+				]
+			}
+		},
+		{
 			"name": "Spoonastic",
 			"tester": true,
 			"localization": [
@@ -432,6 +482,16 @@
 		{
 			"name": "swox",
 			"animation": true
+		},
+		{
+			"name": "Technochips",
+			"code": true,
+			"models": true,
+			"mapper": true,
+			"particles": true,
+			"localization" : [
+				"French"
+			]
 		},
 		{
 			"name": "Train",
@@ -477,6 +537,9 @@
 			"name": "Biker Pyro"
 		},
 		{
+			"name": "BlazingCherry"
+		},
+		{
 			"name": "Bumpmap"
 		},
 		{
@@ -492,13 +555,10 @@
 			"name": "Cheddar"
 		},
 		{
-			"name": "cheesecake"
+			"name": "cheesie_cake"
 		},
 		{
 			"name": "coke"
-		},
-		{
-			"name": "colby"
 		},
 		{
 			"name": "CoolBoy736"
@@ -525,6 +585,9 @@
 			"name": "GermanPeter"
 		},
 		{
+			"name": "Grover"
+		},
+		{
 			"name": "Heavy"
 		},
 		{
@@ -540,10 +603,7 @@
 			"name": "Lucy"
 		}, 
 		{
-			"name": "lilybug"
-		},
-		{
-			"name": "BlazingCherry"
+			"name": "NovaFrost"
 		},
 		{
 			"name": "LuizFilipeRN"
@@ -567,10 +627,19 @@
 			"name": "Mugg"
 		},
 		{
+			"name": "SaintSoftware"
+		},
+		{
 			"name": "Sapphire Sky"
 		},
 		{
+			"name": "Spaghetskeleton"
+		},
+		{
 			"name": "Stoneman"
+		},
+		{
+			"name": "TheRedCap"
 		},
 		{
 			"name": "Withered Rose"
@@ -579,13 +648,19 @@
 			"name": "4zy1"
 		},
 		{
-			"name": "zebbywebby"
+			"name": "zebbyzeppelin"
 		},
 		{
 			"name": "DIAMANTЪ"
 		},
 		{
+			"name": "P-Box"
+		},
+		{
 			"name": "Professor Pootis"
+		},
+		{
+			"name": "psi64"
 		},
 		{
 			"name": "JJay"
@@ -602,8 +677,7 @@
 			}
 		}
 	],
-	"software":
-	[
+	"software": [
 		{
 			"name": "Momentum Mod"
 		},
