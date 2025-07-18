@@ -1,9 +1,10 @@
 ---
 layout: blog
-title: "New Main Menu!"
-subject:  "0.7 - Main Menu"
+subject:  "Updates"
+title: "0.7's New Main Menu!"
 date:   2022-11-17 17:12:00 -0500
 categories: updates
+tags: no_show_rss
 hidden: true
 image: /assets/blog/update-070-main-menu/pause-menu.png
 NoImageEffect: 0

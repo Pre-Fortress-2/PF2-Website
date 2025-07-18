@@ -1,9 +1,10 @@
 ---
 layout: blog
-title: "Updates"
-subject:  "0.7 - Grenades"
+subject: "Updates"
+title: "0.7 - Grenades"
 date:   2022-11-18 17:12:00 -0500
 categories: updates
+tags: no_show_rss
 hidden: true
 NoFeatureImage: true
 permalink: /:categories/0.7/grenades
