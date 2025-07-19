@@ -24,7 +24,7 @@
 			"devlead": true,
 			"mapper": true,
 			"textures": true,
-			"code" : true,
+			"code" : true
 		},
 		{
 			"name": "AlexEpisode",
