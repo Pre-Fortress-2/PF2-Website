@@ -76,7 +76,8 @@
 			"icon": true,
 			"textures": true,
 			"sounds": true,
-			"concepts": true
+			"concepts": true,
+			"models": true
 		},
 		{
 			"name": "IntriguingTiles",
@@ -152,10 +153,6 @@
 			"sounds": true
 		},
 		{
-			"name": "Agion",
-			"tester": true
-		},
-		{
 			"name": "Alaxe",
 			"models": true
 		},
@@ -184,7 +181,10 @@
 			"name": "bloink",
 			"mapper": true,
 			"textures": true,
-			"sfm": true
+			"sfm": true,
+			"English": [
+					"Former Lead Developer"
+			]
 		},
 		{
 			"name": "bulboxide",
@@ -567,6 +567,9 @@
 	],
 	"playtesters": [
 		{
+			"name": "Agion"
+		},
+		{
 			"name": "Big Man Man"
 		},
 		{
@@ -690,7 +693,7 @@
 			"name": "DIAMANTЪ"
 		},
 		{
-			"name": "P-Box"
+			"name": "P-Bow"
 		},
 		{
 			"name": "Professor Pootis"
