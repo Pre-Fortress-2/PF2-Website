@@ -236,7 +236,12 @@
 		{
 			"name": "Cyanide",
 			"code": true,
-			"mapper": true
+			"mapper": true,
+			"other": {
+				"English": [
+					"Former Lead Developer"
+				]
+			}
 		},
 		{
 			"name": "DrPyspy",
@@ -460,6 +465,11 @@
 			"models": true,
 			"animation": true,
 			"code": true,
+			"other": {
+				"English": [
+					"Former Lead Developer"
+				]
+			}
 		},
 		{
 			"name": "sonicdude143",
@@ -505,6 +515,11 @@
 			"models": true,
 			"mapper": true,
 			"particles": true,
+			"other": {
+				"English": [
+					"Former Lead Developer"
+				]
+			},
 			"localization" : [
 				"French"
 			]
