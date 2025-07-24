@@ -31,6 +31,7 @@ gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "webrick"
 gem 'jekyll-redirect-from'
 
-# Fix for newer versions not including these gems
+# Newer versions don't include these gems in the standard library anymore
 gem "csv"
 gem "base64"
+gem "logger"
