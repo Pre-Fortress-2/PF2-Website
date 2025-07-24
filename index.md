@@ -23,7 +23,7 @@ subject: "Pre-Fortress 2"
         <div class="join-container__btn">
             <a href="{{site.discord-invite}}" target="_blank"><img src="./img/btn_discord.png" alt="" class="discord-img join-img"></a>
             <a href="https://twitter.com/PreFortress2" target="_blank"><img src="./img/btn_twitter.png" alt="" class="twitter-img join-img"></a>
-            <a href="https://www.youtube.com/channel/UCiq_1q67x00inzrY4WIQPng" target="_blank"><img src="./img/btn_youtube.png" alt="" class="youtube-img   join-img"></a>
+            <a href="https://www.youtube.com/@PreFortress2" target="_blank"><img src="./img/btn_youtube.png" alt="" class="youtube-img   join-img"></a>
         </div>
     </div>
     {% include latestposts.html %}
