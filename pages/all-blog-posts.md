@@ -1,7 +1,7 @@
 ---
 layout: category
-title:  "Blog"
+title:  "Posts"
 permalink: /all-posts/
 category: all
-subject: "All blog posts for Pre-Fortress 2"
+subject: "All posts for Pre-Fortress 2"
 ---
