@@ -1,0 +1,38 @@
+---
+layout: default
+title: "connect"
+permalink: "/connect/"
+subject: "Connect to a server"
+description: "Connect to a server"
+---
+<div>
+    <h1>You're on your way to...</h1>
+  </div>
+  <div>
+    <h2>About</h2>
+    <p>page is designed for use with Discord, Steam and other apps that do not support <a href="https://developer.valvesoftware.com/wiki/Steam_browser_protocol"> the Steam Browser Protocol</a>.</p><br>
+  </div>
+  <div>
+    <h2>How to use this page:</h2>
+    <p>
+        https://prefortress.com/connect/?(IP or Domain):(Server port)/(Server password)
+    </p>
+  </div>
+  <div>
+    <p>
+        <h2>Examples:</h2>
+        <ul>
+        <li>https://prefortress.com/connect/?192.168.0.1:27015</li>
+        <li>https://prefortress.com/connect/?mycoolserver.example:27015</li>
+        <li>https://prefortress.com/connect/?192.168.0.1/password</li>
+        </ul>
+    </p>
+    </div>
+    <h2><a href="https://github.com/sour-dani/steamconnect">This page is open source!</a></h2>
+    <script>
+        let server = location.href.split("?")[1];
+        if (server != undefined && !location.href.endsWith("?")) {
+            location = "steam://connect/" + server;
+        } 
+    </script>
+</div>
