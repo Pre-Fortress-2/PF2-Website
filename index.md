@@ -7,10 +7,10 @@ subject: "Pre-Fortress 2"
 <div class="about-content" style="position:relative;">
     <div class="left-area">
         <!-- About Intro -->
-        <p class="text"><strong> Pre-Fortress 2</strong> is a mod for Team Fortress 2 that brings back grenades, armor and much more!<br><br>
-        It aims to bridge the gap between Team Fortress installments and the art-style is heavily inspired by the pre-release era of Team Fortress 2! 
+        <p class="text">
+        <strong>Pre-Fortress 2</strong> is a mod for Team Fortress 2 that brings back grenades, armor and much more! It aims to bridge the gap between Team Fortress installments and the art-style is heavily inspired by the pre-release era of Team Fortress 2!
         </p>
-        <br>
+        <br><br><br>
         <!-- Youtube Video -->
         <iframe width="100%" height="330" class="about__video" src="https://www.youtube.com/embed/YAlRsmZ7n-Y" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
