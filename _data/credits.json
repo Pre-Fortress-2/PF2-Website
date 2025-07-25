@@ -122,6 +122,15 @@
 			"code": true
 		},
 		{
+			"name": "moldy colby",
+			"textures": true,
+			"other": {
+				"English": [
+					"Community Manager"
+				]
+			}
+		},
+		{
 			"name": "Polybrow",
 			"music": true
 		},
@@ -405,11 +414,6 @@
 			"textures": true
 		},
 		{
-			"name": "moldy colby",
-			"tester": true,
-			"textures": true
-		},
-		{
 			"name": "Mr. Light",
 			"sfm": true
 		},
@@ -561,6 +565,15 @@
 			"textures": true
 		},
 		{
+			"name": "zebbyzeppelin",
+			"tester": true,
+			"other": {
+				"English": [
+					"Holiday Discord Icon"
+				]
+			}
+		},
+		{
 			"name": "zythe_",
 			"mapper": true
 		}
@@ -685,9 +698,6 @@
 		},
 		{
 			"name": "4zy1"
-		},
-		{
-			"name": "zebbyzeppelin"
 		},
 		{
 			"name": "DIAMANTЪ"
