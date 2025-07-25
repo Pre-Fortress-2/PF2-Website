@@ -1,15 +1,12 @@
 // Declarations to shorten referencing later.
 const btn_win_select = document.getElementById("btn_win_select");
-const btn_mac_select = document.getElementById("btn_mac_select");
 const btn_linux_select = document.getElementById("btn_linux_select");
 
 const btn_win_dl = document.getElementById("btn_win_dl");
-const btn_mac_dl = document.getElementById("btn_mac_dl");
 const btn_linux_dl = document.getElementById("btn_linux_dl");
 
 // Lazy way to fix that overextending hyperlink by replacing it with this 
 btn_win_dl.addEventListener( "click", () => { installWin(); } );
-btn_mac_dl.addEventListener( "click", () =>{ installMac(); } );
 btn_linux_dl.addEventListener( "click", () => { installLinux(); } );
 
 const btn_back = document.getElementById("btn_back");
@@ -48,11 +45,9 @@ function backPage()
     btn_back.style.display = "none";
 
     btn_win_dl.style.display = "none";
-    btn_mac_dl.style.display = "none";
     btn_linux_dl.style.display = "none";
 
     btn_win_select.style.display = "block";
-    btn_mac_select.style.display = "block";
     btn_linux_select.style.display = "block";
 
     windows_onlyRender(false)
@@ -67,7 +62,6 @@ function showBackBtn()
     btn_back.style.display = "block";
     
     btn_win_select.style.display = "none";
-    btn_mac_select.style.display = "none";
     btn_linux_select.style.display = "none";
 }
 
@@ -99,11 +93,6 @@ function installWin()
     window.open(download_link);
 }
 
-function installMac()
-{
-    window.open(download_link);
-}
-
 function installLinux()
 {
     window.open(download_link);
@@ -118,11 +107,7 @@ window.onload = function()
     {
         winSelect()
     }
-    if( navigator.userAgent.includes("Mac") )
-    {
-        macSelect()
-    }
-    if( !navigator.userAgent.includes("Mac") && !navigator.userAgent.includes("Win") ) 
+    if( !navigator.userAgent.includes("Win") ) 
     {
         linuxSelect()
     }
