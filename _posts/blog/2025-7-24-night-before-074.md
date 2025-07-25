@@ -43,3 +43,5 @@ So while you're roasting in the summer sun,
 We'll be dropping content—you know, just for fun.
 It might not be Christmas, but it’s under wraps,
 This update mustn't be hot, for it’s a Cold Snap!
+
+<img class="full-size" src="/assets/blog/night-before-074/cloister_teaser.png" alt="cloister teaser" width="400"/>
