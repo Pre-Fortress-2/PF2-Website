@@ -14,7 +14,6 @@ btn_linux_dl.addEventListener( "click", () => { installLinux(); } );
 
 const btn_back = document.getElementById("btn_back");
 const windows_only = document.getElementsByClassName("windows_only");
-const mac_only = document.getElementsByClassName("mac_only")
 const linux_only = document.getElementsByClassName("linux_only")
 const all_versions = document.getElementById("all_versions");
 const choose_game_area = document.getElementById("choose-game-area");
@@ -32,13 +31,6 @@ function windows_onlyRender(state)
 {
     for (var i = 0; i < windows_only.length; i++) {
         windows_only[i].style.display = state ? "block" : "none";
-    }
-}
-
-function mac_onlyRender(state)
-{
-    for (var i = 0; i < mac_only.length; i++) {
-        mac_only[i].style.display = state ? "block" : "none";
     }
 }
 
@@ -64,7 +56,6 @@ function backPage()
     btn_linux_select.style.display = "block";
 
     windows_onlyRender(false)
-    mac_onlyRender(false)
     linux_onlyRender(false)
 
     all_versions.style.display = "none";
@@ -89,15 +80,6 @@ function winSelect()
     windows_onlyRender(true)
     all_versions.style.display = "block";
     showBackBtn();
-}
-function macSelect()
-{
-    window.history.pushState('Mac', 'Chose Mac', '/download/#mac');
-
-    btn_mac_dl.style.display = "block";
-    mac_onlyRender(true)
-    all_versions.style.display = "block"
-    showBackBtn()
 }
 
 function linuxSelect()
