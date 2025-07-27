@@ -1,3 +1,5 @@
+@use "../abstract/variables";
+
 .about-content {
 	display: flex;
 }
@@ -47,15 +49,15 @@
 }
 
 .discord-img {
-	background: $discord;
+	background: variables.$discord;
 }
 
 .twitter-img {
-	background: $twitter;
+	background: variables.$twitter;
 }
 
 .youtube-img {
-	background: $youtube;
+	background: variables.$youtube;
 }
 #latest-posts {
     position: absolute;

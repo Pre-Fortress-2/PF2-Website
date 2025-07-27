@@ -10,6 +10,7 @@ NoFeatureImage: true
 permalink: /:categories/0.7/grenades
 author: PF2 Team
 draft: true
+sitemap: false
 ---
 
 Over the last year, the PF2 Team has worked on improving the overall feel of the grenades. Functionality-wise, the grenades have remained the same, but a few key changes have been made in our desire to make them feel better to use.

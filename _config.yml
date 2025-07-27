@@ -1,4 +1,4 @@
-title: Pre-Fortress 2 - RSS Feed
+title: Pre-Fortress 2
 email: staff@prefortress.com
 description: >- # this means to ignore newlines until "baseurl:"
   Pre-Fortress 2 is a mod for Team Fortress 2 that brings back grenades, armor and much more! It aims to bridge the gap between Team Fortress installments and the art-style is heavily inspired by the pre-release era of Team Fortress 2!
@@ -7,28 +7,34 @@ url: "https://prefortress.com" # the base hostname & protocol for your site, e.g
 discord-invite: "https://prefortress.com/discord"
 gameversion: "074" # current game version
 
+# Build settings
+highlighter: rouge
+
+# plugins to import
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+
+# safe mode plugins
+whitelist:
+  - jekyll-redirect-from
+
+# use sass!!
+sass:
+  sass_dir: _sass
+  style:    compressed
+
+# jekyll-feed options
+feed:
+  categories: 
+    - updates
+    - blog  
+  posts_limit: 100
+
+# initialize every post to not hidden unless the post specifically says it wants to be 
 defaults:
   - scope:
       path: ""
       type: "posts"
     values:
       hidden: false
-
-# Google Analytics
-google_analytics: G-Q8T3T3HDGV
-
-# Build settings
-highlighter: rouge
-plugins:
-  - jekyll-feed
-  - jekyll-redirect-from
-
-whitelist:
-  - jekyll-redirect-from
-
-feed:
-  categories: 
-    - updates
-    - blog  
-
-  posts_limit: 100
