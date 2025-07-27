@@ -1,5 +1,3 @@
-@use "../abstract/variables";
-
 .blog {
 
 	* {
@@ -8,19 +6,19 @@
 
 	h1 {
 		font-size: 2.6rem;
-		color: variables.$color-text;
+		color: $color-text;
 		padding: 1rem 0;
 	}
 
 	h2 {
 		font-size: 2.1rem;
-		color: variables.$color-text;
+		color: $color-text;
 		padding: 1rem 0;
 	}
 
 	h3 {
 		font-size: 1.7rem;
-		color: variables.$color-text;
+		color: $color-text;
 		padding: 1rem 0;
 	}
 
