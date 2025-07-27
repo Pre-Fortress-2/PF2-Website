@@ -1,10 +1,8 @@
-@use "../abstract/variables";
-
 // Shared across all buttons
 .box-img {
 	margin: auto;
     border-radius: 10px;
-	background: variables.$download;
+	background: $download;
 }
 
 .select-spacing{
@@ -20,7 +18,7 @@
 
 	&:hover {
 		transition: 0.5s;
-		background: variables.$download-alt;
+		background: $download-alt;
 	}
 	&:not(:hover){
 		transition: 0.5s
@@ -36,7 +34,7 @@
 
 	&:hover {
 		transition: 0.5s;
-		background: variables.$download-alt;
+		background: $download-alt;
 		cursor: pointer;
 
 		
@@ -52,7 +50,7 @@
 // Just back button.
 .back-button {
 	display:none;
-	background: variables.$download;
+	background: $download;
 	position: relative;
 	width: 18rem;
 	top: -10%;
@@ -60,7 +58,7 @@
 	z-index: 1;
 	&:hover {
 		transition: 0.5s;
-		background: variables.$download-alt;
+		background: $download-alt;
 	}
 	&:not(:hover){
 		transition: 0.5s
