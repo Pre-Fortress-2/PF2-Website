@@ -1,3 +1,5 @@
+@use "../abstract/variables";
+
 // This area affects the tile box
 .box {
 	max-width: 90rem;
@@ -5,7 +7,7 @@
 	filter: drop-shadow(0.5rem 0.3rem 0.2rem rgba(0, 0, 0, 0.7));
 	&__title {
 		padding: 2rem 0 0.8rem;
-		background-color: $color-title;
+		background-color: variables.$color-title;
 		clip-path: polygon(5% 0, 100% 30%, 100% 100%, 0 100%, 0 20%);
 		z-index: 2;
 	}
@@ -15,9 +17,9 @@
 		font-size: 5.5rem;
 		letter-spacing: 0.2rem;
 		font-weight: 100;
-		color: $color-title-text;
+		color: variables.$color-title-text;
 		padding: 1rem 0 1rem 4rem;
-		border-bottom: $color-title-text dotted 0.6rem;
+		border-bottom: variables.$color-title-text dotted 0.6rem;
 	}
 }
 
@@ -28,7 +30,7 @@
 	margin: -7.6rem auto;
 	padding: 10rem 2rem 3rem;
 	min-height: 10rem;
-	background-color: $color-box;
+	background-color: variables.$color-box;
 	box-shadow: 0.5rem 0.3rem 0.2rem rgba(0, 0, 0, 0.7);
 }
 

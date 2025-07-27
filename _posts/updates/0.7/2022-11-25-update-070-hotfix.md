@@ -11,6 +11,7 @@ minibanner: update-070-hotfix.png
 author: PF2 Team
 excerpt: "Update addressing bugs and issues found during the first week of 0.7's release."
 image: /assets/blog/images/sd-07-logo.png
+sitemap: false
 ---
 
 Update addressing bugs and issues found during the first week of 0.7's release.
