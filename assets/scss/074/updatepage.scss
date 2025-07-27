@@ -1,23 +1,33 @@
 * {
     margin: 0;
     padding: 0;
-    color:#d4d4d4;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 html,body
 {
     background: linear-gradient(to bottom, rgb( 21, 26, 38 ), rgb( 55, 60, 74 ) );
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 main
 {
     position: relative;
     width: 1200px;
-    height: 1000px;
+    height: 800px;
     margin: 0 auto;
+}
+
+.hidden
+{
+    display: none;
+}
+
+.center
+{
+    margin: 0 auto 0 auto;
 }
 
 div.coldsnap
@@ -25,65 +35,72 @@ div.coldsnap
     background-repeat: no-repeat;
 }
 
-div.center
+div.style-text
 {
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 16px;
+    line-height: 18px;
+    color:#d4d4d4;
 }
 
+span.achievement-name
+{
+    font-weight: bold;
+    font-size: 16px;
+    color: #d4d4d4;
+}
+
+span.achievement-desc
+{
+    font-size: 13px;
+    color: #d4d4d4;
+}
 
 div#coldsnap-section1
 {
     background-image: url("/assets/updates/074/sections/coldsnap_section1.png");
     width: 1200px;
     height: 1646px;
-    a.logo-blue
+    a#logo-blue /*clickable logo*/
     {
         img 
         {
             width: 102px;
             height: 33px;
             margin-left: 340px;
-            margin-top: 80px;
+            margin-top: 82px;
         }
         position: relative;
     }
 
-    div.coldsnap-text-section-1
+    div#coldsnap-text-section-1
     {
         position: relative;
         width: 1000px;
         height: 500px;
         margin: 0 auto;
-        div.text
+        div#intro-text
         {
             position: absolute;
             top: 0;
             left: 0;
             margin-left: 150px;
-            margin-top: 610px;
+            margin-top: 608px;
             width: 750px;
-            height: 500px;
-            
+            height: 200px;
             padding-top: 7px;
             box-sizing: border-box;
-            font-size: 16px;
-            line-height: 18px;
         }
     }
-
 }
 
 div.map-gallery 
 {
-    margin-left: 570px;
-    padding-top: 0px;
-    margin-right: 30px;
     table
     {
         border-spacing: 10px;
     }
-    img {
+    img 
+    {
         width: 160px;
         height: 90px;
         border-radius: 0;
@@ -93,90 +110,84 @@ div.map-gallery
 
 div#coldsnap-section2
 {
-    background-repeat: no-repeat;
     background-image: url("/assets/updates/074/sections/coldsnap_section2.png");
+    background-repeat: no-repeat;
     width: 1200px;
-    max-width: 100%;
     height: 1260px;
-
-    div.coldsnap-text-section-2
+    div#coldsnap-text-section-2
     {
         position: relative;
         width: 1000px;
         height: 500px;
         margin: 0 auto;
-        div.text
+
+        div#canalzone-text
         {
             position: absolute;
             top: 0;
             left: 0;
             width: 400px;
             height: 500px;
-            margin-left: 150px;
-            padding-top: 20px;
+            margin-left: 140px;
+            padding-top: 15px;
             box-sizing: border-box;
-            font-size: 16px;
-            line-height: 18px;
         }
 
-        div.map-gallery 
+        div#canalzone-previews 
         {
-            margin-left: 570px;
-            padding-top: 0px;
+            margin-left: 550px;
             margin-right: 30px;
             table
             {
                 border-spacing: 10px;
             }
-            img {
+            img 
+            {
                 width: 160px;
                 height: 90px;
                 border-radius: 0;
                 object-fit: contain;
             }
-        }
-
-        p.text-section-2
-        {
-            padding-top: 3%;
-            margin-right: 50%;
-            margin-left: 20%;
         }
     }
 }
 
 div#coldsnap-section3
 {
-    div.coldsnap-text-section-3
+    background-repeat: no-repeat;
+    background-image: url("/assets/updates/074/sections/coldsnap_section3.png");
+    width: 1200px;
+    height: 1008px;
+    div#coldsnap-text-section-3
     {
         position: relative;
         width: 1000px;
-        height: 500px;
+        height: 400px;
         margin: 0 auto;
-        div.text
+        div#cloister-text
         {
             position: absolute;
             top: 0;
             left: 0;
             width: 400px;
-            height: 500px;
+            height: 400px;
             margin-left: 150px;
             padding-top: 50px;
             box-sizing: border-box;
-            font-size: 16px;
-            line-height: 18px;
         }
-
-        div.map-gallery 
+        div#cloister-previews 
         {
             margin-left: 560px;
             padding-top: 190px;
             margin-right: 30px;
+
             table
             {
                 border-spacing: 10px;
             }
-            img {
+
+            img 
+            {
                 width: 160px;
                 height: 90px;
                 border-radius: 0;
@@ -184,40 +195,32 @@ div#coldsnap-section3
             }
         }
     }
-
-    background-repeat: no-repeat;
-    background-image: url("/assets/updates/074/sections/coldsnap_section3.png");
-    width: 1200px;
-    height: 1008px;
 }
 
 div#coldsnap-section4
 {
-    margin-left:54pt; /*realign the background with the page, it's a bit off due to the width being smaller(?)*/
-    div.coldsnap-text-section-4
+    background-image: url("/assets/updates/074/sections/coldsnap_section4.png");
+    /*realign the background with the page, it's a bit off due to the width being smaller(?)*/
+    margin-left: 54pt;
+    width: 1102px;
+    height: 566px;
+
+    div#coldsnap-text-section-4
     {
         position: relative;
         width: 1000px;
         height: 500px;
         margin: 0 auto;
-        div.text
-        {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 750px;
-            height: 500px;
-            margin-left: 120px;
-            padding-top: 20px;
-            box-sizing: border-box;
-            font-size: 16px;
-            line-height: 18px;
-        }
     }
-
-    background-image: url("/assets/updates/074/sections/coldsnap_section4.png");
-    width: 1102px;
-    height: 566px;
+    div#twofort
+    {
+        position: absolute;
+        width: 750px;
+        height: 200px;
+        margin-left: 120px;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
 }
 
 div#coldsnap-section5
@@ -241,16 +244,6 @@ div#coldsnap-section5
             text-align: left;
             margin-left: 75px;
             width: 250px;
-            span.name
-            {
-                font-weight: bold;
-                font-size: 16px;
-            }
-
-            span.description
-            {
-                font-size: 13px;
-            }
         }
         /* I'm so sorry to whoever looks at this. I am so tired. -7/25/2025 */
         div#two
@@ -317,16 +310,6 @@ div#coldsnap-section5
             text-align: left;
             margin-left: 75px;
             width: 200px;
-            span.name
-            {
-                font-weight: bold;
-                font-size: 16px;
-            }
-
-            span.description
-            {
-                font-size: 13px;
-            }
         }
 
         /* I'm so sorry to whoever looks at this. I am so tired. -7/25/2025 */
@@ -386,6 +369,15 @@ div#coldsnap-section5
             margin-top: -16px;
         }
     }
+
+    div#achievements-link
+    {
+        margin-top: 365px;
+        margin-left: 246px;
+        text-align: left;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
 }
 
 div#coldsnap-section6
@@ -394,41 +386,44 @@ div#coldsnap-section6
     background-image: url("/assets/updates/074/sections/coldsnap_section6.png");
     width: 1088px;
     height: 1141px;
-    margin-left:34px; /*realign the background with the page, it's a bit off due to the width being smaller(?)*/
-    
-    div.coldsnap-text-section-6 
+    margin-left: 34px; /*realign the background with the page, it's a bit off due to the width being smaller(?)*/
+    overflow: hidden;
+
+    div#coldsnap-text-section-6 
     {
         position: relative;
         width: 1000px;
         height: 500px;
         margin: 0 auto;
-        div.text
+
+        div#thanks-letter /* Normal text isn't big enough to fit there, size it down a bit */
         {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 700px;
-            height: 500px;
-            margin-left: 169px;
-            padding-top: 67px;
             box-sizing: border-box;
             font-size: 14px;
             line-height: 18px;
+            margin-top: 70px;
+            margin-left: 186px;
+            width: 700px;
         }
 
         div#patch-notes
         {
-            width: 800px;
-            height: 200px;
-            margin-top: 805px;
+            width: 210px;
+            height: 20px;
+            height: 18px;
+            margin-top: 635px;
             margin-left: 185px;
-            z-index: 10;
+            font-size: 14px;
+            z-index: 1; /*no matter what, keep this clickable and on top*/
         }
 
         div#legal
         {
             width: 775px;
-            padding-top: 900px;
+            height: 50px;
+            font-size: 14px;
+            line-height: 18px;
+            margin-top: 15px;
             margin-left: 145px;
             text-align: center;
             color:rgb(59,48,48);
