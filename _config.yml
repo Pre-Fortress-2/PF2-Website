@@ -7,6 +7,13 @@ url: "https://prefortress.com" # the base hostname & protocol for your site, e.g
 discord-invite: "https://prefortress.com/discord"
 gameversion: "074" # current game version
 
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      hidden: false
+
 # Google Analytics
 google_analytics: G-Q8T3T3HDGV
 
