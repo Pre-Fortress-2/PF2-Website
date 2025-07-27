@@ -66,7 +66,7 @@
 }
 
 #choose-game-area {
-	height: 60em;
+	overflow: visible;
 }
 
 #files {
@@ -88,7 +88,4 @@
 	.pick-box {
 		width: 30rem;
 	}
-	#choose-game-area {
-		height: 80em;
-	}	
 }
