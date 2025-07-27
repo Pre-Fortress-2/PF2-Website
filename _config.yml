@@ -1,4 +1,4 @@
-title: Pre-Fortress 2 - RSS Feed
+title: Pre-Fortress 2
 email: staff@prefortress.com
 description: >- # this means to ignore newlines until "baseurl:"
   Pre-Fortress 2 is a mod for Team Fortress 2 that brings back grenades, armor and much more! It aims to bridge the gap between Team Fortress installments and the art-style is heavily inspired by the pre-release era of Team Fortress 2!
@@ -13,9 +13,6 @@ defaults:
       type: "posts"
     values:
       hidden: false
-
-# Google Analytics
-google_analytics: G-Q8T3T3HDGV
 
 # Build settings
 highlighter: rouge
