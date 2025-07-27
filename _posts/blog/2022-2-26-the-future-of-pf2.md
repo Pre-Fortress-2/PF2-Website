@@ -13,7 +13,6 @@ permalink: /:categories/:slug
 minibanner: the-future-of-pf2.png
 NoImageEffect: 1
 excerpt: "Howdy, since joining the development team of Pre Fortress 2, there's been a lull in communication between us and you as the player. I've been working to close the gap between internal discussion and with players."
-sitemap: false
 ---
 
 Howdy, since joining the development team of Pre Fortress 2, there's been a lull in communication between us and you as the player. I've been working to close the gap between internal discussion and with players. 

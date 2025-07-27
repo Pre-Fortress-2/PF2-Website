@@ -1,29 +1,12 @@
 ---
 layout: default
 ---
-<style>
-  ul.nav_categories
-  {
-    li.nav_item 
-    {
-      display: inline-block;
-      text-align: center;
-      margin-right: 20px;
-      a {
-        text-decoration:dotted;
-      }
-    }
-  }
-</style>
-
-<h2 class="post-list-heading" style="text-align: center;">{{ page.subject | escape }}</h2>
+<h2 class="post-list-heading">{{ page.subject | escape }}</h2>
 <div>
-  <div class="tags-expo-list wrapper nav__wrapper" style="display: flex; margin:auto;">
-    <ul class="nav_categories">
-      <li class="nav_item"><a href="/all-posts" class="post-tag">All</a></li>
-      <li class="nav_item"><a href="/blog" class="post-tag">Blog</a></li>
-      <li class="nav_item"><a href="/updates" class="post-tag">Updates</a></li>
-    </ul>
+  <div class="tags-expo-list" style="display: flex;">
+    <h2><a href="/all-posts" class="post-tag" style="margin-right: 30px;">All</a></h2>
+    <h2><a href="/blog" class="post-tag" style="margin-right: 30px;">Posts</a></h2>
+    <h2><a href="/updates" class="post-tag">Updates</a></h2>
   </div>
 </div>
 <div class="grid">
