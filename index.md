@@ -12,7 +12,7 @@ subject: "Pre-Fortress 2"
         </p>
         <br><br><br>
         <!-- Youtube Video -->
-        <iframe width="100%" height="330" class="about__video" src="https://www.youtube.com/embed/YAlRsmZ7n-Y" frameborder="0"
+        <iframe width="100%" height="330" class="about__video" src="https://www.youtube.com/embed/CEYXF9XI6T4" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <!-- Right Area in PC screens -->
