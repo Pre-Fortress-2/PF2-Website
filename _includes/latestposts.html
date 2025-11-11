@@ -1,9 +1,9 @@
 <div id="latest-posts">
-    <h2 style="text-align: center;">Latest Posts</h2>
+    <h1 style="text-align: center;">Latest Posts</h1>
     <hr>
     {% assign i = 0 %}
     {% for post in site.posts %}
-        {% if i != 3 %}
+        {% if i != 5 %}
             {% unless post.hidden == true %}
             {% assign i = i | plus:1 %}
             <li>
